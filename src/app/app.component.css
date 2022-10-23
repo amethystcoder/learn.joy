@@ -1,0 +1,78 @@
+.navbar{
+    display: flex;
+    justify-content: space-between;
+    width: 100vw;
+    height: 70px;
+    position: fixed;
+    top:0;
+    background-color: green;
+    color: white;
+}
+a{
+    text-decoration: none;
+    color: white;
+}
+h1,h2,h3,h4,h5,h6,a,p{
+    font-family: 'Segoe UI', Tahoma, Geneva, Verdana, sans-serif;
+    color: white;
+    text-decoration: none;
+}
+#title{
+    position: relative;
+    left:90px;
+    top:-5px
+}
+#undernav{
+    width: 100vw;
+    height: 65px;
+}
+.options{
+    display: flex;
+}
+.options li{
+    list-style-type: none;
+    margin: 10px;
+}
+.personimage{
+    background-image: url(Accountcircle.svg);
+    border: hidden thin;
+    border-radius: 200px;
+    padding: 25px;
+    position: relative;
+    right: 20px;
+}
+#footbar{
+    width:100vw;
+    height:max-content;
+    background-color: green;
+    margin-top: 100px;
+    color: white;
+}
+#footbar li,h2,h3,a{
+    margin: 20px;
+}
+.testlist{
+    display: grid;
+    grid-template-columns: auto auto;
+}
+.testlist li{
+    margin: 5px;
+}
+.bottomnav{
+    position: relative;
+    right: 5px;
+}
+.footerone,.footertwo{
+    display: flex;
+    justify-content: space-between;
+    padding-right: 50px;
+}
+.footerone ul li{
+    list-style-type: none;
+}
+#titlebottom{
+    font-size: 10vh;
+}
+@media screen and (screen-width:500) {
+    
+}

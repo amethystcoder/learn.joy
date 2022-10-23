@@ -1,0 +1,231 @@
+{
+    "subject":"Mathematics",
+    "topics":
+    [
+        {
+            "topic":"permutation and combination",
+            "questions":
+            [
+                {
+                    "question":"In how many ways can the letters of the word LAGOS be permuted",
+                    "opt1":"110",
+                    "opt2":"24",
+                    "opt3":"120",
+                    "opt4":"240",
+                    "ans":"120"
+                },
+                {
+                    "question":"In how many ways can 6 passengers sit in a commuter bus which has 14 vacant seats",
+                    "opt1":"1126021",
+                    "opt2":"2162160",
+                    "opt3":"3761250",
+                    "opt4":"10012841",
+                    "ans":"2162120"
+                },
+
+                {
+                    "question":"In how many ways can the letters of the word SOKOTO be permuted",
+                    "opt1":"150",
+                    "opt2":"120",
+                    "opt3":"60",
+                    "opt4":"24",
+                    "ans":"120"
+                },
+                {
+                    "question":"In how many ways can three monitors be selected from a class of 20 students",
+                    "opt1":"1200",
+                    "opt2":"1650",
+                    "opt3":"1560",
+                    "opt4":"1140",
+                    "ans":"1140"
+                },
+                {
+                    "question":"A committee of 3 men and 2 women is to be formed from 6 men and 4 women. In how many ways can this committee be formed",
+                    "opt1":"240",
+                    "opt2":"120",
+                    "opt3":"720",
+                    "opt4":"540",
+                    "ans":"120"
+                },
+                {
+                    "question":"A committee of 3 members is to be formed from a co-operative society of membership of 5men and 4 women. In how many ways can the committee be formed if at leats a man must be in the committee",
+                    "opt1":"120",
+                    "opt2":"720",
+                    "opt3":"540",
+                    "opt4":"80",
+                    "ans":"80"
+                }
+                
+            ]
+        },
+        {
+            "topic":"algebra and quadratic equations",
+            "questions":
+            [
+                {
+                    "question":"solve the equation x<sup>2</sup>-64 = 0",
+                    "opt1":"x = 64 or -64",
+                    "opt2":"x = 8 or -8",
+                    "opt3":"x = 4 or -4",
+                    "opt4":"x = 4 or -8",
+                    "ans":"x = 8 or -8"
+                },
+                {
+                    "question":"solve the following quadratic equation 21x<sup>2</sup>+29x-10 = 0",
+                    "opt1":"x = 5 or -12",
+                    "opt2":"x = -5/3 or 2/7",
+                    "opt3":"x = 3/8 or -5/11",
+                    "opt4":"x = -7/3 or 3/5",
+                    "ans":"x = -5/3 or 2/7"
+                },
+
+                {
+                    "question":"solve simultaneously: x+2y = 7 and 2x<sup>2</sup>+y<sup>2</sup>-3x+2y = 13",
+                    "opt1":"y = 2 and x = 3 or y = 4 and x = -1",
+                    "opt2":"y = 3 and x = 2 or y = 4 and x = -1",
+                    "opt3":"y = 2 and x = 3 or y = -1 and x = 4",
+                    "opt4":"y = 3 and x = 2 or y = -1 and x = 4",
+                    "ans":"y = 2 and x = 3 or y = 4 and x = -1"
+                },
+                {
+                    "question":"The roots of the equation 2x<sup>2</sup>+4x-1=0 are a and b. Find the equation whose roots are a/b and b/a",
+                    "opt1":"x<sup>2</sup>+10x+1 = 0",
+                    "opt2":"x<sup>2</sup>-10x+1 = 0",
+                    "opt3":"x<sup>2</sup>+10x-1 = 0",
+                    "opt4":"x<sup>2</sup>-10x-1 = 0",
+                    "ans":"x<sup>2</sup>+10x+1 = 0"
+                },
+                {
+                    "question":"If a and b are roots of the quadratic equation 3x<sup>2</sup>-5x+2 = 0 find 1/a<sup>2</sup>+1/b<sup>2</sup>",
+                    "opt1":"15/4",
+                    "opt2":"24/5",
+                    "opt3":"13/4",
+                    "opt4":"35/27",
+                    "ans":"13/4"
+                },
+                {
+                    "question":"solve the following quadratic equation x<sup>2</sup>+7x+12 = 0",
+                    "opt1":"x = -4 or -3",
+                    "opt2":"x = 4 or 3",
+                    "opt3":"x = -4 or 3",
+                    "opt4":"x = 4 or -3",
+                    "ans":"x = -4 or -3"
+                }
+                
+            ]
+        },
+        {
+            "topic":"Trigonometry",
+            "questions":
+            [
+                {
+                    "question":"given that tan&#8854 = 3/4 and 0<sup>&#8728</sup><&#8854<90<sup>&#8728</sup>, find cosec&#8854",
+                    "opt1":"4/3",
+                    "opt2":"4/5",
+                    "opt3":"5/3",
+                    "opt4":"3/5",
+                    "ans":"5/3"
+                },
+                {
+                    "question":"find in surd form cos(-150<sup>&#8728</sup>)",
+                    "opt1":"-(&#x221A 2/2)",
+                    "opt2":"-&#x221A 3/2",
+                    "opt3":"&#x221A 2/2",
+                    "opt4":"-(&#x221A 3/2)",
+                    "ans":"-(&#x221A 3/2)"
+                },
+
+                {
+                    "question":"simplify &#x221A 1-cos<sup>2</sup>&#8854/sec<sup>2</sup>&#8854-1",
+                    "opt1":"cos&#8854",
+                    "opt2":"sec<sup>2</sup>&#8854",
+                    "opt3":"tan<sup>-1</sup>&#8854",
+                    "opt4":"cosec&#8854",
+                    "ans":"cos&#8854"
+                },
+                {
+                    "question":"Given that the right-angled triangle ABC, and tan x = 5/12, what is the value of sinx + cosx",
+                    "opt1":"17/13",
+                    "opt2":"6/17",
+                    "opt3":"15/19",
+                    "opt4":"2/3",
+                    "ans":"17/13"
+                },
+                {
+                    "question":"Find the value of sin150<sup>&#8728</sup>",
+                    "opt1":"1/2",
+                    "opt2":"-1",
+                    "opt3":"-(&#x221A 3/2)",
+                    "opt4":"-1/2",
+                    "ans":"1/2"
+                },
+                {
+                    "question":"If sinA = 3/5 and cosB = 12/13 where A is obtuse and B is acute, find the value of sin(A+B)",
+                    "opt1":"15/34",
+                    "opt2":"12/31",
+                    "opt3":"16/65",
+                    "opt4":"13/65",
+                    "ans":"16/65"
+                }
+                
+            ]
+        },
+        {
+            "topic":"Integral and differential calculus",
+            "questions":
+            [
+                {
+                    "question":"Find the derivative of y = 4/3 &#x221A x<sup>2</sup>",
+                    "opt1":"-4/3 &#x221B x<sup>4</sup>",
+                    "opt2":"-8/3 &#x221B x<sup>5</sup>",
+                    "opt3":"-8/3 &#x221B x<sup>4</sup>",
+                    "opt4":"-4/3 &#x221B x<sup>5</sup>",
+                    "ans":"-8/3 &#x221B x<sup>5</sup>"
+                },
+                {
+                    "question":"Find the derivative of 7x<sup>6</sup>+5x<sup>2</sup>+4",
+                    "opt1":"2x<sup>2</sup>+12x-7",
+                    "opt2":"42x<sup>5</sup>+10x",
+                    "opt3":"42x<sup>5</sup>-20x",
+                    "opt4":"2x<sup>2</sup>+12x",
+                    "ans":"42x<sup>5</sup>+10x"
+                },
+
+                {
+                    "question":"if y = 1/ &#x221A 3+x<sup>2</sup> find dy/dx",
+                    "opt1":"-3x/(3+x<sup>2</sup>)<sup>3/2</sup>",
+                    "opt2":"-2x/(3+x<sup>2</sup>)<sup>3/2</sup>",
+                    "opt3":"-5x/(3+x<sup>2</sup>)<sup>3/2</sup>",
+                    "opt4":"-x/(3+x<sup>2</sup>)<sup>3/2</sup>",
+                    "ans":"3x/(3+x<sup>2</sup>)<sup>3/2</sup>"
+                },
+                {
+                    "question":"if y = (3x<sup>2</sup>+4)(1+ 1/x) find dy/dx",
+                    "opt1":"4-6x-2/x<sup>2</sup>",
+                    "opt2":"5-7x-9",
+                    "opt3":"3+6x-4/x<sup>2</sup>",
+                    "opt4":"3-5x-9",
+                    "ans":"3+6x-4/x<sup>2</sup>"
+                },
+                {
+                    "question":"if y = 55x<sup>3</sup>-3x<sup>2</sup>+6x-2/7x+8 find dy/dx",
+                    "opt1":"99x<sup>2</sup>-48x+62/(7x+8)<sup>2</sup>",
+                    "opt2":"99x<sup>2</sup>+48x-62/(7x+8)<sup>2</sup>",
+                    "opt3":"99x<sup>2</sup>+48x+62/(7x+8)<sup>2</sup>",
+                    "opt4":"99x<sup>2</sup>-48x-62/(7x+8)<sup>2</sup>",
+                    "ans":"99x<sup>2</sup>-48x+62/(7x+8)<sup>2</sup>"
+                },
+                {
+                    "question":"find the derivative of sec(2/3)x<sup>3</sup>",
+                    "opt1":"3xsec2/3x<sup>3</sup>cos(2/3)x<sup>3</sup>",
+                    "opt2":"3xsec2/3x<sup>3</sup>tan(2/3)x<sup>3</sup>",
+                    "opt3":"2xsec2/3x<sup>3</sup>tan(2/3)x<sup>3</sup>",
+                    "opt4":"2x<sup>2</sup>sec2/3x<sup>3</sup>tan(2/3)x<sup>3</sup>",
+                    "ans":"2x<sup>2</sup>sec2/3x<sup>3</sup>tan(2/3)x<sup>3</sup>"
+                }
+                
+            ]
+        }
+        
+    ]
+}

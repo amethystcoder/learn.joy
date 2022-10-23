@@ -1,0 +1,79 @@
+.questionimg{
+    background-color: #555555;
+    height: 40vh;
+    width: 100vw;
+}
+#navigatequestions{
+    display: flex;
+    justify-content: space-between;
+}
+#timecount{
+    padding: 5px;
+    width: 95vw;
+    display: flex;
+    justify-content: end;
+}
+.questionnavbutton{
+    padding: 20px;
+    background-color: green;
+}
+h1,h2,h3,h4,h5,h6,a,p{
+    font-family: 'Segoe UI', Tahoma, Geneva, Verdana, sans-serif;
+    color: #555555;
+    text-decoration: none;
+}
+span{
+    display: flex;
+}
+.beforetest{
+    width: 100vw;
+    height: 100vh;
+    background-color: #555555;
+}
+.testname{
+    color: white;
+    font-size: 6vw;
+    margin-left: 10px;
+}
+.testbegin{
+    color: green;
+    font-size: 10vw;
+    margin-left: 10px;
+}
+.testadv{
+    color: white;
+    font-size: large;
+    margin-left: 10px;
+}
+#startbut{
+    padding: 10px 50px 10px 50px;
+    color: aliceblue;
+    background-color: green;
+    position: absolute;
+    right: 60px;
+    font-size: xx-large;
+    border: none;
+}
+#backcategories{
+    background-color: green;
+    color: white;
+    position: absolute;
+    right: 40px;
+    height: max-content;
+    width: max-content;
+    padding: 15px;
+}
+#correct{
+    color: green;
+    border: solid green thick;
+}
+#incorrect{
+    color: red;
+    border: red solid thick;
+}
+#correct,#incorrect{
+    font-family: 'Segoe UI', Tahoma, Geneva, Verdana, sans-serif;
+    width: max-content;
+    height: max-content;
+    padding: 10px;
+}

@@ -1,0 +1,50 @@
+<div *ngIf="current == -1" class="beforetest">
+    <h1 class="testbegin">Start Quiz</h1>
+    <h3 class="testname">{{gettopic()}}</h3>
+    <h5 class="testadv">You have 5 minutes to complete the quiz so get everything ready before you start</h5>
+    <button (click)="startquiz()" id="startbut">start</button>
+</div>
+<div *ngIf="current > -1 && 6 > current">
+    <div *ngFor="let quest of getque()">
+        <div class="questionimg"></div>
+        <div id="timecount">
+            <h1>Remaining time: {{timemin}}:{{timesec}}</h1>
+        </div>
+        <div>
+            <h2>{{quest.questions[current].question}}</h2>
+            <input type="radio" [value]="quest.questions[current].opt1" name="questionopt" [(ngModel)]="answers[current]"/>{{quest.questions[current].opt1}}
+            <br>
+            <input type="radio" [value]="quest.questions[current].opt2" name="questionopt" [(ngModel)]="answers[current]"/>{{quest.questions[current].opt2}}
+            <br>
+            <input type="radio" [value]="quest.questions[current].opt3" name="questionopt" [(ngModel)]="answers[current]"/>{{quest.questions[current].opt3}}
+            <br>
+            <input type="radio" [value]="quest.questions[current].opt4" name="questionopt" [(ngModel)]="answers[current]"/>{{quest.questions[current].opt4}}
+            <br> 
+        </div>
+        <div id="navigatequestions">
+            <span>
+                <button (click)="getprevquestion()" class="questionnavbutton"></button>
+                <h4>previous question</h4>
+            </span>
+            <span>
+                <h2>{{current+1}}/{{quest.questions.length}}</h2>
+            </span>
+            <span>
+                <h4>next question</h4>
+                <button (click)="getnextquestion(quest.questions[current].question,answers[current],quest.questions[current].ans)" class="questionnavbutton"></button>
+            </span>
+        </div>
+    </div>
+</div>
+<div *ngIf="current == 6">
+    <h1>Your Score: {{score}}/6</h1>
+    <h1>Corrections</h1>
+    <div *ngFor="let ans of final">
+        <h2>Question: {{ans.ques}}</h2>
+        <p>Your Answer: {{ans.chosenans}}</p>
+        <p>Actual Answer: {{ans.actual}}</p>
+        <div id="correct" *ngIf="ans.scorrect == true">Correct Answer</div>
+        <div id="incorrect" *ngIf="ans.scorrect == false">Wrong Answer</div>
+    </div>
+    <a routerLink="/categories"><div id="backcategories">Back to Categories</div></a>
+</div>

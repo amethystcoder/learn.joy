@@ -1,0 +1,230 @@
+{
+    "subject":"Current Affairs",
+    "topics":
+    [
+        {
+            "topic":"History Nigeria",
+            "questions":
+            [
+                {
+                    "question":"Who was the first Governor-General of Lagos colony",
+                    "opt1":"Major John Glover",
+                    "opt2":"General John Egerton",
+                    "opt3":"Mr. H.S. Freeman",
+                    "opt4":"Mr. George Washington",
+                    "ans":"Mr. H.S. Freeman"
+                },
+                {
+                    "question":"Sir Fredrick Lugard was sworn in as the Governor of the Northern and Southern protectorates in the year",
+                    "opt1":"1914",
+                    "opt2":"1912",
+                    "opt3":"1913",
+                    "opt4":"1911",
+                    "ans":"1912"
+                },
+
+                {
+                    "question":"Who named Nigeria",
+                    "opt1":"Miss Flora Shaw",
+                    "opt2":"Queen Elizabeth",
+                    "opt3":"Mary Slessor",
+                    "opt4":"Miriam Adebowale",
+                    "ans":"Miss Flora Shaw"
+                },
+                {
+                    "question":"Who was the first indigenous Governor-General of Nigeria",
+                    "opt1":"Tafawa Balewa",
+                    "opt2":"Dr. Nnamdi Azikwe",
+                    "opt3":"Dr. Obafemi Awolowo",
+                    "opt4":"Engr. Oluseyi Makinde",
+                    "ans":"Dr. Nnamdi Azikwe"
+                },
+                {
+                    "question":"The first military Head-of-State was",
+                    "opt1":"Gen. Yakubu Gowon",
+                    "opt2":"Gen. Mohammadu Buhari",
+                    "opt3":"Gen. Sanni Abacha",
+                    "opt4":"Gen. Johnson Aguiyi-Ironsi",
+                    "ans":"Gen. Johnson Aguiyi-Ironsi"
+                },
+                {
+                    "question":"The most recent amendment to the constitution still used today is the",
+                    "opt1":"1988 constitution",
+                    "opt2":"1998 constitution",
+                    "opt3":"1999 constitution",
+                    "opt4":"2002 constitution",
+                    "ans":"1999 constitution"
+                }
+                
+            ]
+        },
+        {
+            "topic":"Nigeria Facts",
+            "questions":
+            [
+                {
+                    "question":"How many Geo-political zones are in Nigeria",
+                    "opt1":"5",
+                    "opt2":"6",
+                    "opt3":"7",
+                    "opt4":"4",
+                    "ans":"6"
+                },
+                {
+                    "question":"Benue state's motto is",
+                    "opt1":"Food Basket of the Nation",
+                    "opt2":"Jewel in the Savanah",
+                    "opt3":"Farming is our pride",
+                    "opt4":"Gift of the caliphate",
+                    "ans":"Food Basket of the Nation"
+                },
+
+                {
+                    "question":"How many Local Government Areas (L.G.As) do we have in Nigeria",
+                    "opt1":"774",
+                    "opt2":"568",
+                    "opt3":"36",
+                    "opt4":"726",
+                    "ans":"774"
+                },
+                {
+                    "question":"Yankari Games Reserve is located in",
+                    "opt1":"Kano",
+                    "opt2":"Zamfara",
+                    "opt3":"Bauchi",
+                    "opt4":"Oyo",
+                    "ans":"Bauchi"
+                },
+                {
+                    "question":"National Museum is located in",
+                    "opt1":"Lagos",
+                    "opt2":"Osun",
+                    "opt3":"Abuja",
+                    "opt4":"Bayelsa",
+                    "ans":"Lagos"
+                },
+                {
+                    "question":"The capital of Nigeria is",
+                    "opt1":"Lagos",
+                    "opt2":"Sokoto",
+                    "opt3":"Cross river",
+                    "opt4":"Abuja",
+                    "ans":"Abuja"
+                }
+                
+            ]
+        },
+        {
+            "topic":"World History and Facts",
+            "questions":
+            [
+                {
+                    "question":"When was ECOWAS established",
+                    "opt1":"May, 1975",
+                    "opt2":"January, 1918",
+                    "opt3":"April, 1986",
+                    "opt4":"August, 1987",
+                    "ans":"May, 1975"
+                },
+                {
+                    "question":"What is the full meaning of ICJ",
+                    "opt1":"Internal Cardinal Jurisdiction",
+                    "opt2":"International Council of Judges",
+                    "opt3":"International Court of Justice",
+                    "opt4":"International Court of Jamaica",
+                    "ans":"International Court of Justice"
+                },
+
+                {
+                    "question":"The capital of Gambia is",
+                    "opt1":"Banjui",
+                    "opt2":"Libreville",
+                    "opt3":"Egypt",
+                    "opt4":"Djibouti",
+                    "ans":"Banjui"
+                },
+                {
+                    "question":"The currency spent in Zimbabwe is",
+                    "opt1":"Shilling",
+                    "opt2":"Dollar",
+                    "opt3":"Franc",
+                    "opt4":"Naira",
+                    "ans":"Dollar"
+                },
+                {
+                    "question":"The language spoken in Ethiopia is",
+                    "opt1":"French",
+                    "opt2":"English",
+                    "opt3":"Ampharic",
+                    "opt4":"Spanish",
+                    "ans":"Ampharic"
+                },
+                {
+                    "question":"The capital of Yugoslavia is",
+                    "opt1":"Carcas",
+                    "opt2":"Ankara",
+                    "opt3":"Belgrade",
+                    "opt4":"Colombo",
+                    "ans":"Belgrade"
+                }
+                
+            ]
+        },
+        {
+            "topic":"General Knowledge",
+            "questions":
+            [
+                {
+                    "question":"When did the first world war occur",
+                    "opt1":"1914 - 1918",
+                    "opt2":"1926 - 1932",
+                    "opt3":"1856 - 1872",
+                    "opt4":"1817 - 1836",
+                    "ans":"1914 - 1918"
+                },
+                {
+                    "question":"The smallest continent in the world is",
+                    "opt1":"Europe",
+                    "opt2":"Australia",
+                    "opt3":"Africa",
+                    "opt4":"South America",
+                    "ans":"Australia"
+                },
+                {
+                    "question":"The Electric Bulb was invented by",
+                    "opt1":"Carl Benz",
+                    "opt2":"Wills Carner",
+                    "opt3":"K. Roentgen",
+                    "opt4":"Thomas Edison",
+                    "ans":"Thomas Edison"
+                },
+                {
+                    "question":"World Bank was established in",
+                    "opt1":"1966",
+                    "opt2":"1942",
+                    "opt3":"1918",
+                    "opt4":"1944",
+                    "ans":"1944"
+                },
+                {
+                    "question":"The first world cup was held in",
+                    "opt1":"Uruguay",
+                    "opt2":"Italy",
+                    "opt3":"South Africa",
+                    "opt4":"Russia",
+                    "ans":"Uruguay"
+                },
+                {
+                    "question":"The largest city in the world is",
+                    "opt1":"Manhattan",
+                    "opt2":"Ibadan",
+                    "opt3":"Tokyo",
+                    "opt4":"Argentina",
+                    "ans":"Tokyo"
+                }
+                
+            ]
+        }
+        
+    ]
+}

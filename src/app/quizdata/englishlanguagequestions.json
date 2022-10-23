@@ -1,0 +1,231 @@
+{
+    "subject":"English Language",
+    "topics":
+    [
+        {
+            "topic":"Oral English",
+            "questions":
+            [
+                {
+                    "question":"/ &#8743 / can be seen in which word",
+                    "opt1":"cup",
+                    "opt2":"pour",
+                    "opt3":"poor",
+                    "opt4":"dove",
+                    "ans":"cup"
+                },
+                {
+                    "question":"/ts/ is seen in which word",
+                    "opt1":"chair",
+                    "opt2":"shame",
+                    "opt3":"shave",
+                    "opt4":"chastise",
+                    "ans":"chair"
+                },
+
+                {
+                    "question":"/ &#8706 / can be seen in which word",
+                    "opt1":"shove",
+                    "opt2":"clear",
+                    "opt3":"run",
+                    "opt4":"chain",
+                    "ans":"shove"
+                },
+                {
+                    "question":"/k/ is seen in which word",
+                    "opt1":"comb",
+                    "opt2":"simmer",
+                    "opt3":"lotion",
+                    "opt4":"bring",
+                    "ans":"comb"
+                },
+                {
+                    "question":"/U:/ can be seen in which word",
+                    "opt1":"pull ",
+                    "opt2":"run",
+                    "opt3":"dug",
+                    "opt4":"do",
+                    "ans":"pull"
+                },
+                {
+                    "question":"/b/ can be seen in which word",
+                    "opt1":"dumb",
+                    "opt2":"bomb",
+                    "opt3":"grenade",
+                    "opt4":"road",
+                    "ans":"bomb"
+                }
+                
+            ]
+        },
+        {
+            "topic":"Antonyms",
+            "questions":
+            [
+                {
+                    "question":"antonyms could also mean",
+                    "opt1":"opposites",
+                    "opt2":"composition",
+                    "opt3":"careful",
+                    "opt4":"replaceable",
+                    "ans":"opposites"
+                },
+                {
+                    "question":"whats an antonym of draw",
+                    "opt1":"pull",
+                    "opt2":"push",
+                    "opt3":"drive",
+                    "opt4":"run",
+                    "ans":"push"
+                },
+
+                {
+                    "question":"whats an antonym of remember",
+                    "opt1":"know",
+                    "opt2":"forget",
+                    "opt3":"left",
+                    "opt4":"imagine",
+                    "ans":"forget"
+                },
+                {
+                    "question":"whats an antonym of next",
+                    "opt1":"previous",
+                    "opt2":"never",
+                    "opt3":"courage",
+                    "opt4":"none of the above",
+                    "ans":"previous"
+                },
+                {
+                    "question":"whats an antonym of courage",
+                    "opt1":"bravery",
+                    "opt2":"cowardice",
+                    "opt3":"devil",
+                    "opt4":"i don't know",
+                    "ans":"cowardice"
+                },
+                {
+                    "question":"whats an antonym for the word antonym",
+                    "opt1":"similarity",
+                    "opt2":"plural",
+                    "opt3":"singular",
+                    "opt4":"divine",
+                    "ans":"similarity"
+                }
+                
+            ]
+        },
+        {
+            "topic":"Synonyms",
+            "questions":
+            [
+                {
+                    "question":"synonyms means",
+                    "opt1":"similarities",
+                    "opt2":"pluralities",
+                    "opt3":"difference",
+                    "opt4":"opposite",
+                    "ans":"similarities"
+                },
+                {
+                    "question":"the synonym for courage is",
+                    "opt1":"bravery",
+                    "opt2":"cowardice",
+                    "opt3":"euphoric",
+                    "opt4":"estatic",
+                    "ans":"bravery"
+                },
+
+                {
+                    "question":"whats is a synonym of qualities",
+                    "opt1":"attributes",
+                    "opt2":"quantities",
+                    "opt3":"neither",
+                    "opt4":"all",
+                    "ans":"attributes"
+                },
+                {
+                    "question":"whats is a synonym of center",
+                    "opt1":"middle",
+                    "opt2":"between",
+                    "opt3":"both",
+                    "opt4":"none",
+                    "ans":"both"
+                },
+                {
+                    "question":"whats is a synonym of devil",
+                    "opt1":"satan",
+                    "opt2":"serpent",
+                    "opt3":"underground",
+                    "opt4":"hate",
+                    "ans":"satan"
+                },
+                {
+                    "question":"synonyms are very essential in english language",
+                    "opt1":"True",
+                    "opt2":"False",
+                    "opt3":"Maybe",
+                    "opt4":"I don't know",
+                    "ans":"True"
+                }
+                
+            ]
+        },
+        {
+            "topic":"Figures of Speech",
+            "questions":
+            [
+                {
+                    "question":"a metaphor makes use of 'as' or 'like'",
+                    "opt1":"True",
+                    "opt2":"False",
+                    "opt3":"Maybe",
+                    "opt4":"I don't know",
+                    "ans":"False"
+                },
+                {
+                    "question":"The boy acts like a cat is what figure of speech",
+                    "opt1":"simile",
+                    "opt2":"metaphor",
+                    "opt3":"oxymoron",
+                    "opt4":"euphemism",
+                    "ans":"simile"
+                },
+
+                {
+                    "question":"oxymoron juxtaposes two similar but contrasting words",
+                    "opt1":"True",
+                    "opt2":"False",
+                    "opt3":"Maybe",
+                    "opt4":"I don't know",
+                    "ans":"False"
+                },
+                {
+                    "question":"What is the giving of attributes owned by living things to that of non-living things",
+                    "opt1":"personification",
+                    "opt2":"euphemism",
+                    "opt3":"simile",
+                    "opt4":"catharsis",
+                    "ans":"personification"
+                },
+                {
+                    "question":"each of the following is a figure of speech except",
+                    "opt1":"simile",
+                    "opt2":"metaphor",
+                    "opt3":"personification",
+                    "opt4":"interjection",
+                    "ans":"interjection"
+                },
+                {
+                    "question":"'The statue moves freely' is what figure of speech",
+                    "opt1":"simile",
+                    "opt2":"personification",
+                    "opt3":"metaphor",
+                    "opt4":"oxymoron",
+                    "ans":"personification"
+                }
+                
+            ]
+        }
+        
+    ]
+}

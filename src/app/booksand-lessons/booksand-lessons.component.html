@@ -1,0 +1,29 @@
+<div>
+    <div class="booknav">
+        <h1>Popular books</h1>
+    </div> 
+    <div class="books">
+        <div *ngFor="let book of getbooks()" class="bookdes">
+            <div class="bookimg"></div>
+            <h4>{{book.name}}</h4>
+            <span class="booktype">
+                <p>{{book.type}}</p>
+                <p>{{book.duration}}</p>
+            </span>
+        </div>
+    </div>
+    <div class="booknav">
+        <h1>Noticed you were having trouble with some topics</h1>
+        <h3>Here are some books to help out</h3>
+    </div> 
+    <div class="books">
+        <div *ngFor="let book of getbooks()" class="bookdes">
+            <div class="bookimg"></div>
+            <h4>{{book.name}}</h4>
+            <span class="booktype">
+                <p>{{book.type}}</p>
+                <p>{{book.duration}}</p>
+            </span>
+        </div>
+    </div>
+</div>

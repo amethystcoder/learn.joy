@@ -1,0 +1,44 @@
+<div class="navbar" *ngIf="routenow != '/loginorup' && istestroute(routenow) != true">
+    <h1 id="title"><a routerLink="/home">LearnJoy</a></h1>
+    <ul class="options">
+        <li><a routerLink="/acheivements">Acheivements</a></li>
+        <li><a routerLink="/categories">Take a Test</a></li>
+        <li><a routerLink="/assignments">Assignments</a></li>
+        <li><a routerLink="/booksandlessons">Books and Lessons</a></li>
+    </ul>
+    <a routerLink="/account"><div class="personimage"></div></a>
+</div>
+<div id="undernav" *ngIf="routenow != '/loginorup' && istestroute(routenow) != true"></div>
+<router-outlet></router-outlet>
+<div id="footbar" *ngIf="routenow != '/loginorup' && istestroute(routenow) != true">
+    <div class="footerone">
+        <div>
+            <h2>Take a Test</h2>
+            <h3>Categories</h3>
+            <ul class="testlist">
+                <li><a>Mathematics</a></li>
+                <li><a>English Language</a></li>
+                <li><a>Physics</a></li>
+                <li><a>Biology</a></li>
+                <li><a>Chemistry</a></li>
+                <li><a>Social Studies</a></li>
+                <li><a>Basic Science</a></li>
+                <li><a>General Knowledge</a></li>
+                <li><a>Combination</a></li>
+            </ul>
+        </div>
+        <ul class="bottomnav">
+            <li><a>Acheivements</a></li>
+            <li><a>Connect With Friends</a></li>
+            <li><a>Assignments</a></li>
+            <li><a>Signout</a></li>
+        </ul>
+    </div>
+    <div class="footertwo">
+        <div>
+            <a>Terms and Policies</a>
+            <a>Submit a complaint</a>
+        </div>
+        <h1 id="titlebottom">LearnJoy</h1>
+    </div>
+</div>

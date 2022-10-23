@@ -1,0 +1,2095 @@
+[
+    {
+        "subject":"Government",
+        "section":"arts",
+        "isopen":false,
+        "topics":
+        [
+            {
+                "topic":"Apathy",
+                "questions":
+                [
+                    {
+                        "question":"Types of apathy include all except",
+                        "opt1":"political",
+                        "opt2":"religious",
+                        "opt3":"agricultural",
+                        "opt4":"participation",
+                        "ans":"participation"
+                    },
+                    {
+                        "question":"Apathy is synonymous with",
+                        "opt1":"Indifference",
+                        "opt2":"Similar",
+                        "opt3":"Participation",
+                        "opt4":"Culture",
+                        "ans":"Indifference"
+                    },
+    
+                    {
+                        "question":"Political apathy means",
+                        "opt1":"the indifference to politics",
+                        "opt2":"the similarities between politics",
+                        "opt3":"the participation in politics",
+                        "opt4":"the culture of politics",
+                        "ans":"the indifference to politics"
+                    },
+                    {
+                        "question":"Apathy is known world-wide",
+                        "opt1":"True",
+                        "opt2":"False",
+                        "opt3":"Maybe",
+                        "opt4":"I don't know",
+                        "ans":"True"
+                    },
+                    {
+                        "question":"People have the right to apathy",
+                        "opt1":"True",
+                        "opt2":"False",
+                        "opt3":"Maybe",
+                        "opt4":"I don't know",
+                        "ans":"True"
+                    },
+                    {
+                        "question":"Political apathy improves the political system of the country",
+                        "opt1":"True",
+                        "opt2":"False",
+                        "opt3":"Maybe",
+                        "opt4":"I don't know",
+                        "ans":"False"
+                    }
+                ]
+            },
+            {
+                "topic":"Sovereignty",
+                "questions":
+                [
+                    {
+                        "question":"sovereignty means",
+                        "opt1":"independence",
+                        "opt2":"active",
+                        "opt3":"social",
+                        "opt4":"deprived",
+                        "ans":"independence"
+                    },
+                    {
+                        "question":"example of a sovereign state is except",
+                        "opt1":"Nigeria",
+                        "opt2":"USA",
+                        "opt3":"Nairobi",
+                        "opt4":"Ikeja",
+                        "ans":"Ikeja"
+                    },
+    
+                    {
+                        "question":"an importance of sovereignty is",
+                        "opt1":"it makes one or a state immune to external influence",
+                        "opt2":"it helps to be safe",
+                        "opt3":"it prevents killing",
+                        "opt4":"it promotes violence",
+                        "ans":"it makes one or a state immune to external influence"
+                    },
+                    {
+                        "question":"a sovereign state could be in charge of its external affairs",
+                        "opt1":"True",
+                        "opt2":"False",
+                        "opt3":"Maybe",
+                        "opt4":"I don't know",
+                        "ans":"True"
+                    },
+                    {
+                        "question":"can the president of a state be sovereign",
+                        "opt1":"True",
+                        "opt2":"False",
+                        "opt3":"Maybe",
+                        "opt4":"I don't know",
+                        "ans":"True"
+                    },
+                    {
+                        "question":"beign sovereign is not popular among the asian continent",
+                        "opt1":"True",
+                        "opt2":"False",
+                        "opt3":"Maybe",
+                        "opt4":"I don't know",
+                        "ans":"False"
+                    }
+                    
+                ]
+            },
+            {
+                "topic":"Constitution",
+                "questions":
+                [
+                    {
+                        "question":"The rigid constitution is usually written",
+                        "opt1":"True",
+                        "opt2":"False",
+                        "opt3":"Maybe",
+                        "opt4":"I don't know",
+                        "ans":"True"
+                    },
+                    {
+                        "question":"One of these is a source of the constitution",
+                        "opt1":"judicial precedents",
+                        "opt2":"tenure of the government",
+                        "opt3":"citizenship",
+                        "opt4":"power",
+                        "ans":"judicial precedents"
+                    },
+    
+                    {
+                        "question":"The preamble is not a feature of the constitution",
+                        "opt1":"True",
+                        "opt2":"False",
+                        "opt3":"Maybe",
+                        "opt4":"I don't know",
+                        "ans":"False"
+                    },
+                    {
+                        "question":"Nigeria operates on what type of constitution",
+                        "opt1":"written",
+                        "opt2":"unwritten",
+                        "opt3":"rigid",
+                        "opt4":"flexible",
+                        "ans":"written"
+                    },
+                    {
+                        "question":"A constitution defines the power of the arms and tiers of government",
+                        "opt1":"True",
+                        "opt2":"False",
+                        "opt3":"Maybe",
+                        "opt4":"I don't know",
+                        "ans":"True"
+                    },
+                    {
+                        "question":"A flexible constitution means",
+                        "opt1":"it is unwritten",
+                        "opt2":"it is based on tiers of government",
+                        "opt3":"it is easy to ammend",
+                        "opt4":"it is hard to define",
+                        "ans":"it is easy to ammend"
+                    }
+                    
+                ]
+            },
+            {
+                "topic":"Basic Principles of Government",
+                "questions":
+                [
+                    {
+                        "question":"The rule of law was proposed by",
+                        "opt1":"A.V Dicey",
+                        "opt2":"Lord Lugard",
+                        "opt3":"Aristotle",
+                        "opt4":"Kentucky",
+                        "ans":"A.V Dicey"
+                    },
+                    {
+                        "question":"Rule of law means",
+                        "opt1":"No one is above the law",
+                        "opt2":"There is a law for everyone",
+                        "opt3":"Rules applicable to law",
+                        "opt4":"The law and its components",
+                        "ans":"No one is above the law"
+                    },
+    
+                    {
+                        "question":"All of these are principles of rule of law except",
+                        "opt1":"equality",
+                        "opt2":"impartiality",
+                        "opt3":"individual rights",
+                        "opt4":"privilleged",
+                        "ans":"privilleged"
+                    },
+                    {
+                        "question":"Human rights was a theory of the UNO",
+                        "opt1":"True",
+                        "opt2":"False",
+                        "opt3":"Maybe",
+                        "opt4":"I don't know",
+                        "ans":"True"
+                    },
+                    {
+                        "question":"Participating in politics is a feature of popular participation",
+                        "opt1":"True",
+                        "opt2":"False",
+                        "opt3":"Maybe",
+                        "opt4":"I don't know",
+                        "ans":"True"
+                    },
+                    {
+                        "question":"What has to do with the sharing of power between the central government and other constituent units",
+                        "opt1":"Centralization",
+                        "opt2":"Decentralization",
+                        "opt3":"Delegated Legislation",
+                        "opt4":"Parliament Spread",
+                        "ans":"Decentralization"
+                    }
+                    
+                ]
+            }
+            
+        ]
+    },
+    {
+        "subject":"Physics",
+        "section":"science",
+        "isopen":false,
+        "topics":
+        [
+            {
+                "topic":"Atomic Physics",
+                "questions":
+                [
+                    {
+                        "question":"An atom consists of three parts, proton, neutron and",
+                        "opt1":"Quark",
+                        "opt2":"Nuon",
+                        "opt3":"Neon",
+                        "opt4":"Electron",
+                        "ans":"Electron"
+                    },
+                    {
+                        "question":"What is the mass of an electron",
+                        "opt1":"9.555656 x 10<sup>-31</sup>kg",
+                        "opt2":"9.1093837 × 10<sup>-31</sup>kg",
+                        "opt3":"9.7748262 x 10<sup>-31</sup>kg",
+                        "opt4":"9.3462734 x 10<sup>-31</sup>kg",
+                        "ans":"9.1093837 × 10<sup>-31</sup>kg"
+                    },
+                    {
+                        "question":"Light of wavelength 450nm is shone on to the surface of a metal of work function 3.2x10<sup>-19</sup>J. The maximum energy of the emitted electrons in 10<sup>-19</sup> is?",
+                        "opt1":"0.8",
+                        "opt2":"1.2",
+                        "opt3":"2.4",
+                        "opt4":"2.8",
+                        "ans":"1.2"
+                    },
+                    {
+                        "question":"Radiation from the sun is seen crossed by dark lines. These are known as",
+                        "opt1":"absorption spectra",
+                        "opt2":"emission spectra",
+                        "opt3":"radiation lines",
+                        "opt4":"Electrons",
+                        "ans":"absorption spectra"
+                    },
+                    {
+                        "question":"What is the value of the speed of light 'c'",
+                        "opt1":"3 x 10<sup>6</sup>",
+                        "opt2":"3 x 10<sup>7</sup>",
+                        "opt3":"3 x 10<sup>8</sup>",
+                        "opt4":"3 x 10<sup>9</sup>",
+                        "ans":"3 x 10<sup>8</sup>"
+                    },
+                    {
+                        "question":"Electrons moving with a constant velocity enter a uniform magnetic field B in a direction perpendicular to B. the electron path in the field is",
+                        "opt1":"a helix",
+                        "opt2":"a straight line parallel to B",
+                        "opt3":"a straight line perpendicular to B",
+                        "opt4":"a circle",
+                        "ans":"a circle"
+                    }
+                    
+                ]
+            },
+            {
+                "topic":"Heat",
+                "questions":
+                [
+                    {
+                        "question":"Heat is supplied to a test-tube containing 100g of ice at its melting point. The ice melts completely in 1 minute. What is the power rating of the source of heat (Latent heat of fusion of ice = 336Jg<sup>-1</sup>)",
+                        "opt1":"336W",
+                        "opt2":"450W",
+                        "opt3":"560W",
+                        "opt4":"600W",
+                        "ans":"560W"
+                    },
+                    {
+                        "question":"If a room is saturated with water vapour, the temperature of the room must be",
+                        "opt1":"at 0<sup>&#8728</sup>C",
+                        "opt2":"above the dew point",
+                        "opt3":"at 100<sup>&#8728</sup>C",
+                        "opt4":"below or at the dew point",
+                        "ans":"below or at the dew point"
+                    },
+    
+                    {
+                        "question":"What happens when a gas expands at constant temperature?",
+                        "opt1":"Its pressure decreases",
+                        "opt2":"The total momentum of its molecules remains constant",
+                        "opt3":"Its pressure decreases and the total momentum of its molecules remain constant",
+                        "opt4":"Its pressure decreases and the total kinetic energy of its molecules decreases",
+                        "ans":"Its pressure decreases and the total kinetic energy of its molecules decreases"
+                    },
+                    {
+                        "question":"How many grams of water at 17<sup>&#8728</sup>C must be added to 42g of ice at 0<sup>&#8728</sup>C to melt the ice completely (specific latent heat of fusion of ice = 3.4x10<sup>5</sup>Jkg<sup>-1</sup>) (specific heat capacity of water = 4200Jkg<sup>-1</sup>K<sup>-1</sup>)",
+                        "opt1":"200g",
+                        "opt2":"300g",
+                        "opt3":"320g",
+                        "opt4":"400g",
+                        "ans":"200g"
+                    },
+                    {
+                        "question":"Ice cubes are added to a glass of warm water. The glass and water are cooled by",
+                        "opt1":"conduction only",
+                        "opt2":"convection only",
+                        "opt3":"conduction and convection",
+                        "opt4":"convection and radiation",
+                        "ans":"convection and radiation"
+                    },
+                    {
+                        "question":"The thermometric substance of an absolute thermometer is",
+                        "opt1":"alchohol",
+                        "opt2":"mercury",
+                        "opt3":"helium",
+                        "opt4":"platinum",
+                        "ans":"mercury"
+                    }
+                    
+                ]
+            },
+            {
+                "topic":"Motion and dynamics",
+                "questions":
+                [
+                    {
+                        "question":"A small metal ball is thrown vertically upwards from the top of a tower with an initial velocity of 20ms<sup>-1</sup>. If the ball took a total of 6s to reach ground level, determine the height of the tower (g = 10ms<sup>-2</sup>)",
+                        "opt1":"60m",
+                        "opt2":"80m",
+                        "opt3":"100m",
+                        "opt4":"120m",
+                        "ans":"60m"
+                    },
+                    {
+                        "question":"A body of mass 100g moving with a velocity of 10.0ms<sup>-1</sup> collides with a wall. If after the collision, it moves with a velocity of 2.0ms<sup>-1</sup> in the opposite direction, calculate the change in momentum",
+                        "opt1":"0.8Ns",
+                        "opt2":"1.2Ns",
+                        "opt3":"12.0Ns",
+                        "opt4":"80.0Ns",
+                        "ans":"1.2Ns"
+                    },
+    
+                    {
+                        "question":"A body starts from rest and moves with uniform acceleration of 6ms<sup>-2</sup>",
+                        "opt1":"15m",
+                        "opt2":"18m",
+                        "opt3":"27m",
+                        "opt4":"30m",
+                        "ans":"15m"
+                    },
+                    {
+                        "question":"An aeroplane lands on a runway at a speed of 180kmh<sup>-1</sup> and is brought to a stop uniformly in 30 seconds. What distance does it cover on the runway before coming to rest",
+                        "opt1":"360m",
+                        "opt2":"540m",
+                        "opt3":"750m",
+                        "opt4":"957m",
+                        "ans":"750m"
+                    },
+                    {
+                        "question":"A plane inclined at angle &#8854 has a velocity ratio of 10:1. The inclination of the plane to the horizontal is given by",
+                        "opt1":"tan &#8854 = 1/10",
+                        "opt2":"cot &#8854 = 1/10",
+                        "opt3":"cos &#8854 = 1/10",
+                        "opt4":"sin &#8854 = 1/10",
+                        "ans":"sin &#8854 = 1/10"
+                    },
+                    {
+                        "question":"An object is projected with a velocity of 80ms<sup>-1</sup> at an angle 30<sup>&#8728</sup> to the horizontal. The maximum height reached is",
+                        "opt1":"20m",
+                        "opt2":"80m",
+                        "opt3":"160m",
+                        "opt4":"320m",
+                        "ans":"80m"
+                    }
+                    
+                ]
+            },
+            {
+                "topic":"Electricity",
+                "questions":
+                [
+                    {
+                        "question":"Three electric cells each of e.m.f 1.5V and internal resistance 1.0ohms are connected in parallel across an external resistance 2/3ohms. Calculate the value of the current in the resistor",
+                        "opt1":"0.5A",
+                        "opt2":"0.9A",
+                        "opt3":"1.5A",
+                        "opt4":"4.5A",
+                        "ans":"1.5A"
+                    },
+                    {
+                        "question":"In a metre bridge experiment, two resistors 2 ohms and 3 ohms occupy the left and right gaps respectively. Find the balance point from the left side of the bridge",
+                        "opt1":"20cm",
+                        "opt2":"40cm",
+                        "opt3":"60cm",
+                        "opt4":"80cm",
+                        "ans":"40cm"
+                    },
+                    {
+                        "question":"Which of the following can be used to reduce local action in a leclanche cell?",
+                        "opt1":"carbon rod as the positive pole",
+                        "opt2":"pure zinc as the negative pole",
+                        "opt3":"potassium permanganate solution in contact with the positive pole",
+                        "opt4":"common salt solution",
+                        "ans":"pure zinc as the negative pole"
+                    },
+                    {
+                        "question":"An ebonite rod rubbed with fur attracts a glass rod rubbed with silk because",
+                        "opt1":"ebonite has a negative charge while glass has a positive charge",
+                        "opt2":"ebonite has positive charge while glass has negative charge",
+                        "opt3":"both have negative charges",
+                        "opt4":"both have positive charges",
+                        "ans":"ebonite has a negative charge while glass has a positive charge"
+                    },
+                    {
+                        "question":"A cell of internal resistance 0.01ohms can be measured accurately using the",
+                        "opt1":"ohm-meter",
+                        "opt2":"potentiometer",
+                        "opt3":"electroscope",
+                        "opt4":"metre bridge",
+                        "ans":"potentiometer"
+                    },
+                    {
+                        "question":"A cell of internal resistance r supplies current to a 6.0ohm resistor and its efficiency is 75%. Find the value of r",
+                        "opt1":"4.5ohms",
+                        "opt2":"1.0ohms",
+                        "opt3":"8.0ohms",
+                        "opt4":"2.0ohms",
+                        "ans":"2.0ohms"
+                    }
+                    
+                ]
+            }
+            
+        ]
+    },
+    {
+        "subject":"Mathematics",
+        "section":"all",
+        "isopen":false,
+        "topics":
+        [
+            {
+                "topic":"permutation and combination",
+                "questions":
+                [
+                    {
+                        "question":"In how many ways can the letters of the word LAGOS be permuted",
+                        "opt1":"110",
+                        "opt2":"24",
+                        "opt3":"120",
+                        "opt4":"240",
+                        "ans":"120"
+                    },
+                    {
+                        "question":"In how many ways can 6 passengers sit in a commuter bus which has 14 vacant seats",
+                        "opt1":"1126021",
+                        "opt2":"2162160",
+                        "opt3":"3761250",
+                        "opt4":"10012841",
+                        "ans":"2162120"
+                    },
+    
+                    {
+                        "question":"In how many ways can the letters of the word SOKOTO be permuted",
+                        "opt1":"150",
+                        "opt2":"120",
+                        "opt3":"60",
+                        "opt4":"24",
+                        "ans":"120"
+                    },
+                    {
+                        "question":"In how many ways can three monitors be selected from a class of 20 students",
+                        "opt1":"1200",
+                        "opt2":"1650",
+                        "opt3":"1560",
+                        "opt4":"1140",
+                        "ans":"1140"
+                    },
+                    {
+                        "question":"A committee of 3 men and 2 women is to be formed from 6 men and 4 women. In how many ways can this committee be formed",
+                        "opt1":"240",
+                        "opt2":"120",
+                        "opt3":"720",
+                        "opt4":"540",
+                        "ans":"120"
+                    },
+                    {
+                        "question":"A committee of 3 members is to be formed from a co-operative society of membership of 5men and 4 women. In how many ways can the committee be formed if at leats a man must be in the committee",
+                        "opt1":"120",
+                        "opt2":"720",
+                        "opt3":"540",
+                        "opt4":"80",
+                        "ans":"80"
+                    }
+                    
+                ]
+            },
+            {
+                "topic":"algebra and quadratic equations",
+                "questions":
+                [
+                    {
+                        "question":"solve the equation x<sup>2</sup>-64 = 0",
+                        "opt1":"x = 64 or -64",
+                        "opt2":"x = 8 or -8",
+                        "opt3":"x = 4 or -4",
+                        "opt4":"x = 4 or -8",
+                        "ans":"x = 8 or -8"
+                    },
+                    {
+                        "question":"solve the following quadratic equation 21x<sup>2</sup>+29x-10 = 0",
+                        "opt1":"x = 5 or -12",
+                        "opt2":"x = -5/3 or 2/7",
+                        "opt3":"x = 3/8 or -5/11",
+                        "opt4":"x = -7/3 or 3/5",
+                        "ans":"x = -5/3 or 2/7"
+                    },
+    
+                    {
+                        "question":"solve simultaneously: x+2y = 7 and 2x<sup>2</sup>+y<sup>2</sup>-3x+2y = 13",
+                        "opt1":"y = 2 and x = 3 or y = 4 and x = -1",
+                        "opt2":"y = 3 and x = 2 or y = 4 and x = -1",
+                        "opt3":"y = 2 and x = 3 or y = -1 and x = 4",
+                        "opt4":"y = 3 and x = 2 or y = -1 and x = 4",
+                        "ans":"y = 2 and x = 3 or y = 4 and x = -1"
+                    },
+                    {
+                        "question":"The roots of the equation 2x<sup>2</sup>+4x-1=0 are a and b. Find the equation whose roots are a/b and b/a",
+                        "opt1":"x<sup>2</sup>+10x+1 = 0",
+                        "opt2":"x<sup>2</sup>-10x+1 = 0",
+                        "opt3":"x<sup>2</sup>+10x-1 = 0",
+                        "opt4":"x<sup>2</sup>-10x-1 = 0",
+                        "ans":"x<sup>2</sup>+10x+1 = 0"
+                    },
+                    {
+                        "question":"If a and b are roots of the quadratic equation 3x<sup>2</sup>-5x+2 = 0 find 1/a<sup>2</sup>+1/b<sup>2</sup>",
+                        "opt1":"15/4",
+                        "opt2":"24/5",
+                        "opt3":"13/4",
+                        "opt4":"35/27",
+                        "ans":"13/4"
+                    },
+                    {
+                        "question":"solve the following quadratic equation x<sup>2</sup>+7x+12 = 0",
+                        "opt1":"x = -4 or -3",
+                        "opt2":"x = 4 or 3",
+                        "opt3":"x = -4 or 3",
+                        "opt4":"x = 4 or -3",
+                        "ans":"x = -4 or -3"
+                    }
+                    
+                ]
+            },
+            {
+                "topic":"Trigonometry",
+                "questions":
+                [
+                    {
+                        "question":"given that tan&#8854 = 3/4 and 0<sup>&#8728</sup><&#8854<90<sup>&#8728</sup>, find cosec&#8854",
+                        "opt1":"4/3",
+                        "opt2":"4/5",
+                        "opt3":"5/3",
+                        "opt4":"3/5",
+                        "ans":"5/3"
+                    },
+                    {
+                        "question":"find in surd form cos(-150<sup>&#8728</sup>)",
+                        "opt1":"-(&#x221A 2/2)",
+                        "opt2":"-&#x221A 3/2",
+                        "opt3":"&#x221A 2/2",
+                        "opt4":"-(&#x221A 3/2)",
+                        "ans":"-(&#x221A 3/2)"
+                    },
+    
+                    {
+                        "question":"simplify &#x221A 1-cos<sup>2</sup>&#8854/sec<sup>2</sup>&#8854-1",
+                        "opt1":"cos&#8854",
+                        "opt2":"sec<sup>2</sup>&#8854",
+                        "opt3":"tan<sup>-1</sup>&#8854",
+                        "opt4":"cosec&#8854",
+                        "ans":"cos&#8854"
+                    },
+                    {
+                        "question":"Given that the right-angled triangle ABC, and tan x = 5/12, what is the value of sinx + cosx",
+                        "opt1":"17/13",
+                        "opt2":"6/17",
+                        "opt3":"15/19",
+                        "opt4":"2/3",
+                        "ans":"17/13"
+                    },
+                    {
+                        "question":"Find the value of sin150<sup>&#8728</sup>",
+                        "opt1":"1/2",
+                        "opt2":"-1",
+                        "opt3":"-(&#x221A 3/2)",
+                        "opt4":"-1/2",
+                        "ans":"1/2"
+                    },
+                    {
+                        "question":"If sinA = 3/5 and cosB = 12/13 where A is obtuse and B is acute, find the value of sin(A+B)",
+                        "opt1":"15/34",
+                        "opt2":"12/31",
+                        "opt3":"16/65",
+                        "opt4":"13/65",
+                        "ans":"16/65"
+                    }
+                    
+                ]
+            },
+            {
+                "topic":"Integral and differential calculus",
+                "questions":
+                [
+                    {
+                        "question":"Find the derivative of y = 4/3 &#x221A x<sup>2</sup>",
+                        "opt1":"-4/3 &#x221B x<sup>4</sup>",
+                        "opt2":"-8/3 &#x221B x<sup>5</sup>",
+                        "opt3":"-8/3 &#x221B x<sup>4</sup>",
+                        "opt4":"-4/3 &#x221B x<sup>5</sup>",
+                        "ans":"-8/3 &#x221B x<sup>5</sup>"
+                    },
+                    {
+                        "question":"Find the derivative of 7x<sup>6</sup>+5x<sup>2</sup>+4",
+                        "opt1":"2x<sup>2</sup>+12x-7",
+                        "opt2":"42x<sup>5</sup>+10x",
+                        "opt3":"42x<sup>5</sup>-20x",
+                        "opt4":"2x<sup>2</sup>+12x",
+                        "ans":"42x<sup>5</sup>+10x"
+                    },
+    
+                    {
+                        "question":"if y = 1/ &#x221A 3+x<sup>2</sup> find dy/dx",
+                        "opt1":"-3x/(3+x<sup>2</sup>)<sup>3/2</sup>",
+                        "opt2":"-2x/(3+x<sup>2</sup>)<sup>3/2</sup>",
+                        "opt3":"-5x/(3+x<sup>2</sup>)<sup>3/2</sup>",
+                        "opt4":"-x/(3+x<sup>2</sup>)<sup>3/2</sup>",
+                        "ans":"3x/(3+x<sup>2</sup>)<sup>3/2</sup>"
+                    },
+                    {
+                        "question":"if y = (3x<sup>2</sup>+4)(1+ 1/x) find dy/dx",
+                        "opt1":"4-6x-2/x<sup>2</sup>",
+                        "opt2":"5-7x-9",
+                        "opt3":"3+6x-4/x<sup>2</sup>",
+                        "opt4":"3-5x-9",
+                        "ans":"3+6x-4/x<sup>2</sup>"
+                    },
+                    {
+                        "question":"if y = 55x<sup>3</sup>-3x<sup>2</sup>+6x-2/7x+8 find dy/dx",
+                        "opt1":"99x<sup>2</sup>-48x+62/(7x+8)<sup>2</sup>",
+                        "opt2":"99x<sup>2</sup>+48x-62/(7x+8)<sup>2</sup>",
+                        "opt3":"99x<sup>2</sup>+48x+62/(7x+8)<sup>2</sup>",
+                        "opt4":"99x<sup>2</sup>-48x-62/(7x+8)<sup>2</sup>",
+                        "ans":"99x<sup>2</sup>-48x+62/(7x+8)<sup>2</sup>"
+                    },
+                    {
+                        "question":"find the derivative of sec(2/3)x<sup>3</sup>",
+                        "opt1":"3xsec2/3x<sup>3</sup>cos(2/3)x<sup>3</sup>",
+                        "opt2":"3xsec2/3x<sup>3</sup>tan(2/3)x<sup>3</sup>",
+                        "opt3":"2xsec2/3x<sup>3</sup>tan(2/3)x<sup>3</sup>",
+                        "opt4":"2x<sup>2</sup>sec2/3x<sup>3</sup>tan(2/3)x<sup>3</sup>",
+                        "ans":"2x<sup>2</sup>sec2/3x<sup>3</sup>tan(2/3)x<sup>3</sup>"
+                    }
+                    
+                ]
+            }
+            
+        ]
+    },
+    {
+        "subject":"Literature in English",
+        "section":"arts",
+        "isopen":false,
+        "topics":
+        [
+            {
+                "topic":"Poetry",
+                "questions":
+                [
+                    {
+                        "question":"which of the following is a type of poetry",
+                        "opt1":"pastoral",
+                        "opt2":"piraesque",
+                        "opt3":"political",
+                        "opt4":"tragedy",
+                        "ans":"pastoral"
+                    },
+                    {
+                        "question":"whom of the following is a well known poet",
+                        "opt1":"Shakespear",
+                        "opt2":"Mary.J.Blige",
+                        "opt3":"Will Smith",
+                        "opt4":"Demi Lovato",
+                        "ans":"Shakespear"
+                    },
+    
+                    {
+                        "question":"Which is not a characteristic of poetry",
+                        "opt1":"it is usually beautiful",
+                        "opt2":"it operates on acts and scenes",
+                        "opt3":"it consists of rhytmic line",
+                        "opt4":"it tends to have a rhyming pattern",
+                        "ans":"it tends to have a rhyming pattern"
+                    },
+                    {
+                        "question":"Poetry is a form of art",
+                        "opt1":"True",
+                        "opt2":"False",
+                        "opt3":"Maybe",
+                        "opt4":"I don't know",
+                        "ans":"True"
+                    },
+                    {
+                        "question":"A sonnet is one stanza poem of fifteen lines",
+                        "opt1":"True",
+                        "opt2":"False",
+                        "opt3":"Maybe",
+                        "opt4":"I don't know",
+                        "ans":"False"
+                    },
+                    {
+                        "question":"A simple grouping of syllables, some stressed, some unstressed is called a ",
+                        "opt1":"simple poetry",
+                        "opt2":"frame",
+                        "opt3":"foot",
+                        "opt4":"elegy",
+                        "ans":"foot"
+                    }
+                    
+                ]
+            },
+            {
+                "topic":"literary concepts/study of literature",
+                "questions":
+                [
+                    {
+                        "question":"literature has over three literary genres",
+                        "opt1":"True",
+                        "opt2":"False",
+                        "opt3":"Maybe",
+                        "opt4":"I don't know",
+                        "ans":"False"
+                    },
+                    {
+                        "question":"Forms of literature include all except",
+                        "opt1":"poetry",
+                        "opt2":"short stories",
+                        "opt3":"letters",
+                        "opt4":"pearl",
+                        "ans":"pearl"
+                    },
+    
+                    {
+                        "question":"a ballad is a form of literature",
+                        "opt1":"True",
+                        "opt2":"False",
+                        "opt3":"Maybe",
+                        "opt4":"I don't know",
+                        "ans":"True"
+                    },
+                    {
+                        "question":"which of the following is a literary term",
+                        "opt1":"ballad",
+                        "opt2":"gable",
+                        "opt3":"panegyric",
+                        "opt4":"safiro",
+                        "ans":"ballad"
+                    },
+                    {
+                        "question":"Emmanuel represents a lion on the field is a",
+                        "opt1":"metaphor",
+                        "opt2":"simile",
+                        "opt3":"personification",
+                        "opt4":"euphemism",
+                        "ans":"personification"
+                    },
+                    {
+                        "question":"The protagonist could be the hero or the villain",
+                        "opt1":"True",
+                        "opt2":"False",
+                        "opt3":"Maybe",
+                        "opt4":"I don't know",
+                        "ans":"True"
+                    }
+                    
+                ]
+            },
+            {
+                "topic":"Drama",
+                "questions":
+                [
+                    {
+                        "question":"Drama is one of the literary genres",
+                        "opt1":"True",
+                        "opt2":"False",
+                        "opt3":"Maybe",
+                        "opt4":"I don't know",
+                        "ans":"True"
+                    },
+                    {
+                        "question":"Drama consists of",
+                        "opt1":"acts",
+                        "opt2":"stanzas",
+                        "opt3":"chapters",
+                        "opt4":"rhyming scheme",
+                        "ans":"acts"
+                    },
+    
+                    {
+                        "question":"A tragic character is one who arouses pity and",
+                        "opt1":"Terror",
+                        "opt2":"Sympathy",
+                        "opt3":"Horror",
+                        "opt4":"Frustration",
+                        "ans":"Sympathy"
+                    },
+                    {
+                        "question":"Juxtaposition of contrasting ideas in any lierary work is know as",
+                        "opt1":"Drama",
+                        "opt2":"Oxymoron",
+                        "opt3":"Synedoche",
+                        "opt4":"Catharsis",
+                        "ans":"Oxymoron"
+                    },
+                    {
+                        "question":"Tragic comedy is a form of drama",
+                        "opt1":"True",
+                        "opt2":"False",
+                        "opt3":"Maybe",
+                        "opt4":"I don't know",
+                        "ans":"True"
+                    },
+                    {
+                        "question":"Any work written in act and scene is known as",
+                        "opt1":"Drama",
+                        "opt2":"Poem",
+                        "opt3":"Prose",
+                        "opt4":"Elegy",
+                        "ans":"Drama"
+                    }
+                    
+                ]
+            },
+            {
+                "topic":"Prose",
+                "questions":
+                [
+                    {
+                        "question":"A prose deals with literary principles",
+                        "opt1":"True",
+                        "opt2":"False",
+                        "opt3":"Maybe",
+                        "opt4":"I don't know",
+                        "ans":"True"
+                    },
+                    {
+                        "question":"Forms of prose include",
+                        "opt1":"Biography",
+                        "opt2":"Comedy",
+                        "opt3":"Ballad",
+                        "opt4":"Time-rick",
+                        "ans":"Biography"
+                    },
+    
+                    {
+                        "question":"which of the following could be applicable to all genres",
+                        "opt1":"Narration",
+                        "opt2":"Rhythm",
+                        "opt3":"Action",
+                        "opt4":"Symbolism",
+                        "ans":"Narration"
+                    },
+                    {
+                        "question":"All are types of prose except",
+                        "opt1":"quest",
+                        "opt2":"maturation",
+                        "opt3":"ascension",
+                        "opt4":"cast",
+                        "ans":"cast"
+                    },
+                    {
+                        "question":"prose is written in",
+                        "opt1":"Chapters",
+                        "opt2":"Stanzas",
+                        "opt3":"Repetition",
+                        "opt4":"Covers",
+                        "ans":"Chapters"
+                    },
+                    {
+                        "question":"Prose is always Fiction",
+                        "opt1":"True",
+                        "opt2":"False",
+                        "opt3":"Maybe",
+                        "opt4":"I don't know",
+                        "ans":"False"
+                    }
+                    
+                ]
+            }
+            
+        ]
+    },
+    {
+        "subject":"English Language",
+        "section":"all",
+        "isopen":false,
+        "topics":
+        [
+            {
+                "topic":"Oral English",
+                "questions":
+                [
+                    {
+                        "question":"/ &#8743 / can be seen in which word",
+                        "opt1":"cup",
+                        "opt2":"pour",
+                        "opt3":"poor",
+                        "opt4":"dove",
+                        "ans":"cup"
+                    },
+                    {
+                        "question":"/ts/ is seen in which word",
+                        "opt1":"chair",
+                        "opt2":"shame",
+                        "opt3":"shave",
+                        "opt4":"chastise",
+                        "ans":"chair"
+                    },
+    
+                    {
+                        "question":"/ &#8706 / can be seen in which word",
+                        "opt1":"shove",
+                        "opt2":"clear",
+                        "opt3":"run",
+                        "opt4":"chain",
+                        "ans":"shove"
+                    },
+                    {
+                        "question":"/k/ is seen in which word",
+                        "opt1":"comb",
+                        "opt2":"simmer",
+                        "opt3":"lotion",
+                        "opt4":"bring",
+                        "ans":"comb"
+                    },
+                    {
+                        "question":"/U:/ can be seen in which word",
+                        "opt1":"pull ",
+                        "opt2":"run",
+                        "opt3":"dug",
+                        "opt4":"do",
+                        "ans":"pull"
+                    },
+                    {
+                        "question":"/b/ can be seen in which word",
+                        "opt1":"dumb",
+                        "opt2":"bomb",
+                        "opt3":"grenade",
+                        "opt4":"road",
+                        "ans":"bomb"
+                    }
+                    
+                ]
+            },
+            {
+                "topic":"Antonyms",
+                "questions":
+                [
+                    {
+                        "question":"antonyms could also mean",
+                        "opt1":"opposites",
+                        "opt2":"composition",
+                        "opt3":"careful",
+                        "opt4":"replaceable",
+                        "ans":"opposites"
+                    },
+                    {
+                        "question":"whats an antonym of draw",
+                        "opt1":"pull",
+                        "opt2":"push",
+                        "opt3":"drive",
+                        "opt4":"run",
+                        "ans":"push"
+                    },
+    
+                    {
+                        "question":"whats an antonym of remember",
+                        "opt1":"know",
+                        "opt2":"forget",
+                        "opt3":"left",
+                        "opt4":"imagine",
+                        "ans":"forget"
+                    },
+                    {
+                        "question":"whats an antonym of next",
+                        "opt1":"previous",
+                        "opt2":"never",
+                        "opt3":"courage",
+                        "opt4":"none of the above",
+                        "ans":"previous"
+                    },
+                    {
+                        "question":"whats an antonym of courage",
+                        "opt1":"bravery",
+                        "opt2":"cowardice",
+                        "opt3":"devil",
+                        "opt4":"i don't know",
+                        "ans":"cowardice"
+                    },
+                    {
+                        "question":"whats an antonym for the word antonym",
+                        "opt1":"similarity",
+                        "opt2":"plural",
+                        "opt3":"singular",
+                        "opt4":"divine",
+                        "ans":"similarity"
+                    }
+                    
+                ]
+            },
+            {
+                "topic":"Synonyms",
+                "questions":
+                [
+                    {
+                        "question":"synonyms means",
+                        "opt1":"similarities",
+                        "opt2":"pluralities",
+                        "opt3":"difference",
+                        "opt4":"opposite",
+                        "ans":"similarities"
+                    },
+                    {
+                        "question":"the synonym for courage is",
+                        "opt1":"bravery",
+                        "opt2":"cowardice",
+                        "opt3":"euphoric",
+                        "opt4":"estatic",
+                        "ans":"bravery"
+                    },
+    
+                    {
+                        "question":"whats is a synonym of qualities",
+                        "opt1":"attributes",
+                        "opt2":"quantities",
+                        "opt3":"neither",
+                        "opt4":"all",
+                        "ans":"attributes"
+                    },
+                    {
+                        "question":"whats is a synonym of center",
+                        "opt1":"middle",
+                        "opt2":"between",
+                        "opt3":"both",
+                        "opt4":"none",
+                        "ans":"both"
+                    },
+                    {
+                        "question":"whats is a synonym of devil",
+                        "opt1":"satan",
+                        "opt2":"serpent",
+                        "opt3":"underground",
+                        "opt4":"hate",
+                        "ans":"satan"
+                    },
+                    {
+                        "question":"synonyms are very essential in english language",
+                        "opt1":"True",
+                        "opt2":"False",
+                        "opt3":"Maybe",
+                        "opt4":"I don't know",
+                        "ans":"True"
+                    }
+                    
+                ]
+            },
+            {
+                "topic":"Figures of Speech",
+                "questions":
+                [
+                    {
+                        "question":"a metaphor makes use of 'as' or 'like'",
+                        "opt1":"True",
+                        "opt2":"False",
+                        "opt3":"Maybe",
+                        "opt4":"I don't know",
+                        "ans":"False"
+                    },
+                    {
+                        "question":"The boy acts like a cat is what figure of speech",
+                        "opt1":"simile",
+                        "opt2":"metaphor",
+                        "opt3":"oxymoron",
+                        "opt4":"euphemism",
+                        "ans":"simile"
+                    },
+    
+                    {
+                        "question":"oxymoron juxtaposes two similar but contrasting words",
+                        "opt1":"True",
+                        "opt2":"False",
+                        "opt3":"Maybe",
+                        "opt4":"I don't know",
+                        "ans":"False"
+                    },
+                    {
+                        "question":"What is the giving of attributes owned by living things to that of non-living things",
+                        "opt1":"personification",
+                        "opt2":"euphemism",
+                        "opt3":"simile",
+                        "opt4":"catharsis",
+                        "ans":"personification"
+                    },
+                    {
+                        "question":"each of the following is a figure of speech except",
+                        "opt1":"simile",
+                        "opt2":"metaphor",
+                        "opt3":"personification",
+                        "opt4":"interjection",
+                        "ans":"interjection"
+                    },
+                    {
+                        "question":"'The statue moves freely' is what figure of speech",
+                        "opt1":"simile",
+                        "opt2":"personification",
+                        "opt3":"metaphor",
+                        "opt4":"oxymoron",
+                        "ans":"personification"
+                    }
+                    
+                ]
+            }
+            
+        ]
+    },
+    {
+        "subject":"Current Affairs",
+        "section":"all",
+        "isopen":false,
+        "topics":
+        [
+            {
+                "topic":"History Nigeria",
+                "questions":
+                [
+                    {
+                        "question":"Who was the first Governor-General of Lagos colony",
+                        "opt1":"Major John Glover",
+                        "opt2":"General John Egerton",
+                        "opt3":"Mr. H.S. Freeman",
+                        "opt4":"Mr. George Washington",
+                        "ans":"Mr. H.S. Freeman"
+                    },
+                    {
+                        "question":"Sir Fredrick Lugard was sworn in as the Governor of the Northern and Southern protectorates in the year",
+                        "opt1":"1914",
+                        "opt2":"1912",
+                        "opt3":"1913",
+                        "opt4":"1911",
+                        "ans":"1912"
+                    },
+    
+                    {
+                        "question":"Who named Nigeria",
+                        "opt1":"Miss Flora Shaw",
+                        "opt2":"Queen Elizabeth",
+                        "opt3":"Mary Slessor",
+                        "opt4":"Miriam Adebowale",
+                        "ans":"Miss Flora Shaw"
+                    },
+                    {
+                        "question":"Who was the first indigenous Governor-General of Nigeria",
+                        "opt1":"Tafawa Balewa",
+                        "opt2":"Dr. Nnamdi Azikwe",
+                        "opt3":"Dr. Obafemi Awolowo",
+                        "opt4":"Engr. Oluseyi Makinde",
+                        "ans":"Dr. Nnamdi Azikwe"
+                    },
+                    {
+                        "question":"The first military Head-of-State was",
+                        "opt1":"Gen. Yakubu Gowon",
+                        "opt2":"Gen. Mohammadu Buhari",
+                        "opt3":"Gen. Sanni Abacha",
+                        "opt4":"Gen. Johnson Aguiyi-Ironsi",
+                        "ans":"Gen. Johnson Aguiyi-Ironsi"
+                    },
+                    {
+                        "question":"The most recent amendment to the constitution still used today is the",
+                        "opt1":"1988 constitution",
+                        "opt2":"1998 constitution",
+                        "opt3":"1999 constitution",
+                        "opt4":"2002 constitution",
+                        "ans":"1999 constitution"
+                    }
+                    
+                ]
+            },
+            {
+                "topic":"Nigeria Facts",
+                "questions":
+                [
+                    {
+                        "question":"How many Geo-political zones are in Nigeria",
+                        "opt1":"5",
+                        "opt2":"6",
+                        "opt3":"7",
+                        "opt4":"4",
+                        "ans":"6"
+                    },
+                    {
+                        "question":"Benue state's motto is",
+                        "opt1":"Food Basket of the Nation",
+                        "opt2":"Jewel in the Savanah",
+                        "opt3":"Farming is our pride",
+                        "opt4":"Gift of the caliphate",
+                        "ans":"Food Basket of the Nation"
+                    },
+    
+                    {
+                        "question":"How many Local Government Areas (L.G.As) do we have in Nigeria",
+                        "opt1":"774",
+                        "opt2":"568",
+                        "opt3":"36",
+                        "opt4":"726",
+                        "ans":"774"
+                    },
+                    {
+                        "question":"Yankari Games Reserve is located in",
+                        "opt1":"Kano",
+                        "opt2":"Zamfara",
+                        "opt3":"Bauchi",
+                        "opt4":"Oyo",
+                        "ans":"Bauchi"
+                    },
+                    {
+                        "question":"National Museum is located in",
+                        "opt1":"Lagos",
+                        "opt2":"Osun",
+                        "opt3":"Abuja",
+                        "opt4":"Bayelsa",
+                        "ans":"Lagos"
+                    },
+                    {
+                        "question":"The capital of Nigeria is",
+                        "opt1":"Lagos",
+                        "opt2":"Sokoto",
+                        "opt3":"Cross river",
+                        "opt4":"Abuja",
+                        "ans":"Abuja"
+                    }
+                    
+                ]
+            },
+            {
+                "topic":"World History and Facts",
+                "questions":
+                [
+                    {
+                        "question":"When was ECOWAS established",
+                        "opt1":"May, 1975",
+                        "opt2":"January, 1918",
+                        "opt3":"April, 1986",
+                        "opt4":"August, 1987",
+                        "ans":"May, 1975"
+                    },
+                    {
+                        "question":"What is the full meaning of ICJ",
+                        "opt1":"Internal Cardinal Jurisdiction",
+                        "opt2":"International Council of Judges",
+                        "opt3":"International Court of Justice",
+                        "opt4":"International Court of Jamaica",
+                        "ans":"International Court of Justice"
+                    },
+    
+                    {
+                        "question":"The capital of Gambia is",
+                        "opt1":"Banjui",
+                        "opt2":"Libreville",
+                        "opt3":"Egypt",
+                        "opt4":"Djibouti",
+                        "ans":"Banjui"
+                    },
+                    {
+                        "question":"The currency spent in Zimbabwe is",
+                        "opt1":"Shilling",
+                        "opt2":"Dollar",
+                        "opt3":"Franc",
+                        "opt4":"Naira",
+                        "ans":"Dollar"
+                    },
+                    {
+                        "question":"The language spoken in Ethiopia is",
+                        "opt1":"French",
+                        "opt2":"English",
+                        "opt3":"Ampharic",
+                        "opt4":"Spanish",
+                        "ans":"Ampharic"
+                    },
+                    {
+                        "question":"The capital of Yugoslavia is",
+                        "opt1":"Carcas",
+                        "opt2":"Ankara",
+                        "opt3":"Belgrade",
+                        "opt4":"Colombo",
+                        "ans":"Belgrade"
+                    }
+                    
+                ]
+            },
+            {
+                "topic":"General Knowledge",
+                "questions":
+                [
+                    {
+                        "question":"When did the first world war occur",
+                        "opt1":"1914 - 1918",
+                        "opt2":"1926 - 1932",
+                        "opt3":"1856 - 1872",
+                        "opt4":"1817 - 1836",
+                        "ans":"1914 - 1918"
+                    },
+                    {
+                        "question":"The smallest continent in the world is",
+                        "opt1":"Europe",
+                        "opt2":"Australia",
+                        "opt3":"Africa",
+                        "opt4":"South America",
+                        "ans":"Australia"
+                    },
+                    {
+                        "question":"The Electric Bulb was invented by",
+                        "opt1":"Carl Benz",
+                        "opt2":"Wills Carner",
+                        "opt3":"K. Roentgen",
+                        "opt4":"Thomas Edison",
+                        "ans":"Thomas Edison"
+                    },
+                    {
+                        "question":"World Bank was established in",
+                        "opt1":"1966",
+                        "opt2":"1942",
+                        "opt3":"1918",
+                        "opt4":"1944",
+                        "ans":"1944"
+                    },
+                    {
+                        "question":"The first world cup was held in",
+                        "opt1":"Uruguay",
+                        "opt2":"Italy",
+                        "opt3":"South Africa",
+                        "opt4":"Russia",
+                        "ans":"Uruguay"
+                    },
+                    {
+                        "question":"The largest city in the world is",
+                        "opt1":"Manhattan",
+                        "opt2":"Ibadan",
+                        "opt3":"Tokyo",
+                        "opt4":"Argentina",
+                        "ans":"Tokyo"
+                    }
+                    
+                ]
+            }
+            
+        ]
+    },
+    {
+        "subject":"Christain Religious Studies",
+        "section":"arts",
+        "isopen":false,
+        "topics":
+        [
+            {
+                "topic":"Obedience/Disobedience",
+                "questions":
+                [
+                    {
+                        "question":"amongst whom of these people obeyed God's commandments",
+                        "opt1":"David",
+                        "opt2":"Saul",
+                        "opt3":"Pharoah",
+                        "opt4":"Namaan",
+                        "ans":"David"
+                    },
+                    {
+                        "question":"Obedience is better than",
+                        "opt1":"Call",
+                        "opt2":"Death",
+                        "opt3":"Sacrifice",
+                        "opt4":"Maturity",
+                        "ans":"Sacrifice"
+                    },
+    
+                    {
+                        "question":"Faith leads to obedience",
+                        "opt1":"True",
+                        "opt2":"False",
+                        "opt3":"Maybe",
+                        "opt4":"I don't know",
+                        "ans":"True"
+                    },
+                    {
+                        "question":"Samuel was obedient to Eli",
+                        "opt1":"True",
+                        "opt2":"False",
+                        "opt3":"Maybe",
+                        "opt4":"I don't know",
+                        "ans":"True"
+                    },
+                    {
+                        "question":"Who obeyed God and left his homeland to where God showed him/her",
+                        "opt1":"Ruth",
+                        "opt2":"Abraham",
+                        "opt3":"Nehemiah",
+                        "opt4":"Samuel",
+                        "ans":"Abraham"
+                    },
+                    {
+                        "question":"Did Solomon ever betray God",
+                        "opt1":"Yes",
+                        "opt2":"No",
+                        "opt3":"Maybe",
+                        "opt4":"I don't know",
+                        "ans":"Yes"
+                    }
+                    
+                ]
+            },
+            {
+                "topic":"The Creation Story",
+                "questions":
+                [
+                    {
+                        "question":"The job of giving names to all animals was for",
+                        "opt1":"adam",
+                        "opt2":"eve",
+                        "opt3":"man",
+                        "opt4":"adam and eve",
+                        "ans":"adam"
+                    },
+                    {
+                        "question":"Pishon,Gihon,Nile and Euphrates were divided into the garden of Eden",
+                        "opt1":"True",
+                        "opt2":"False",
+                        "opt3":"Maybe",
+                        "opt4":"I don't know",
+                        "ans":"False"
+                    },
+    
+                    {
+                        "question":"The fact that all thing that God said should happen actually happened during creation means",
+                        "opt1":"God is sovereign over the universe",
+                        "opt2":"God is all knowing",
+                        "opt3":"God is nice to all",
+                        "opt4":"God did not like darkness",
+                        "ans":"God is sovereign over the universe"
+                    },
+                    {
+                        "question":"The second account of creation was centered on the creation of",
+                        "opt1":"man",
+                        "opt2":"plant",
+                        "opt3":"firmament",
+                        "opt4":"birds",
+                        "ans":"man"
+                    },
+                    {
+                        "question":"Eve is called woman why?",
+                        "opt1":"She was taken out of man",
+                        "opt2":"She was the author of wos",
+                        "opt3":"She loves nature",
+                        "opt4":"She caused God to banish them",
+                        "ans":"She was taken out of man"
+                    },
+                    {
+                        "question":"The firmament of heaven was created on which day",
+                        "opt1":"Second",
+                        "opt2":"Third",
+                        "opt3":"Fourth",
+                        "opt4":"Sixth",
+                        "ans":"Second"
+                    }
+                    
+                ]
+            },
+            {
+                "topic":"Leadership",
+                "questions":
+                [
+                    {
+                        "question":"Why did Reuben advise his brothers to throw Joseph into a pit and not kill him",
+                        "opt1":"He loved his brother dearly",
+                        "opt2":"He wanted to rescue him and bring him to this father",
+                        "opt3":"For selfish reasons",
+                        "opt4":"The reason was unknown",
+                        "ans":"He wanted to rescue him and bring him to his father"
+                    },
+                    {
+                        "question":"Who amongst the following was a leader",
+                        "opt1":"Joshua",
+                        "opt2":"Naomi",
+                        "opt3":"Nehemiah",
+                        "opt4":"Naboth",
+                        "ans":"Joshua"
+                    },
+    
+                    {
+                        "question":"Who was a good leader among the following",
+                        "opt1":"Nehemiah",
+                        "opt2":"David",
+                        "opt3":"Saul",
+                        "opt4":"Bathsheba",
+                        "ans":"David"
+                    },
+                    {
+                        "question":"David was first crowned king of where",
+                        "opt1":"hebron",
+                        "opt2":"isreal",
+                        "opt3":"judah",
+                        "opt4":"judea",
+                        "ans":"hebron"
+                    },
+                    {
+                        "question":"Who was a bad leader among these",
+                        "opt1":"David",
+                        "opt2":"Solomon",
+                        "opt3":"Ahab",
+                        "opt4":"Deborah",
+                        "ans":"Ahab"
+                    },
+                    {
+                        "question":"Who delivered the people of Isreal from sisera",
+                        "opt1":"God",
+                        "opt2":"Deborah",
+                        "opt3":"Jael",
+                        "opt4":"Barak",
+                        "ans":"Jael"
+                    }
+                    
+                ]
+            },
+            {
+                "topic":"The trial, death and resurrection of Jesus Christ",
+                "questions":
+                [
+                    {
+                        "question":"Who betrayed Christ",
+                        "opt1":"Judas Iscariot",
+                        "opt2":"Judas",
+                        "opt3":"Paul",
+                        "opt4":"Pontius Pilate",
+                        "ans":"Judas Iscariot"
+                    },
+                    {
+                        "question":"Christ rose on the",
+                        "opt1":"Third day",
+                        "opt2":"Second day",
+                        "opt3":"First day",
+                        "opt4":"Fifth day",
+                        "ans":"Third day"
+                    },
+    
+                    {
+                        "question":"Who did the people choose to release instead of Jesus",
+                        "opt1":"Barrabas",
+                        "opt2":"Barnabas",
+                        "opt3":"The other theif on the cross",
+                        "opt4":"Paul",
+                        "ans":"Barrabas"
+                    },
+                    {
+                        "question":"Who cut one of the guard's ears during the arrest of Jesus",
+                        "opt1":"Paul",
+                        "opt2":"Peter",
+                        "opt3":"James",
+                        "opt4":"Untold",
+                        "ans":"Untold"
+                    },
+                    {
+                        "question":"eli, eli lama saba e thani was said by Jesus on the cross",
+                        "opt1":"True",
+                        "opt2":"False",
+                        "opt3":"Maybe",
+                        "opt4":"I don't know",
+                        "ans":"True"
+                    },
+                    {
+                        "question":"Peter betrayed Jesus by denying him when?",
+                        "opt1":"three times before the cock crows",
+                        "opt2":"two times before the cock crows",
+                        "opt3":"three times before he slept off",
+                        "opt4":"three times before the twelfth hour",
+                        "ans":"three times before the cock crows"
+                    }
+                    
+                ]
+            }
+            
+        ]
+    },
+    {
+        "subject":"Chemistry",
+        "section":"science",
+        "isopen":false,
+        "topics":
+        [
+            {
+                "topic":"Molecular Chemistry",
+                "questions":
+                [
+                    {
+                        "question":"If the molecular mass of tetraoxosulphate(iv) acid is 98, calculate its vapour density",
+                        "opt1":"196",
+                        "opt2":"49",
+                        "opt3":"106",
+                        "opt4":"82",
+                        "ans":"49"
+                    },
+                    {
+                        "question":"Which of the following atoms contain the highest number of electrons in the outermost shell",
+                        "opt1":"Magnesium",
+                        "opt2":"Silicon",
+                        "opt3":"Flourine",
+                        "opt4":"Neon",
+                        "ans":"Neon"
+                    },
+    
+                    {
+                        "question":"The experiment that showed that atoms have tiny positively charged nucleus was first carried out by",
+                        "opt1":"Mosely",
+                        "opt2":"Rutherford",
+                        "opt3":"Millikan",
+                        "opt4":"Dalton",
+                        "ans":"Rutherford"
+                    },
+                    {
+                        "question":"What is the volume of oxygen required to burn completely 45cm3 of methane at standard temparature pressure (S.T.P)",
+                        "opt1":"45.0cm3",
+                        "opt2":"90.0cm3",
+                        "opt3":"135.0cm3",
+                        "opt4":"180.0cm3",
+                        "ans":"90.0cm3"
+                    },
+                    {
+                        "question":"A hydrocarbon X with a molar mass of 26 consists of 92.3% carbon. what is its molecular formula",
+                        "opt1":"C2H2",
+                        "opt2":"C3H3",
+                        "opt3":"C4H4",
+                        "opt4":"C5H5",
+                        "ans":"C2H2"
+                    },
+                    {
+                        "question":"If the relative molecular mass of n element is not a whole number, it can be deduced that the element is",
+                        "opt1":"naturally radioactive",
+                        "opt2":"abundant in nature",
+                        "opt3":"a transition metal",
+                        "opt4":"an isotopic mixture",
+                        "ans":"an isotopic mixture"
+                    }
+                    
+                ]
+            },
+            {
+                "topic":"Organic Chemistry",
+                "questions":
+                [
+                    {
+                        "question":"Organic compounds generally in comparision with inorganic compounds have",
+                        "opt1":"higher melting and boiling points",
+                        "opt2":"higher melting points and lower boiling points",
+                        "opt3":"lower melting and boiling points",
+                        "opt4":"lower melting points and higher boiling points",
+                        "ans":"lower melting and boiling points"
+                    },
+                    {
+                        "question":"the alkanoic acid found in human sweat is",
+                        "opt1":"CH3-COOH",
+                        "opt2":"CH3-(CH2)2-COOH",
+                        "opt3":"H-COOH",
+                        "opt4":"CH3-(CH2)4-COOH",
+                        "ans":"CH3-(CH2)2-COOH"
+                    },
+    
+                    {
+                        "question":"The basicity of CH3COOH is",
+                        "opt1":"1",
+                        "opt2":"2",
+                        "opt3":"3",
+                        "opt4":"4",
+                        "ans":"1"
+                    },
+                    {
+                        "question":"The product obtained when a mixture of benzene vapour and hydrogen are passed over a nickel catalyst at 180 degrees celsius is",
+                        "opt1":"cyclohexane",
+                        "opt2":"cyclopentane",
+                        "opt3":"n-hexane",
+                        "opt4":"n-pentane",
+                        "ans":"cyclohexane"
+                    },
+                    {
+                        "question":"Detergents are manufactured with straight hydrocarbon chains so as to make them",
+                        "opt1":"soluble",
+                        "opt2":"biodegradable",
+                        "opt3":"cheaper",
+                        "opt4":"foamy",
+                        "ans":"biodegradable"
+                    },
+                    {
+                        "question":"An organic compound reacted with bromine water to form a colourless solution. The compound is probably an",
+                        "opt1":"alkene",
+                        "opt2":"alkane",
+                        "opt3":"alkyne",
+                        "opt4":"alkanone",
+                        "ans":"alkyne"
+                    }
+                    
+                ]
+            },
+            {
+                "topic":"The periodic table",
+                "questions":
+                [
+                    {
+                        "question":"1s22s22p4, the element with this electron configuration is",
+                        "opt1":"carbon",
+                        "opt2":"flourine",
+                        "opt3":"oxygen",
+                        "opt4":"nitrogen",
+                        "ans":"oxygen"
+                    },
+                    {
+                        "question":"If an atom is represented as <sup>23</sup><sub>11</sub>X, which of the following deductions is correct",
+                        "opt1":"it contains 12 protons",
+                        "opt2":"it forms a covalent chloride",
+                        "opt3":"its atomic number is 23",
+                        "opt4":"it is an alkali metal",
+                        "ans":"it is an alkali metal"
+                    },
+    
+                    {
+                        "question":"What is the most probable group of an element which is a soft, silvery white solid and reacts violently with water",
+                        "opt1":"Group 7",
+                        "opt2":"Group 6",
+                        "opt3":"Group 4",
+                        "opt4":"Group 1",
+                        "ans":"Group 1"
+                    },
+                    {
+                        "question":"The element with the electronic configuration 1s22s22p63s23p63d24s2 is a/an",
+                        "opt1":"group II element",
+                        "opt2":"transition metal",
+                        "opt3":"alkaline earth metal",
+                        "opt4":"group IV element",
+                        "ans":"group II element"
+                    },
+                    {
+                        "question":"The position of an element on the periodic table is determined by",
+                        "opt1":"its atomic radius",
+                        "opt2":"its density",
+                        "opt3":"its relative atomic mass",
+                        "opt4":"the number of protons in its atom",
+                        "ans":"the number of protons in its atom"
+                    },
+                    {
+                        "question":"Li,Na and K are in the same group in the periodic table because they have the same",
+                        "opt1":"atomic radius",
+                        "opt2":"electronic configuration",
+                        "opt3":"ionisation energy",
+                        "opt4":"number of valence electrons",
+                        "ans":"number of valence electrons"
+                    }
+                    
+                ]
+            },
+            {
+                "topic":"Metals and Non-Metals",
+                "questions":
+                [
+                    {
+                        "question":"An ore of tin is",
+                        "opt1":"haematite",
+                        "opt2":"magnetite",
+                        "opt3":"bauxite",
+                        "opt4":"cassiterite",
+                        "ans":"cassiterite"
+                    },
+                    {
+                        "question":"A metal that will react with steam to liberate hydrogen gas is",
+                        "opt1":"Zinc",
+                        "opt2":"Aluminium",
+                        "opt3":"Sodium",
+                        "opt4":"Iron",
+                        "ans":"Iron"
+                    },
+    
+                    {
+                        "question":"Copper and Silver metals are commonly used as coins because they are",
+                        "opt1":"not easily reduced",
+                        "opt2":"not easily oxidized",
+                        "opt3":"easily reduced",
+                        "opt4":"easily oxidized",
+                        "ans":"not easily oxidized"
+                    },
+                    {
+                        "question":"The tincture of iodine means iodine dissolved in",
+                        "opt1":"water",
+                        "opt2":"ethanol",
+                        "opt3":"bromine chloride",
+                        "opt4":"chlorine water",
+                        "ans":"ethanol"
+                    },
+                    {
+                        "question":"The colour of fountain water is",
+                        "opt1":"blue",
+                        "opt2":"orange",
+                        "opt3":"red",
+                        "opt4":"yellow",
+                        "ans":"blue"
+                    },
+                    {
+                        "question":"The type of Iron that is best suited for welding, making nails,chains and iron rods is",
+                        "opt1":"pig iron",
+                        "opt2":"wrought iron",
+                        "opt3":"cast iron",
+                        "opt4":"iron pyrites",
+                        "ans":"wrought iron"
+                    }
+                    
+                ]
+            }
+            
+        ]
+    },
+    {
+        "subject":"Biology",
+        "section":"science",
+        "isopen":false,
+        "topics":
+        [
+            {
+                "topic":"Taxonomy and Evolution",
+                "questions":
+                [
+                    {
+                        "question":"Which of the following insects is not a social insect",
+                        "opt1":"Termite",
+                        "opt2":"Housefly",
+                        "opt3":"Honeybee",
+                        "opt4":"Ant",
+                        "ans":"Housefly"
+                    },
+                    {
+                        "question":"The inability of an organism to adapt to its habitat can lead to its",
+                        "opt1":"Dormancy",
+                        "opt2":"Adaptation",
+                        "opt3":"Extinction",
+                        "opt4":"Survival",
+                        "ans":"Extinction"
+                    },
+    
+                    {
+                        "question":"Volvox belongs to the division",
+                        "opt1":"Bryophyta",
+                        "opt2":"Pteridophyta",
+                        "opt3":"Thallophyta",
+                        "opt4":"Tracheophyta",
+                        "ans":"Thallophyta"
+                    },
+                    {
+                        "question":"The following are members of the phylum chordata except",
+                        "opt1":"Fishes",
+                        "opt2":"Insects",
+                        "opt3":"Birds",
+                        "opt4":"Lizards",
+                        "ans":"Insects"
+                    },
+                    {
+                        "question":"Which of the following behavioural patterns describes adaptive coloration",
+                        "opt1":"countershading",
+                        "opt2":"hibernation",
+                        "opt3":"aestivation",
+                        "opt4":"aggregation",
+                        "ans":"countershading"
+                    },
+                    {
+                        "question":"Which of the following scientists was involved in organic evolution",
+                        "opt1":"Mendel",
+                        "opt2":"Lamark",
+                        "opt3":"Morgan",
+                        "opt4":"Pasteur",
+                        "ans":"Lamark"
+                    }
+                    
+                ]
+            },
+            {
+                "topic":"Cells and their environment",
+                "questions":
+                [
+                    {
+                        "question":"Which of these organisms cannot exist on their own",
+                        "opt1":"chlamydomonas",
+                        "opt2":"amoeba",
+                        "opt3":"paramecium",
+                        "opt4":"plasmodium",
+                        "ans":"plasmodium"
+                    },
+                    {
+                        "question":"Which of the following cell organelles is the site for production of ATP",
+                        "opt1":"lysosome",
+                        "opt2":"nucleus",
+                        "opt3":"mitochondria",
+                        "opt4":"ribosome",
+                        "ans":"mitochondria"
+                    },
+    
+                    {
+                        "question":"DNA in eukaryotic cells is contained in the",
+                        "opt1":"central vacoule",
+                        "opt2":"nucleus",
+                        "opt3":"lysosome",
+                        "opt4":"golgi body",
+                        "ans":"nucleus"
+                    },
+                    {
+                        "question":"The organ which is sensitive to light in euglena is the",
+                        "opt1":"gullet",
+                        "opt2":"chloroplast",
+                        "opt3":"eye spot",
+                        "opt4":"contractile vacuole",
+                        "ans":"eye spot"
+                    },
+                    {
+                        "question":"If amoeba is placed in a salt solution, the contractile vacuoles would",
+                        "opt1":"be bursting more frequently",
+                        "opt2":"be more numerous",
+                        "opt3":"be formed less frequently",
+                        "opt4":"grow bigger before they burst",
+                        "ans":"be formed less frequently"
+                    },
+                    {
+                        "question":"The process by which a drop of ink spreads uniformly in a beaker of water is called",
+                        "opt1":"absorption",
+                        "opt2":"osmosis",
+                        "opt3":"plasmolysis",
+                        "opt4":"diffusion",
+                        "ans":"diffusion"
+                    }
+                    
+                ]
+            },
+            {
+                "topic":"Ecology and Ecological concepts",
+                "questions":
+                [
+                    {
+                        "question":"The direction of wind is determined by",
+                        "opt1":"an anemometer",
+                        "opt2":"a secchi disk",
+                        "opt3":"a wind vane",
+                        "opt4":"a barometer",
+                        "ans":"a wind vane"
+                    },
+                    {
+                        "question":"A space containing a group of interactive organisms is called a/an",
+                        "opt1":"community",
+                        "opt2":"habitat",
+                        "opt3":"ecosystem",
+                        "opt4":"population",
+                        "ans":"population"
+                    },
+    
+                    {
+                        "question":"Which of the following is used to estimate the number of plants in a habitat",
+                        "opt1":"pooter",
+                        "opt2":"pitfall trap",
+                        "opt3":"quadrat",
+                        "opt4":"sweep net",
+                        "ans":"quadrat"
+                    },
+                    {
+                        "question":"The following are abiotic components of an ecosystem except",
+                        "opt1":"temperature",
+                        "opt2":"oxygen",
+                        "opt3":"bacteria",
+                        "opt4":"soil",
+                        "ans":"bacteria"
+                    },
+                    {
+                        "question":"Which of the following factors is not associated with aquatic habitats",
+                        "opt1":"salinity",
+                        "opt2":"turbidity",
+                        "opt3":"temperature",
+                        "opt4":"edaphic factors",
+                        "ans":"edaphic factors"
+                    },
+                    {
+                        "question":"A hygrometer is used in measuring",
+                        "opt1":"relative humidity",
+                        "opt2":"specific gravity",
+                        "opt3":"Light intensity",
+                        "opt4":"turbidity",
+                        "ans":"relative humidity"
+                    }
+                    
+                ]
+            },
+            {
+                "topic":"Systems in plants and animals",
+                "questions":
+                [
+                    {
+                        "question":"Which of the following organs of the alimentry canal is not correctly matched with its function",
+                        "opt1":"Gall bladder - stores bile",
+                        "opt2":"Liver - stores glycogen",
+                        "opt3":"Appendix - release enzymes",
+                        "opt4":"Teeth - grind food",
+                        "ans":"Appendix - release enzymes"
+                    },
+                    {
+                        "question":"Which of the following plants is a carnivore",
+                        "opt1":"Desmodium",
+                        "opt2":"Sundew",
+                        "opt3":"Mushroom",
+                        "opt4":"Platycerium",
+                        "ans":"Sundew"
+                    },
+    
+                    {
+                        "question":"Conduction of water and mineral salts through the xylem vessels is enhanced because the xylem cells are",
+                        "opt1":"thickened with lignin",
+                        "opt2":"long, narrow tubes placed end to end",
+                        "opt3":"close to the endodermis",
+                        "opt4":"centrally placed in the roots",
+                        "ans":"long, narrow tubes placed end to end"
+                    },
+                    {
+                        "question":"pulmonary circulation involves movement of the blood to and from the",
+                        "opt1":"brain",
+                        "opt2":"kidney",
+                        "opt3":"liver",
+                        "opt4":"lungs",
+                        "ans":"lungs"
+                    },
+                    {
+                        "question":"the structures for gasious exchange in breathing roots are",
+                        "opt1":"stomata",
+                        "opt2":"lenticels",
+                        "opt3":"cuticle",
+                        "opt4":"mitochondria",
+                        "ans":"lenticels"
+                    },
+                    {
+                        "question":"which of the following is a common excretory product in both plant and animals",
+                        "opt1":"urine",
+                        "opt2":"oxygen",
+                        "opt3":"mineral salt",
+                        "opt4":"carbon dioxide",
+                        "ans":"carbon dioxide"
+                    }
+                    
+                ]
+            }
+            
+        ]
+    }                                
+]

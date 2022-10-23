@@ -1,0 +1,231 @@
+{
+    "subject":"Chemistry",
+    "topics":
+    [
+        {
+            "topic":"Molecular Chemistry",
+            "questions":
+            [
+                {
+                    "question":"If the molecular mass of tetraoxosulphate(iv) acid is 98, calculate its vapour density",
+                    "opt1":"196",
+                    "opt2":"49",
+                    "opt3":"106",
+                    "opt4":"82",
+                    "ans":"49"
+                },
+                {
+                    "question":"Which of the following atoms contain the highest number of electrons in the outermost shell",
+                    "opt1":"Magnesium",
+                    "opt2":"Silicon",
+                    "opt3":"Flourine",
+                    "opt4":"Neon",
+                    "ans":"Neon"
+                },
+
+                {
+                    "question":"The experiment that showed that atoms have tiny positively charged nucleus was first carried out by",
+                    "opt1":"Mosely",
+                    "opt2":"Rutherford",
+                    "opt3":"Millikan",
+                    "opt4":"Dalton",
+                    "ans":"Rutherford"
+                },
+                {
+                    "question":"What is the volume of oxygen required to burn completely 45cm3 of methane at standard temparature pressure (S.T.P)",
+                    "opt1":"45.0cm3",
+                    "opt2":"90.0cm3",
+                    "opt3":"135.0cm3",
+                    "opt4":"180.0cm3",
+                    "ans":"90.0cm3"
+                },
+                {
+                    "question":"A hydrocarbon X with a molar mass of 26 consists of 92.3% carbon. what is its molecular formula",
+                    "opt1":"C2H2",
+                    "opt2":"C3H3",
+                    "opt3":"C4H4",
+                    "opt4":"C5H5",
+                    "ans":"C2H2"
+                },
+                {
+                    "question":"If the relative molecular mass of n element is not a whole number, it can be deduced that the element is",
+                    "opt1":"naturally radioactive",
+                    "opt2":"abundant in nature",
+                    "opt3":"a transition metal",
+                    "opt4":"an isotopic mixture",
+                    "ans":"an isotopic mixture"
+                }
+                
+            ]
+        },
+        {
+            "topic":"Organic Chemistry",
+            "questions":
+            [
+                {
+                    "question":"Organic compounds generally in comparision with inorganic compounds have",
+                    "opt1":"higher melting and boiling points",
+                    "opt2":"higher melting points and lower boiling points",
+                    "opt3":"lower melting and boiling points",
+                    "opt4":"lower melting points and higher boiling points",
+                    "ans":"lower melting and boiling points"
+                },
+                {
+                    "question":"the alkanoic acid found in human sweat is",
+                    "opt1":"CH3-COOH",
+                    "opt2":"CH3-(CH2)2-COOH",
+                    "opt3":"H-COOH",
+                    "opt4":"CH3-(CH2)4-COOH",
+                    "ans":"CH3-(CH2)2-COOH"
+                },
+
+                {
+                    "question":"The basicity of CH3COOH is",
+                    "opt1":"1",
+                    "opt2":"2",
+                    "opt3":"3",
+                    "opt4":"4",
+                    "ans":"1"
+                },
+                {
+                    "question":"The product obtained when a mixture of benzene vapour and hydrogen are passed over a nickel catalyst at 180 degrees celsius is",
+                    "opt1":"cyclohexane",
+                    "opt2":"cyclopentane",
+                    "opt3":"n-hexane",
+                    "opt4":"n-pentane",
+                    "ans":"cyclohexane"
+                },
+                {
+                    "question":"Detergents are manufactured with straight hydrocarbon chains so as to make them",
+                    "opt1":"soluble",
+                    "opt2":"biodegradable",
+                    "opt3":"cheaper",
+                    "opt4":"foamy",
+                    "ans":"biodegradable"
+                },
+                {
+                    "question":"An organic compound reacted with bromine water to form a colourless solution. The compound is probably an",
+                    "opt1":"alkene",
+                    "opt2":"alkane",
+                    "opt3":"alkyne",
+                    "opt4":"alkanone",
+                    "ans":"alkyne"
+                }
+                
+            ]
+        },
+        {
+            "topic":"The periodic table",
+            "questions":
+            [
+                {
+                    "question":"1s22s22p4, the element with this electron configuration is",
+                    "opt1":"carbon",
+                    "opt2":"flourine",
+                    "opt3":"oxygen",
+                    "opt4":"nitrogen",
+                    "ans":"oxygen"
+                },
+                {
+                    "question":"If an atom is represented as <sup>23</sup><sub>11</sub>X, which of the following deductions is correct",
+                    "opt1":"it contains 12 protons",
+                    "opt2":"it forms a covalent chloride",
+                    "opt3":"its atomic number is 23",
+                    "opt4":"it is an alkali metal",
+                    "ans":"it is an alkali metal"
+                },
+
+                {
+                    "question":"What is the most probable group of an element which is a soft, silvery white solid and reacts violently with water",
+                    "opt1":"Group 7",
+                    "opt2":"Group 6",
+                    "opt3":"Group 4",
+                    "opt4":"Group 1",
+                    "ans":"Group 1"
+                },
+                {
+                    "question":"The element with the electronic configuration 1s22s22p63s23p63d24s2 is a/an",
+                    "opt1":"group II element",
+                    "opt2":"transition metal",
+                    "opt3":"alkaline earth metal",
+                    "opt4":"group IV element",
+                    "ans":"group II element"
+                },
+                {
+                    "question":"The position of an element on the periodic table is determined by",
+                    "opt1":"its atomic radius",
+                    "opt2":"its density",
+                    "opt3":"its relative atomic mass",
+                    "opt4":"the number of protons in its atom",
+                    "ans":"the number of protons in its atom"
+                },
+                {
+                    "question":"Li,Na and K are in the same group in the periodic table because they have the same",
+                    "opt1":"atomic radius",
+                    "opt2":"electronic configuration",
+                    "opt3":"ionisation energy",
+                    "opt4":"number of valence electrons",
+                    "ans":"number of valence electrons"
+                }
+                
+            ]
+        },
+        {
+            "topic":"Metals and Non-Metals",
+            "questions":
+            [
+                {
+                    "question":"An ore of tin is",
+                    "opt1":"haematite",
+                    "opt2":"magnetite",
+                    "opt3":"bauxite",
+                    "opt4":"cassiterite",
+                    "ans":"cassiterite"
+                },
+                {
+                    "question":"A metal that will react with steam to liberate hydrogen gas is",
+                    "opt1":"Zinc",
+                    "opt2":"Aluminium",
+                    "opt3":"Sodium",
+                    "opt4":"Iron",
+                    "ans":"Iron"
+                },
+
+                {
+                    "question":"Copper and Silver metals are commonly used as coins because they are",
+                    "opt1":"not easily reduced",
+                    "opt2":"not easily oxidized",
+                    "opt3":"easily reduced",
+                    "opt4":"easily oxidized",
+                    "ans":"not easily oxidized"
+                },
+                {
+                    "question":"The tincture of iodine means iodine dissolved in",
+                    "opt1":"water",
+                    "opt2":"ethanol",
+                    "opt3":"bromine chloride",
+                    "opt4":"chlorine water",
+                    "ans":"ethanol"
+                },
+                {
+                    "question":"The colour of fountain water is",
+                    "opt1":"blue",
+                    "opt2":"orange",
+                    "opt3":"red",
+                    "opt4":"yellow",
+                    "ans":"blue"
+                },
+                {
+                    "question":"The type of Iron that is best suited for welding, making nails,chains and iron rods is",
+                    "opt1":"pig iron",
+                    "opt2":"wrought iron",
+                    "opt3":"cast iron",
+                    "opt4":"iron pyrites",
+                    "ans":"wrought iron"
+                }
+                
+            ]
+        }
+        
+    ]
+}

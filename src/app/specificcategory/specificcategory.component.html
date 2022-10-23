@@ -1,0 +1,24 @@
+<div>
+    <h1>Category:{{getroute()}}</h1>
+    <div *ngFor="let assign of tests" class="assignmentdiv">
+        <div class="testimg"></div>
+        <div>
+            <h1>{{getroute()}}</h1>
+            <h3>8 Questions</h3>
+            <a><div class="goto"><h3>Attempt Quiz</h3></div></a>
+        </div>
+    </div>
+</div>
+<div>
+    <h1>Quiz Categories</h1>
+    <div class="category">
+        <div *ngFor="let cat of getcategories()">
+            <a routerLink="/specificcategory" [queryParams]="{category:cat.category}">
+                <div class="categoryelem" [ngStyle]="{'background-color':cat.color}">
+                    <h1>{{cat.category}}</h1>
+                </div>
+            </a>
+        </div>
+    </div>
+    
+</div>

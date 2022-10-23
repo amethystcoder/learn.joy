@@ -1,0 +1,230 @@
+
+{
+    "subject":"Physics",
+    "topics":
+    [
+        {
+            "topic":"Atomic Physics",
+            "questions":
+            [
+                {
+                    "question":"An atom consists of three parts, proton, neutron and",
+                    "opt1":"Quark",
+                    "opt2":"Nuon",
+                    "opt3":"Neon",
+                    "opt4":"Electron",
+                    "ans":"Electron"
+                },
+                {
+                    "question":"What is the mass of an electron",
+                    "opt1":"9.555656 x 10<sup>-31</sup>kg",
+                    "opt2":"9.1093837 × 10<sup>-31</sup>kg",
+                    "opt3":"9.7748262 x 10<sup>-31</sup>kg",
+                    "opt4":"9.3462734 x 10<sup>-31</sup>kg",
+                    "ans":"9.1093837 × 10<sup>-31</sup>kg"
+                },
+                {
+                    "question":"Light of wavelength 450nm is shone on to the surface of a metal of work function 3.2x10<sup>-19</sup>J. The maximum energy of the emitted electrons in 10<sup>-19</sup> is?",
+                    "opt1":"0.8",
+                    "opt2":"1.2",
+                    "opt3":"2.4",
+                    "opt4":"2.8",
+                    "ans":"1.2"
+                },
+                {
+                    "question":"Radiation from the sun is seen crossed by dark lines. These are known as",
+                    "opt1":"absorption spectra",
+                    "opt2":"emission spectra",
+                    "opt3":"radiation lines",
+                    "opt4":"Electrons",
+                    "ans":"absorption spectra"
+                },
+                {
+                    "question":"What is the value of the speed of light 'c'",
+                    "opt1":"3 x 10<sup>6</sup>",
+                    "opt2":"3 x 10<sup>7</sup>",
+                    "opt3":"3 x 10<sup>8</sup>",
+                    "opt4":"3 x 10<sup>9</sup>",
+                    "ans":"3 x 10<sup>8</sup>"
+                },
+                {
+                    "question":"Electrons moving with a constant velocity enter a uniform magnetic field B in a direction perpendicular to B. the electron path in the field is",
+                    "opt1":"a helix",
+                    "opt2":"a straight line parallel to B",
+                    "opt3":"a straight line perpendicular to B",
+                    "opt4":"a circle",
+                    "ans":"a circle"
+                }
+                
+            ]
+        },
+        {
+            "topic":"Heat",
+            "questions":
+            [
+                {
+                    "question":"Heat is supplied to a test-tube containing 100g of ice at its melting point. The ice melts completely in 1 minute. What is the power rating of the source of heat (Latent heat of fusion of ice = 336Jg<sup>-1</sup>)",
+                    "opt1":"336W",
+                    "opt2":"450W",
+                    "opt3":"560W",
+                    "opt4":"600W",
+                    "ans":"560W"
+                },
+                {
+                    "question":"If a room is saturated with water vapour, the temperature of the room must be",
+                    "opt1":"at 0<sup>&#8728</sup>C",
+                    "opt2":"above the dew point",
+                    "opt3":"at 100<sup>&#8728</sup>C",
+                    "opt4":"below or at the dew point",
+                    "ans":"below or at the dew point"
+                },
+
+                {
+                    "question":"What happens when a gas expands at constant temperature?",
+                    "opt1":"Its pressure decreases",
+                    "opt2":"The total momentum of its molecules remains constant",
+                    "opt3":"Its pressure decreases and the total momentum of its molecules remain constant",
+                    "opt4":"Its pressure decreases and the total kinetic energy of its molecules decreases",
+                    "ans":"Its pressure decreases and the total kinetic energy of its molecules decreases"
+                },
+                {
+                    "question":"How many grams of water at 17<sup>&#8728</sup>C must be added to 42g of ice at 0<sup>&#8728</sup>C to melt the ice completely (specific latent heat of fusion of ice = 3.4x10<sup>5</sup>Jkg<sup>-1</sup>) (specific heat capacity of water = 4200Jkg<sup>-1</sup>K<sup>-1</sup>)",
+                    "opt1":"200g",
+                    "opt2":"300g",
+                    "opt3":"320g",
+                    "opt4":"400g",
+                    "ans":"200g"
+                },
+                {
+                    "question":"Ice cubes are added to a glass of warm water. The glass and water are cooled by",
+                    "opt1":"conduction only",
+                    "opt2":"convection only",
+                    "opt3":"conduction and convection",
+                    "opt4":"convection and radiation",
+                    "ans":"convection and radiation"
+                },
+                {
+                    "question":"The thermometric substance of an absolute thermometer is",
+                    "opt1":"alchohol",
+                    "opt2":"mercury",
+                    "opt3":"helium",
+                    "opt4":"platinum",
+                    "ans":"mercury"
+                }
+                
+            ]
+        },
+        {
+            "topic":"Motion and dynamics",
+            "questions":
+            [
+                {
+                    "question":"A small metal ball is thrown vertically upwards from the top of a tower with an initial velocity of 20ms<sup>-1</sup>. If the ball took a total of 6s to reach ground level, determine the height of the tower (g = 10ms<sup>-2</sup>)",
+                    "opt1":"60m",
+                    "opt2":"80m",
+                    "opt3":"100m",
+                    "opt4":"120m",
+                    "ans":"60m"
+                },
+                {
+                    "question":"A body of mass 100g moving with a velocity of 10.0ms<sup>-1</sup> collides with a wall. If after the collision, it moves with a velocity of 2.0ms<sup>-1</sup> in the opposite direction, calculate the change in momentum",
+                    "opt1":"0.8Ns",
+                    "opt2":"1.2Ns",
+                    "opt3":"12.0Ns",
+                    "opt4":"80.0Ns",
+                    "ans":"1.2Ns"
+                },
+
+                {
+                    "question":"A body starts from rest and moves with uniform acceleration of 6ms<sup>-2</sup>",
+                    "opt1":"15m",
+                    "opt2":"18m",
+                    "opt3":"27m",
+                    "opt4":"30m",
+                    "ans":"15m"
+                },
+                {
+                    "question":"An aeroplane lands on a runway at a speed of 180kmh<sup>-1</sup> and is brought to a stop uniformly in 30 seconds. What distance does it cover on the runway before coming to rest",
+                    "opt1":"360m",
+                    "opt2":"540m",
+                    "opt3":"750m",
+                    "opt4":"957m",
+                    "ans":"750m"
+                },
+                {
+                    "question":"A plane inclined at angle &#8854 has a velocity ratio of 10:1. The inclination of the plane to the horizontal is given by",
+                    "opt1":"tan &#8854 = 1/10",
+                    "opt2":"cot &#8854 = 1/10",
+                    "opt3":"cos &#8854 = 1/10",
+                    "opt4":"sin &#8854 = 1/10",
+                    "ans":"sin &#8854 = 1/10"
+                },
+                {
+                    "question":"An object is projected with a velocity of 80ms<sup>-1</sup> at an angle 30<sup>&#8728</sup> to the horizontal. The maximum height reached is",
+                    "opt1":"20m",
+                    "opt2":"80m",
+                    "opt3":"160m",
+                    "opt4":"320m",
+                    "ans":"80m"
+                }
+                
+            ]
+        },
+        {
+            "topic":"Electricity",
+            "questions":
+            [
+                {
+                    "question":"Three electric cells each of e.m.f 1.5V and internal resistance 1.0ohms are connected in parallel across an external resistance 2/3ohms. Calculate the value of the current in the resistor",
+                    "opt1":"0.5A",
+                    "opt2":"0.9A",
+                    "opt3":"1.5A",
+                    "opt4":"4.5A",
+                    "ans":"1.5A"
+                },
+                {
+                    "question":"In a metre bridge experiment, two resistors 2 ohms and 3 ohms occupy the left and right gaps respectively. Find the balance point from the left side of the bridge",
+                    "opt1":"20cm",
+                    "opt2":"40cm",
+                    "opt3":"60cm",
+                    "opt4":"80cm",
+                    "ans":"40cm"
+                },
+                {
+                    "question":"Which of the following can be used to reduce local action in a leclanche cell?",
+                    "opt1":"carbon rod as the positive pole",
+                    "opt2":"pure zinc as the negative pole",
+                    "opt3":"potassium permanganate solution in contact with the positive pole",
+                    "opt4":"common salt solution",
+                    "ans":"pure zinc as the negative pole"
+                },
+                {
+                    "question":"An ebonite rod rubbed with fur attracts a glass rod rubbed with silk because",
+                    "opt1":"ebonite has a negative charge while glass has a positive charge",
+                    "opt2":"ebonite has positive charge while glass has negative charge",
+                    "opt3":"both have negative charges",
+                    "opt4":"both have positive charges",
+                    "ans":"ebonite has a negative charge while glass has a positive charge"
+                },
+                {
+                    "question":"A cell of internal resistance 0.01ohms can be measured accurately using the",
+                    "opt1":"ohm-meter",
+                    "opt2":"potentiometer",
+                    "opt3":"electroscope",
+                    "opt4":"metre bridge",
+                    "ans":"potentiometer"
+                },
+                {
+                    "question":"A cell of internal resistance r supplies current to a 6.0ohm resistor and its efficiency is 75%. Find the value of r",
+                    "opt1":"4.5ohms",
+                    "opt2":"1.0ohms",
+                    "opt3":"8.0ohms",
+                    "opt4":"2.0ohms",
+                    "ans":"2.0ohms"
+                }
+                
+            ]
+        }
+        
+    ]
+}

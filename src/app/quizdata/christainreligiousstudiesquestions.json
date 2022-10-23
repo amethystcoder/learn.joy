@@ -1,0 +1,231 @@
+{
+    "subject":"Christain Religious Studies",
+    "topics":
+    [
+        {
+            "topic":"Obedience/Disobedience",
+            "questions":
+            [
+                {
+                    "question":"amongst whom of these people obeyed God's commandments",
+                    "opt1":"David",
+                    "opt2":"Saul",
+                    "opt3":"Pharoah",
+                    "opt4":"Namaan",
+                    "ans":"David"
+                },
+                {
+                    "question":"Obedience is better than",
+                    "opt1":"Call",
+                    "opt2":"Death",
+                    "opt3":"Sacrifice",
+                    "opt4":"Maturity",
+                    "ans":"Sacrifice"
+                },
+
+                {
+                    "question":"Faith leads to obedience",
+                    "opt1":"True",
+                    "opt2":"False",
+                    "opt3":"Maybe",
+                    "opt4":"I don't know",
+                    "ans":"True"
+                },
+                {
+                    "question":"Samuel was obedient to Eli",
+                    "opt1":"True",
+                    "opt2":"False",
+                    "opt3":"Maybe",
+                    "opt4":"I don't know",
+                    "ans":"True"
+                },
+                {
+                    "question":"Who obeyed God and left his homeland to where God showed him/her",
+                    "opt1":"Ruth",
+                    "opt2":"Abraham",
+                    "opt3":"Nehemiah",
+                    "opt4":"Samuel",
+                    "ans":"Abraham"
+                },
+                {
+                    "question":"Did Solomon ever betray God",
+                    "opt1":"Yes",
+                    "opt2":"No",
+                    "opt3":"Maybe",
+                    "opt4":"I don't know",
+                    "ans":"Yes"
+                }
+                
+            ]
+        },
+        {
+            "topic":"The Creation Story",
+            "questions":
+            [
+                {
+                    "question":"The job of giving names to all animals was for",
+                    "opt1":"adam",
+                    "opt2":"eve",
+                    "opt3":"man",
+                    "opt4":"adam and eve",
+                    "ans":"adam"
+                },
+                {
+                    "question":"Pishon,Gihon,Nile and Euphrates were divided into the garden of Eden",
+                    "opt1":"True",
+                    "opt2":"False",
+                    "opt3":"Maybe",
+                    "opt4":"I don't know",
+                    "ans":"False"
+                },
+
+                {
+                    "question":"The fact that all thing that God said should happen actually happened during creation means",
+                    "opt1":"God is sovereign over the universe",
+                    "opt2":"God is all knowing",
+                    "opt3":"God is nice to all",
+                    "opt4":"God did not like darkness",
+                    "ans":"God is sovereign over the universe"
+                },
+                {
+                    "question":"The second account of creation was centered on the creation of",
+                    "opt1":"man",
+                    "opt2":"plant",
+                    "opt3":"firmament",
+                    "opt4":"birds",
+                    "ans":"man"
+                },
+                {
+                    "question":"Eve is called woman why?",
+                    "opt1":"She was taken out of man",
+                    "opt2":"She was the author of wos",
+                    "opt3":"She loves nature",
+                    "opt4":"She caused God to banish them",
+                    "ans":"She was taken out of man"
+                },
+                {
+                    "question":"The firmament of heaven was created on which day",
+                    "opt1":"Second",
+                    "opt2":"Third",
+                    "opt3":"Fourth",
+                    "opt4":"Sixth",
+                    "ans":"Second"
+                }
+                
+            ]
+        },
+        {
+            "topic":"Leadership",
+            "questions":
+            [
+                {
+                    "question":"Why did Reuben advise his brothers to throw Joseph into a pit and not kill him",
+                    "opt1":"He loved his brother dearly",
+                    "opt2":"He wanted to rescue him and bring him to this father",
+                    "opt3":"For selfish reasons",
+                    "opt4":"The reason was unknown",
+                    "ans":"He wanted to rescue him and bring him to his father"
+                },
+                {
+                    "question":"Who amongst the following was a leader",
+                    "opt1":"Joshua",
+                    "opt2":"Naomi",
+                    "opt3":"Nehemiah",
+                    "opt4":"Naboth",
+                    "ans":"Joshua"
+                },
+
+                {
+                    "question":"Who was a good leader among the following",
+                    "opt1":"Nehemiah",
+                    "opt2":"David",
+                    "opt3":"Saul",
+                    "opt4":"Bathsheba",
+                    "ans":"David"
+                },
+                {
+                    "question":"David was first crowned king of where",
+                    "opt1":"hebron",
+                    "opt2":"isreal",
+                    "opt3":"judah",
+                    "opt4":"judea",
+                    "ans":"hebron"
+                },
+                {
+                    "question":"Who was a bad leader among these",
+                    "opt1":"David",
+                    "opt2":"Solomon",
+                    "opt3":"Ahab",
+                    "opt4":"Deborah",
+                    "ans":"Ahab"
+                },
+                {
+                    "question":"Who delivered the people of Isreal from sisera",
+                    "opt1":"God",
+                    "opt2":"Deborah",
+                    "opt3":"Jael",
+                    "opt4":"Barak",
+                    "ans":"Jael"
+                }
+                
+            ]
+        },
+        {
+            "topic":"The trial, death and resurrection of Jesus Christ",
+            "questions":
+            [
+                {
+                    "question":"Who betrayed Christ",
+                    "opt1":"Judas Iscariot",
+                    "opt2":"Judas",
+                    "opt3":"Paul",
+                    "opt4":"Pontius Pilate",
+                    "ans":"Judas Iscariot"
+                },
+                {
+                    "question":"Christ rose on the",
+                    "opt1":"Third day",
+                    "opt2":"Second day",
+                    "opt3":"First day",
+                    "opt4":"Fifth day",
+                    "ans":"Third day"
+                },
+
+                {
+                    "question":"Who did the people choose to release instead of Jesus",
+                    "opt1":"Barrabas",
+                    "opt2":"Barnabas",
+                    "opt3":"The other theif on the cross",
+                    "opt4":"Paul",
+                    "ans":"Barrabas"
+                },
+                {
+                    "question":"Who cut one of the guard's ears during the arrest of Jesus",
+                    "opt1":"Paul",
+                    "opt2":"Peter",
+                    "opt3":"James",
+                    "opt4":"Untold",
+                    "ans":"Untold"
+                },
+                {
+                    "question":"eli, eli lama saba e thani was said by Jesus on the cross",
+                    "opt1":"True",
+                    "opt2":"False",
+                    "opt3":"Maybe",
+                    "opt4":"I don't know",
+                    "ans":"True"
+                },
+                {
+                    "question":"Peter betrayed Jesus by denying him when?",
+                    "opt1":"three times before the cock crows",
+                    "opt2":"two times before the cock crows",
+                    "opt3":"three times before he slept off",
+                    "opt4":"three times before the twelfth hour",
+                    "ans":"three times before the cock crows"
+                }
+                
+            ]
+        }
+        
+    ]
+}

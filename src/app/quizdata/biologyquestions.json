@@ -1,0 +1,231 @@
+{
+    "subject":"Biology",
+    "topics":
+    [
+        {
+            "topic":"Taxonomy and Evolution",
+            "questions":
+            [
+                {
+                    "question":"Which of the following insects is not a social insect",
+                    "opt1":"Termite",
+                    "opt2":"Housefly",
+                    "opt3":"Honeybee",
+                    "opt4":"Ant",
+                    "ans":"Housefly"
+                },
+                {
+                    "question":"The inability of an organism to adapt to its habitat can lead to its",
+                    "opt1":"Dormancy",
+                    "opt2":"Adaptation",
+                    "opt3":"Extinction",
+                    "opt4":"Survival",
+                    "ans":"Extinction"
+                },
+
+                {
+                    "question":"Volvox belongs to the division",
+                    "opt1":"Bryophyta",
+                    "opt2":"Pteridophyta",
+                    "opt3":"Thallophyta",
+                    "opt4":"Tracheophyta",
+                    "ans":"Thallophyta"
+                },
+                {
+                    "question":"The following are members of the phylum chordata except",
+                    "opt1":"Fishes",
+                    "opt2":"Insects",
+                    "opt3":"Birds",
+                    "opt4":"Lizards",
+                    "ans":"Insects"
+                },
+                {
+                    "question":"Which of the following behavioural patterns describes adaptive coloration",
+                    "opt1":"countershading",
+                    "opt2":"hibernation",
+                    "opt3":"aestivation",
+                    "opt4":"aggregation",
+                    "ans":"countershading"
+                },
+                {
+                    "question":"Which of the following scientists was involved in organic evolution",
+                    "opt1":"Mendel",
+                    "opt2":"Lamark",
+                    "opt3":"Morgan",
+                    "opt4":"Pasteur",
+                    "ans":"Lamark"
+                }
+                
+            ]
+        },
+        {
+            "topic":"Cells and their environment",
+            "questions":
+            [
+                {
+                    "question":"Which of these organisms cannot exist on their own",
+                    "opt1":"chlamydomonas",
+                    "opt2":"amoeba",
+                    "opt3":"paramecium",
+                    "opt4":"plasmodium",
+                    "ans":"plasmodium"
+                },
+                {
+                    "question":"Which of the following cell organelles is the site for production of ATP",
+                    "opt1":"lysosome",
+                    "opt2":"nucleus",
+                    "opt3":"mitochondria",
+                    "opt4":"ribosome",
+                    "ans":"mitochondria"
+                },
+
+                {
+                    "question":"DNA in eukaryotic cells is contained in the",
+                    "opt1":"central vacoule",
+                    "opt2":"nucleus",
+                    "opt3":"lysosome",
+                    "opt4":"golgi body",
+                    "ans":"nucleus"
+                },
+                {
+                    "question":"The organ which is sensitive to light in euglena is the",
+                    "opt1":"gullet",
+                    "opt2":"chloroplast",
+                    "opt3":"eye spot",
+                    "opt4":"contractile vacuole",
+                    "ans":"eye spot"
+                },
+                {
+                    "question":"If amoeba is placed in a salt solution, the contractile vacuoles would",
+                    "opt1":"be bursting more frequently",
+                    "opt2":"be more numerous",
+                    "opt3":"be formed less frequently",
+                    "opt4":"grow bigger before they burst",
+                    "ans":"be formed less frequently"
+                },
+                {
+                    "question":"The process by which a drop of ink spreads uniformly in a beaker of water is called",
+                    "opt1":"absorption",
+                    "opt2":"osmosis",
+                    "opt3":"plasmolysis",
+                    "opt4":"diffusion",
+                    "ans":"diffusion"
+                }
+                
+            ]
+        },
+        {
+            "topic":"Ecology and Ecological concepts",
+            "questions":
+            [
+                {
+                    "question":"The direction of wind is determined by",
+                    "opt1":"an anemometer",
+                    "opt2":"a secchi disk",
+                    "opt3":"a wind vane",
+                    "opt4":"a barometer",
+                    "ans":"a wind vane"
+                },
+                {
+                    "question":"A space containing a group of interactive organisms is called a/an",
+                    "opt1":"community",
+                    "opt2":"habitat",
+                    "opt3":"ecosystem",
+                    "opt4":"population",
+                    "ans":"population"
+                },
+
+                {
+                    "question":"Which of the following is used to estimate the number of plants in a habitat",
+                    "opt1":"pooter",
+                    "opt2":"pitfall trap",
+                    "opt3":"quadrat",
+                    "opt4":"sweep net",
+                    "ans":"quadrat"
+                },
+                {
+                    "question":"The following are abiotic components of an ecosystem except",
+                    "opt1":"temperature",
+                    "opt2":"oxygen",
+                    "opt3":"bacteria",
+                    "opt4":"soil",
+                    "ans":"bacteria"
+                },
+                {
+                    "question":"Which of the following factors is not associated with aquatic habitats",
+                    "opt1":"salinity",
+                    "opt2":"turbidity",
+                    "opt3":"temperature",
+                    "opt4":"edaphic factors",
+                    "ans":"edaphic factors"
+                },
+                {
+                    "question":"A hygrometer is used in measuring",
+                    "opt1":"relative humidity",
+                    "opt2":"specific gravity",
+                    "opt3":"Light intensity",
+                    "opt4":"turbidity",
+                    "ans":"relative humidity"
+                }
+                
+            ]
+        },
+        {
+            "topic":"Systems in plants and animals",
+            "questions":
+            [
+                {
+                    "question":"Which of the following organs of the alimentry canal is not correctly matched with its function",
+                    "opt1":"Gall bladder - stores bile",
+                    "opt2":"Liver - stores glycogen",
+                    "opt3":"Appendix - release enzymes",
+                    "opt4":"Teeth - grind food",
+                    "ans":"Appendix - release enzymes"
+                },
+                {
+                    "question":"Which of the following plants is a carnivore",
+                    "opt1":"Desmodium",
+                    "opt2":"Sundew",
+                    "opt3":"Mushroom",
+                    "opt4":"Platycerium",
+                    "ans":"Sundew"
+                },
+
+                {
+                    "question":"Conduction of water and mineral salts through the xylem vessels is enhanced because the xylem cells are",
+                    "opt1":"thickened with lignin",
+                    "opt2":"long, narrow tubes placed end to end",
+                    "opt3":"close to the endodermis",
+                    "opt4":"centrally placed in the roots",
+                    "ans":"long, narrow tubes placed end to end"
+                },
+                {
+                    "question":"pulmonary circulation involves movement of the blood to and from the",
+                    "opt1":"brain",
+                    "opt2":"kidney",
+                    "opt3":"liver",
+                    "opt4":"lungs",
+                    "ans":"lungs"
+                },
+                {
+                    "question":"the structures for gasious exchange in breathing roots are",
+                    "opt1":"stomata",
+                    "opt2":"lenticels",
+                    "opt3":"cuticle",
+                    "opt4":"mitochondria",
+                    "ans":"lenticels"
+                },
+                {
+                    "question":"which of the following is a common excretory product in both plant and animals",
+                    "opt1":"urine",
+                    "opt2":"oxygen",
+                    "opt3":"mineral salt",
+                    "opt4":"carbon dioxide",
+                    "ans":"carbon dioxide"
+                }
+                
+            ]
+        }
+        
+    ]
+}

@@ -1,0 +1,34 @@
+<div></div>
+<div id="nwelcomequiz"> 
+    <h1>Are you ready for your next exams</h1>
+    <h4>Take a quick quiz to evaluate yourself</h4>
+</div>
+<div>
+    <div class="booknav">
+        <h1>Some books and quick lessons</h1>
+        <a routerLink="/booksandlessons">show more</a>
+    </div> 
+    <div class="books">
+        <div *ngFor="let book of getbooks()" class="bookdes">
+            <div class="bookimg"></div>
+            <h4>{{book.name}}</h4>
+            <span class="booktype">
+                <p>{{book.type}}</p>
+                <p>{{book.duration}}</p>
+            </span>
+        </div>
+    </div>
+</div>
+<div>
+    <h1>Quiz Categories</h1>
+    <div class="category">
+        <div *ngFor="let cat of getcategories('arts')">
+            <a routerLink="/specificcategory" [queryParams]="{category:cat.category}">
+                <div class="categoryelem" [ngStyle]="{'background-color':cat.color}">
+                    <h1>{{cat.category}}</h1>
+                </div>
+            </a>
+        </div>
+    </div>
+    
+</div>

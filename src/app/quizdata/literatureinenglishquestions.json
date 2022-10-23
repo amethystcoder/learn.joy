@@ -1,0 +1,231 @@
+{
+    "subject":"Literature in English",
+    "topics":
+    [
+        {
+            "topic":"Poetry",
+            "questions":
+            [
+                {
+                    "question":"which of the following is a type of poetry",
+                    "opt1":"pastoral",
+                    "opt2":"piraesque",
+                    "opt3":"political",
+                    "opt4":"tragedy",
+                    "ans":"pastoral"
+                },
+                {
+                    "question":"whom of the following is a well known poet",
+                    "opt1":"Shakespear",
+                    "opt2":"Mary.J.Blige",
+                    "opt3":"Will Smith",
+                    "opt4":"Demi Lovato",
+                    "ans":"Shakespear"
+                },
+
+                {
+                    "question":"Which is not a characteristic of poetry",
+                    "opt1":"it is usually beautiful",
+                    "opt2":"it operates on acts and scenes",
+                    "opt3":"it consists of rhytmic line",
+                    "opt4":"it tends to have a rhyming pattern",
+                    "ans":"it tends to have a rhyming pattern"
+                },
+                {
+                    "question":"Poetry is a form of art",
+                    "opt1":"True",
+                    "opt2":"False",
+                    "opt3":"Maybe",
+                    "opt4":"I don't know",
+                    "ans":"True"
+                },
+                {
+                    "question":"A sonnet is one stanza poem of fifteen lines",
+                    "opt1":"True",
+                    "opt2":"False",
+                    "opt3":"Maybe",
+                    "opt4":"I don't know",
+                    "ans":"False"
+                },
+                {
+                    "question":"A simple grouping of syllables, some stressed, some unstressed is called a ",
+                    "opt1":"simple poetry",
+                    "opt2":"frame",
+                    "opt3":"foot",
+                    "opt4":"elegy",
+                    "ans":"foot"
+                }
+                
+            ]
+        },
+        {
+            "topic":"literary concepts/study of literature",
+            "questions":
+            [
+                {
+                    "question":"literature has over three literary genres",
+                    "opt1":"True",
+                    "opt2":"False",
+                    "opt3":"Maybe",
+                    "opt4":"I don't know",
+                    "ans":"False"
+                },
+                {
+                    "question":"Forms of literature include all except",
+                    "opt1":"poetry",
+                    "opt2":"short stories",
+                    "opt3":"letters",
+                    "opt4":"pearl",
+                    "ans":"pearl"
+                },
+
+                {
+                    "question":"a ballad is a form of literature",
+                    "opt1":"True",
+                    "opt2":"False",
+                    "opt3":"Maybe",
+                    "opt4":"I don't know",
+                    "ans":"True"
+                },
+                {
+                    "question":"which of the following is a literary term",
+                    "opt1":"ballad",
+                    "opt2":"gable",
+                    "opt3":"panegyric",
+                    "opt4":"safiro",
+                    "ans":"ballad"
+                },
+                {
+                    "question":"Emmanuel represents a lion on the field is a",
+                    "opt1":"metaphor",
+                    "opt2":"simile",
+                    "opt3":"personification",
+                    "opt4":"euphemism",
+                    "ans":"personification"
+                },
+                {
+                    "question":"The protagonist could be the hero or the villain",
+                    "opt1":"True",
+                    "opt2":"False",
+                    "opt3":"Maybe",
+                    "opt4":"I don't know",
+                    "ans":"True"
+                }
+                
+            ]
+        },
+        {
+            "topic":"Drama",
+            "questions":
+            [
+                {
+                    "question":"Drama is one of the literary genres",
+                    "opt1":"True",
+                    "opt2":"False",
+                    "opt3":"Maybe",
+                    "opt4":"I don't know",
+                    "ans":"True"
+                },
+                {
+                    "question":"Drama consists of",
+                    "opt1":"acts",
+                    "opt2":"stanzas",
+                    "opt3":"chapters",
+                    "opt4":"rhyming scheme",
+                    "ans":"acts"
+                },
+
+                {
+                    "question":"A tragic character is one who arouses pity and",
+                    "opt1":"Terror",
+                    "opt2":"Sympathy",
+                    "opt3":"Horror",
+                    "opt4":"Frustration",
+                    "ans":"Sympathy"
+                },
+                {
+                    "question":"Juxtaposition of contrasting ideas in any lierary work is know as",
+                    "opt1":"Drama",
+                    "opt2":"Oxymoron",
+                    "opt3":"Synedoche",
+                    "opt4":"Catharsis",
+                    "ans":"Oxymoron"
+                },
+                {
+                    "question":"Tragic comedy is a form of drama",
+                    "opt1":"True",
+                    "opt2":"False",
+                    "opt3":"Maybe",
+                    "opt4":"I don't know",
+                    "ans":"True"
+                },
+                {
+                    "question":"Any work written in act and scene is known as",
+                    "opt1":"Drama",
+                    "opt2":"Poem",
+                    "opt3":"Prose",
+                    "opt4":"Elegy",
+                    "ans":"Drama"
+                }
+                
+            ]
+        },
+        {
+            "topic":"Prose",
+            "questions":
+            [
+                {
+                    "question":"A prose deals with literary principles",
+                    "opt1":"True",
+                    "opt2":"False",
+                    "opt3":"Maybe",
+                    "opt4":"I don't know",
+                    "ans":"True"
+                },
+                {
+                    "question":"Forms of prose include",
+                    "opt1":"Biography",
+                    "opt2":"Comedy",
+                    "opt3":"Ballad",
+                    "opt4":"Time-rick",
+                    "ans":"Biography"
+                },
+
+                {
+                    "question":"which of the following could be applicable to all genres",
+                    "opt1":"Narration",
+                    "opt2":"Rhythm",
+                    "opt3":"Action",
+                    "opt4":"Symbolism",
+                    "ans":"Narration"
+                },
+                {
+                    "question":"All are types of prose except",
+                    "opt1":"quest",
+                    "opt2":"maturation",
+                    "opt3":"ascension",
+                    "opt4":"cast",
+                    "ans":"cast"
+                },
+                {
+                    "question":"prose is written in",
+                    "opt1":"Chapters",
+                    "opt2":"Stanzas",
+                    "opt3":"Repetition",
+                    "opt4":"Covers",
+                    "ans":"Chapters"
+                },
+                {
+                    "question":"Prose is always Fiction",
+                    "opt1":"True",
+                    "opt2":"False",
+                    "opt3":"Maybe",
+                    "opt4":"I don't know",
+                    "ans":"False"
+                }
+                
+            ]
+        }
+        
+    ]
+}

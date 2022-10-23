@@ -1,0 +1,17 @@
+<div id="top">
+    <input type="search" name="search" id="searchinp" placeholder="Search" [(ngModel)]="searchquery">
+</div>
+<div>
+    <div *ngFor="let cat of getspeccategory()">
+        <div class="ntodropdown">
+            <h1>{{cat.subject}}</h1> 
+            <div class="todropdown" (click)="setdrop(cat.isopen)"></div>
+        </div>
+        <div [className]="cat.subject" [ngStyle]="cat.isopen ? {'display':'none'}:{'display':'block'}">
+            <div *ngFor="let pat of cat.topics">
+                <br><br>
+                <a routerLink="/test" [queryParams]="{topic:pat.topic}">{{pat.topic}}</a>
+            </div>
+        </div> 
+    </div>
+</div> 

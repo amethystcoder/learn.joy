@@ -1,0 +1,18 @@
+[
+    {
+        "name":"Joshua",
+        "surname":"Collins",
+        "class":"SS3",
+        "dept":"science",
+        "totalscores":0,
+        "totalscorepercent":0
+    },
+    {
+        "name":"Emmanuel",
+        "surname":"Collins",
+        "class":"SS2",
+        "dept":"arts",
+        "totalscores":0,
+        "totalscorepercent":0
+    }
+]

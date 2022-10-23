@@ -1,0 +1,37 @@
+#top{
+    width: 100vw;
+    height: 50px;
+    background-color: green;
+    display: flex;
+    align-items: center;
+    justify-content: center;
+}
+#searchinp{
+    width: 50%;
+    color: green;
+}
+h1,h2,h3,h4,h5,h6,a,p{
+    font-family: 'Segoe UI', Tahoma, Geneva, Verdana, sans-serif;
+    color: #555555;
+    text-decoration: none;
+}
+.todropdown{
+    background-color: green;
+    padding: 20px;
+    height: 100%;
+    margin-right: 3%;
+}
+#searchinp:focus{
+    border-style: hidden; 
+}
+.ntodropdown{
+    display: flex;
+    align-items: center;
+    justify-content: space-between;
+    padding: 5px;
+    border-bottom: #555555 solid thin;
+}
+#searchresult{
+    background-color: aliceblue;
+    width: 50%;
+}

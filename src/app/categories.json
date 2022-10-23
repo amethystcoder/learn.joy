@@ -1,0 +1,11 @@
+[
+  {"category":"Mathematics","color":"purple","under":"all"},
+  {"category":"Chemistry","color":"blue","under":"science"},
+  {"category":"Biology","color":"green","under":"science"},
+  {"category":"Government","color":"brown","under":"arts"},
+  {"category":"Physics","color":"red","under":"science"},
+  {"category":"English Language","color":"red","under":"all"},
+  {"category":"Literature in English","color":"red","under":"arts"},
+  {"category":"Current Affairs","color":"red","under":"all"},
+  {"category":"CRS","color":"red","under":"arts"}
+]

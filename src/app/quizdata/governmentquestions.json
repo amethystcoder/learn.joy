@@ -1,0 +1,231 @@
+{
+    "subject":"Government",
+    "topics":
+    [
+        {
+            "topic":"Apathy",
+            "questions":
+            [
+                {
+                    "question":"Types of apathy include all except",
+                    "opt1":"political",
+                    "opt2":"religious",
+                    "opt3":"agricultural",
+                    "opt4":"participation",
+                    "ans":"participation"
+                },
+                {
+                    "question":"Apathy is synonymous with",
+                    "opt1":"Indifference",
+                    "opt2":"Similar",
+                    "opt3":"Participation",
+                    "opt4":"Culture",
+                    "ans":"Indifference"
+                },
+
+                {
+                    "question":"Political apathy means",
+                    "opt1":"the indifference to politics",
+                    "opt2":"the similarities between politics",
+                    "opt3":"the participation in politics",
+                    "opt4":"the culture of politics",
+                    "ans":"the indifference to politics"
+                },
+                {
+                    "question":"Apathy is known world-wide",
+                    "opt1":"True",
+                    "opt2":"False",
+                    "opt3":"Maybe",
+                    "opt4":"I don't know",
+                    "ans":"True"
+                },
+                {
+                    "question":"People have the right to apathy",
+                    "opt1":"True",
+                    "opt2":"False",
+                    "opt3":"Maybe",
+                    "opt4":"I don't know",
+                    "ans":"True"
+                },
+                {
+                    "question":"Political apathy improves the political system of the country",
+                    "opt1":"True",
+                    "opt2":"False",
+                    "opt3":"Maybe",
+                    "opt4":"I don't know",
+                    "ans":"False"
+                }
+                
+            ]
+        },
+        {
+            "topic":"Sovereignty",
+            "questions":
+            [
+                {
+                    "question":"sovereignty means",
+                    "opt1":"independence",
+                    "opt2":"active",
+                    "opt3":"social",
+                    "opt4":"deprived",
+                    "ans":"independence"
+                },
+                {
+                    "question":"example of a sovereign state is except",
+                    "opt1":"Nigeria",
+                    "opt2":"USA",
+                    "opt3":"Nairobi",
+                    "opt4":"Ikeja",
+                    "ans":"Ikeja"
+                },
+
+                {
+                    "question":"an importance of sovereignty is",
+                    "opt1":"it makes one or a state immune to external influence",
+                    "opt2":"it helps to be safe",
+                    "opt3":"it prevents killing",
+                    "opt4":"it promotes violence",
+                    "ans":"it makes one or a state immune to external influence"
+                },
+                {
+                    "question":"a sovereign state could be in charge of its external affairs",
+                    "opt1":"True",
+                    "opt2":"False",
+                    "opt3":"Maybe",
+                    "opt4":"I don't know",
+                    "ans":"True"
+                },
+                {
+                    "question":"can the president of a state be sovereign",
+                    "opt1":"True",
+                    "opt2":"False",
+                    "opt3":"Maybe",
+                    "opt4":"I don't know",
+                    "ans":"True"
+                },
+                {
+                    "question":"beign sovereign is not popular among the asian continent",
+                    "opt1":"True",
+                    "opt2":"False",
+                    "opt3":"Maybe",
+                    "opt4":"I don't know",
+                    "ans":"False"
+                }
+                
+            ]
+        },
+        {
+            "topic":"Constitution",
+            "questions":
+            [
+                {
+                    "question":"The rigid constitution is usually written",
+                    "opt1":"True",
+                    "opt2":"False",
+                    "opt3":"Maybe",
+                    "opt4":"I don't know",
+                    "ans":"True"
+                },
+                {
+                    "question":"One of these is a source of the constitution",
+                    "opt1":"judicial precedents",
+                    "opt2":"tenure of the government",
+                    "opt3":"citizenship",
+                    "opt4":"power",
+                    "ans":"judicial precedents"
+                },
+
+                {
+                    "question":"The preamble is not a feature of the constitution",
+                    "opt1":"True",
+                    "opt2":"False",
+                    "opt3":"Maybe",
+                    "opt4":"I don't know",
+                    "ans":"False"
+                },
+                {
+                    "question":"Nigeria operates on what type of constitution",
+                    "opt1":"written",
+                    "opt2":"unwritten",
+                    "opt3":"rigid",
+                    "opt4":"flexible",
+                    "ans":"written"
+                },
+                {
+                    "question":"A constitution defines the power of the arms and tiers of government",
+                    "opt1":"True",
+                    "opt2":"False",
+                    "opt3":"Maybe",
+                    "opt4":"I don't know",
+                    "ans":"True"
+                },
+                {
+                    "question":"A flexible constitution means",
+                    "opt1":"it is unwritten",
+                    "opt2":"it is based on tiers of government",
+                    "opt3":"it is easy to ammend",
+                    "opt4":"it is hard to define",
+                    "ans":"it is easy to ammend"
+                }
+                
+            ]
+        },
+        {
+            "topic":"Basic Principles of Government",
+            "questions":
+            [
+                {
+                    "question":"The rule of law was proposed by",
+                    "opt1":"A.V Dicey",
+                    "opt2":"Lord Lugard",
+                    "opt3":"Aristotle",
+                    "opt4":"Kentucky",
+                    "ans":"A.V Dicey"
+                },
+                {
+                    "question":"Rule of law means",
+                    "opt1":"No one is above the law",
+                    "opt2":"There is a law for everyone",
+                    "opt3":"Rules applicable to law",
+                    "opt4":"The law and its components",
+                    "ans":"No one is above the law"
+                },
+
+                {
+                    "question":"All of these are principles of rule of law except",
+                    "opt1":"equality",
+                    "opt2":"impartiality",
+                    "opt3":"individual rights",
+                    "opt4":"privilleged",
+                    "ans":"privilleged"
+                },
+                {
+                    "question":"Human rights was a theory of the UNO",
+                    "opt1":"True",
+                    "opt2":"False",
+                    "opt3":"Maybe",
+                    "opt4":"I don't know",
+                    "ans":"True"
+                },
+                {
+                    "question":"Participating in politics is a feature of popular participation",
+                    "opt1":"True",
+                    "opt2":"False",
+                    "opt3":"Maybe",
+                    "opt4":"I don't know",
+                    "ans":"True"
+                },
+                {
+                    "question":"What has to do with the sharing of power between the central government and other constituent units",
+                    "opt1":"Centralization",
+                    "opt2":"Decentralization",
+                    "opt3":"Delegated Legislation",
+                    "opt4":"Parliament Spread",
+                    "ans":"Decentralization"
+                }
+                
+            ]
+        }
+        
+    ]
+}

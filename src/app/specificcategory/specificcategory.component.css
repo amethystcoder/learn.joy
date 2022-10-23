@@ -1,0 +1,44 @@
+.category{
+    display: grid;
+    grid-template-columns: auto auto;
+    grid-row-gap: 30px;
+    grid-column-gap: 30px;
+    padding: 20px;
+    
+}
+h1,h2,h3,h4,h5,h6,a,p{
+    font-family: 'Segoe UI', Tahoma, Geneva, Verdana, sans-serif;
+    color: #555555;
+    text-decoration: none;
+}
+.categoryelem{
+    border: hidden thin;
+    border-radius: 20px;
+    height: 35vh;
+}
+.categoryelem h1{
+    color: white;
+}
+.assignmentdiv{
+    display: flex;
+    border-bottom: #555555 solid thin;
+    padding: 3%;
+}
+.testimg{
+    background-color: #555555;
+    width: 25vw;
+    height: 35vh;
+    padding:4px;
+    margin-right: 5%;
+}
+.goto{
+    color: white;
+    background-color: green;
+    width: 200px;
+    height: 30px;
+    justify-content: center;
+}
+.goto h3{
+    color: white;
+    margin: 1px;
+}

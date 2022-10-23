@@ -1,0 +1,43 @@
+#divide{
+    display: flex;
+}
+#signimg{
+    width: 40vw;
+    height: 90vh;
+    background-image: url(estee-janssens-2enBTsIVhUU-unsplash.jpg);
+    background-size: cover;
+    margin-right: 10px;
+}
+#title{
+    font-size: 6vw;
+    color: green;
+}
+#submitbutton{
+    background-color: rgb(0, 128, 0);
+    color: white;
+    border: hidden;
+    padding: 10px 20px 10px 20px;
+    border-radius: 10px;
+}
+h1,h2,h3,h4,h5,h6,a,p{
+    font-family: 'Segoe UI', Tahoma, Geneva, Verdana, sans-serif;
+    text-decoration: none;
+}
+input{
+    width: 40vw;
+    height: 5vh;
+    margin: 10px;
+    border: hidden;
+    border-bottom: solid green thin;
+}
+input:focus{
+    border: hidden;
+}
+select{
+    width: 40vw;
+    height: 5vh;
+    margin: 10px;
+    border: hidden;
+    background-color: white;
+    border-bottom: solid green thin;
+}
