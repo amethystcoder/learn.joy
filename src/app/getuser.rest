@@ -6,8 +6,8 @@ POST http://localhost:8080/users
 content-type: application/json
 
 {
-    "studentname": "David",
-    "studentsurname": "Odomenah",
-    "studentclass": "SS1",
-    "studentdept": "arts"
+    "studentname": "Michael",
+    "studentsurname": "Dave",
+    "studentclass": "SS3",
+    "studentdept": "science"
 }

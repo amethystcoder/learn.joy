@@ -21,10 +21,13 @@
                     <option value="arts">arts</option>
                     <option value="science">science</option>
                 </select>
+                <div *ngFor="let tudo of currentstudent">
+                    {{tudo.studentname}}
+                </div>
                 <br>
-                <a routerLink="/home"><button id="submitbutton" (submit)="addstudent()">Enter</button></a>
+                <button id="submitbutton" (click)="checkusers()">Enter</button>
                 <br>
-                    <p>{{students}}</p>
+                    
             </form>
         </div>
     </div>

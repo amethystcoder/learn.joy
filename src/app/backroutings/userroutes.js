@@ -6,6 +6,7 @@ routing.get('/', async (req,res)=>{
     try{
        const user = await dbase.find()
        res.status(202).json(user)
+       console.log('sent a get request')
     }
     catch (err){
         res.status(500).send(err)
@@ -30,6 +31,7 @@ routing.post('/', async (req,res)=>{
     try{
         const newuser = await user.save()
         res.status(202).json(newuser)
+        console.log('sent a post request')
     }
     catch (err){
         res.status(400).json({errormsg: err.message})

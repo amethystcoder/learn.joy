@@ -4,11 +4,11 @@ import { from, Observable } from 'rxjs';
 import {catchError, map, tap} from 'rxjs/operators'
 
 
-interface user{
-  name:string,
-  surname:string,
-  class:string,
-  dept:string,
+export interface user{
+  studentname:string,
+  studentsurname:string,
+  studentclass:string,
+  studentdept:string,
 }
 
 @Injectable({
@@ -24,12 +24,8 @@ export class UsergetputService {
     return this.http.get<user[]>(this.path)
   }
 
-  //getusers() : Observable<any>{
-  //  return this.http.request('GET',this.path,{responseType:'json'})
-  //}
-
-  setuser(user: object){
-    this.http.post(this.path,user)
+  setuser(user: user){
+    return this.http.post(this.path,user)
   }
 
   handleError(){
