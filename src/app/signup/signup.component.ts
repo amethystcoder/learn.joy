@@ -15,9 +15,7 @@ export class SignupComponent implements OnInit {
   currentstudent = Array()
 
   ngOnInit(): void {
-    this.usergetputservice.getusers().subscribe(
-      data => this.students = data
-    )
+    
   }
 
   student:user = { 
@@ -27,16 +25,15 @@ export class SignupComponent implements OnInit {
     studentdept:""
     }
 
-  checkusers(){
-    this.currentstudent.push(this.students.filter(users => users.studentname = this.student.studentname)[0])
+  getstudent(username:string,password:string){
+    this.usergetputservice.getuser(username,password).subscribe((student)=>{
+      this.usergetputservice.setpresentstudent(student)
+   })
   }
 
-
-  getstudent(){
-    
-  }
-
-  setstudent(std:user){
-   return this.usergetputservice.setuser(std)
+  setstudent(){
+    this.usergetputservice.setuser(this.student).subscribe((student)=>{
+      this.usergetputservice.setpresentstudent(student)
+   })
   }
 }
