@@ -1,12 +1,14 @@
 <div>
     <h1>Category:{{getroute()}}</h1>
-    <div *ngFor="let assign of tests" class="assignmentdiv">
+    <div *ngFor="let assign of testunder" class="assignmentdiv">
         <div class="testimg"></div>
         <div>
-            <h1>{{getroute()}}</h1>
-            <h3>8 Questions</h3>
-            <a><div class="goto"><h3>Attempt Quiz</h3></div></a>
-        </div>
+            <h1>{{assign.topic}}</h1>
+            <h3>{{assign.questions.length}} Questions</h3>
+            <a routerLink="/test" [queryParams]="{topic:assign.topic}">
+                <div class="goto"><h3>Attempt Quiz</h3></div>
+            </a>
+        </div> 
     </div>
 </div>
 <div>

@@ -1,18 +1,12 @@
 import { Component, OnInit } from '@angular/core'
 import allCategories from '../categories.json'
 import allquestions from '../allquestions.json'
+import { allquestion } from '../testquestions.service'
 
 interface allcategories{
   category:string,
   color:string,
   under:string
-}
-
-export interface allquestion{
-  subject:string,
-  section:string,
-  isopen: boolean,
-  topics:{}
 }
 
 @Component({

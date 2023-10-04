@@ -1,6 +1,26 @@
 import { Injectable } from '@angular/core';
-import { allquestion } from './categories/categories.component';
 import allquestions from './allquestions.json';
+
+export interface allquestion{
+  subject:string,
+  section:string,
+  isopen: boolean,
+  topics:topicquestions[]
+}
+
+export interface topicquestions{
+  topic:string,
+  questions:questions[]
+}
+
+export interface questions{
+  question:string,
+  opt1:string,
+  opt2:string,
+  opt3:string,
+  opt4:string,
+  ans:string
+}
 
 @Injectable({
   providedIn: 'root'
@@ -19,6 +39,16 @@ export class TestquestionsService {
         this.thistestquestions.push(element)
     });
     return this.thistestquestions
+  }
+
+  getthroughsubjectname(subjectname:string | null) : allquestion[]{
+    let result:allquestion[] = []
+    allquestions.forEach((question)=>{
+      if (question.subject == subjectname){
+        result.push(question)
+      }
+    })
+    return result
   }
 
   getcurrenttestquestions(topic:string | null){

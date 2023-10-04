@@ -1,6 +1,7 @@
 import { Component, OnInit } from '@angular/core';
 import { ActivatedRoute } from '@angular/router';
 import allSubjects from '../categories.json';
+import { TestquestionsService,allquestion,topicquestions } from '../testquestions.service';
 
 interface allcategories{
   category:string,
@@ -20,10 +21,15 @@ export class SpecificcategoryComponent implements OnInit {
 
   allCategories:allcategories[] = allSubjects;
 
-  constructor(private route:ActivatedRoute) { }
+  constructor(private route:ActivatedRoute,private testquestservice:TestquestionsService) { }
+
+  currenttests: allquestion[] = [];
+  testunder:topicquestions[] = []
 
 
   ngOnInit(): void {
+    this.currenttests = this.testquestservice.getthroughsubjectname(this.getroute())
+    this.testunder = this.currenttests[0].topics
   }
 
   gottencategories = Array()
@@ -37,7 +43,5 @@ export class SpecificcategoryComponent implements OnInit {
     return this.gottencategories
   }
 
-  tests = [
-    {name:''}
-  ]
+  
 }
