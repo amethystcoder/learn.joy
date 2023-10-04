@@ -1,5 +1,4 @@
 import { Component, OnInit } from '@angular/core';
-import { SignupComponent } from '../signup/signup.component';
 
 @Component({
   selector: 'app-account',
@@ -11,6 +10,7 @@ export class AccountComponent implements OnInit {
   constructor() { }
 
   ngOnInit(): void {
+    scrollTo({top:0})
   }
  
 

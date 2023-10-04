@@ -17,6 +17,7 @@ export class TestComponent implements OnInit {
   constructor(private route: ActivatedRoute,public que:TestquestionsService) {}
 
   ngOnInit(): void {
+    scrollTo({top:0})
   }
 
   score = 0

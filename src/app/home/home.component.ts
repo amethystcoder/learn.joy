@@ -28,6 +28,7 @@ export class HomeComponent implements OnInit {
   books:allbooks[] = allbook;
 
   ngOnInit(): void {
+    scrollTo({top:0})
   }
 
   department = "arts"

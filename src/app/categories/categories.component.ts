@@ -20,6 +20,7 @@ export class CategoriesComponent implements OnInit {
   constructor() { }
 
   ngOnInit(): void {
+    scrollTo({top:0})
   }
 
   categories:allcategories[] = allCategories

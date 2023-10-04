@@ -10,6 +10,7 @@ export class AssignmentsComponent implements OnInit {
   constructor() { }
 
   ngOnInit(): void {
+    scrollTo({top:0})
   }
 
 }

@@ -18,6 +18,7 @@ export class BooksandLessonsComponent implements OnInit {
   constructor() { }
 
   ngOnInit(): void {
+    scrollTo({top:0})
   }
 
   books:allbook[] = allbooks

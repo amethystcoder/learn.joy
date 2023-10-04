@@ -28,6 +28,7 @@ export class SpecificcategoryComponent implements OnInit {
 
 
   ngOnInit(): void {
+    scrollTo({top:0})
     this.currenttests = this.testquestservice.getthroughsubjectname(this.getroute())
     this.testunder = this.currenttests[0].topics
   }
