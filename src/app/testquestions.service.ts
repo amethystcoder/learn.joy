@@ -22,6 +22,21 @@ export interface questions{
   ans:string
 }
 
+export interface resultsdata{
+  year:number,
+  year_results:yearresult[]
+}
+
+export interface yearresult{
+  month:string,
+  month_results:monthresult[]
+}
+
+export interface monthresult{
+  topic:string,
+  scores:number[]
+}
+
 @Injectable({
   providedIn: 'root'
 })

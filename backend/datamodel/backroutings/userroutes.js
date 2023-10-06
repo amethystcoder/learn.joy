@@ -29,7 +29,8 @@ routing.post('/', async (req,res)=>{
             studentname: req.body.studentname,
             studentsurname: req.body.studentsurname,
             studentclass: req.body.studentclass,
-            studentdept: req.body.studentdept
+            studentdept: req.body.studentdept,
+            results: []
         })
         try{
             const newuser = await user.save()

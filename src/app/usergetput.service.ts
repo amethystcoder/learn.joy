@@ -2,6 +2,7 @@ import { HttpClient,HttpHeaders } from '@angular/common/http';
 import { Injectable } from '@angular/core';
 import { from, Observable } from 'rxjs';
 import { Subject } from 'rxjs';
+import { resultsdata } from './testquestions.service';
 
 
 export interface user{
@@ -9,6 +10,7 @@ export interface user{
   studentsurname:string,
   studentclass:string,
   studentdept:string,
+  result:resultsdata[]
 }
 
 @Injectable({
