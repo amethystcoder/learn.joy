@@ -22,7 +22,8 @@ export class SignupComponent implements OnInit {
     studentname:"",
     studentsurname:"",
     studentclass:"",
-    studentdept:""
+    studentdept:"",
+    result:[]
     }
 
   getstudent(username:string,password:string){
