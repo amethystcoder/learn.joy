@@ -18,9 +18,7 @@
     background-color: green;
 }
 h1,h2,h3,h4,h5,h6,a,p{
-    font-family: 'Segoe UI', Tahoma, Geneva, Verdana, sans-serif;
     color: #555555;
-    text-decoration: none;
 }
 span{
     display: flex;

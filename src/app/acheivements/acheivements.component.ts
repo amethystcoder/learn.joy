@@ -12,5 +12,6 @@ export class AcheivementsComponent implements OnInit {
   ngOnInit(): void {
     scrollTo({top:0})
   }
-
+  
+  
 }
