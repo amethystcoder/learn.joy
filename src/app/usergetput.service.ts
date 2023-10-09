@@ -13,6 +13,13 @@ export interface user{
   result:resultsdata[]
 }
 
+export interface useracheivements{
+  reach:number,
+  name:string,
+  description:string,
+  active:boolean
+}
+
 @Injectable({
   providedIn: 'root'
 })
@@ -26,12 +33,14 @@ export class UsergetputService {
   studentsurname = new Subject<string>()
   studentclass = new Subject<string>()
   studentdept = new Subject<string>()
+  studentresults = new Subject<resultsdata[]>()
 
   setpresentstudent(student:user){
     this.studentname.next(student.studentname)
     this.studentsurname.next(student.studentsurname)
     this.studentclass.next(student.studentclass)
     this.studentdept.next(student.studentdept)
+    this.studentresults.next(student.result)
   }
 
   getuser(username:string,password:string):Observable<user>{
