@@ -14,7 +14,6 @@ export interface user{
 }
 
 export interface useracheivements{
-  reach:number,
   name:string,
   description:string,
   active:boolean

@@ -1,4 +1,6 @@
 import { Component, OnInit } from '@angular/core';
+import { resultsdata } from '../testquestions.service';
+import { UsergetputService } from '../usergetput.service';
 
 @Component({
   selector: 'app-account',
@@ -7,12 +9,16 @@ import { Component, OnInit } from '@angular/core';
 })
 export class AccountComponent implements OnInit {
 
-  constructor() { }
+  constructor(private usergetput:UsergetputService) { }
 
   ngOnInit(): void {
     scrollTo({top:0})
+    this.usergetput.studentresults.subscribe((data)=>{
+      this.studentresult = data
+    })
+    this.presentyear
   }
- 
-
+  presentyear = undefined
+  studentresult: resultsdata[] = []
 
 }
