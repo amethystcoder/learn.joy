@@ -4,63 +4,63 @@
         <h1></h1>
         <h3></h3>
         <h5>Class</h5> 
-        <a routerLink="/loginorup"><div id="logoutbutton">
+        <a><div id="logoutbutton" (click)="logout()">
             Logout
         </div></a>
     </div>
 </div>
 <div>
-    <h2>Total Assessment of your performance this year</h2>
+    <h2>Total Assessment of your performance this year {{presentyear}}</h2>
     <div id="assessments">
         <div class="assess"></div>
         <div class="assess">
             <div class="assessitem">
                 <div>
-                    <div class="level"></div>
+                    <div class="level" [style.height]="mainyearresults[0]+'px'"></div>
                     <p>Jan</p>
                 </div>
                 <div>
-                    <div class="level"></div>
+                    <div class="level" [style.height]="mainyearresults[1]+'px'"></div>
                     <p>Feb</p>
                 </div>
                 <div>
-                    <div class="level"></div>
+                    <div class="level" [style.height]="mainyearresults[2]+'px'"></div>
                     <p>Mar</p>
                 </div>
                 <div>
-                    <div class="level"></div>
+                    <div class="level" [style.height]="mainyearresults[3]+'px'"></div>
                     <p>Apr</p>
                 </div>
                 <div>
-                    <div class="level"></div>
+                    <div class="level" [style.height]="mainyearresults[4]+'px'"></div>
                     <p>May</p>
                 </div>
                 <div>
-                    <div class="level"></div>
+                    <div class="level" [style.height]="mainyearresults[5]+'px'"></div>
                     <p>Jun</p>
                 </div>
                 <div>
-                    <div class="level"></div>
+                    <div class="level" [style.height]="mainyearresults[6]+'px'"></div>
                     <p>Jul</p>
                 </div>
                 <div>
-                    <div class="level"></div>
+                    <div class="level" [style.height]="mainyearresults[7]+'px'"></div>
                     <p>Aug</p>
                 </div>
                 <div>
-                    <div class="level"></div>
+                    <div class="level" [style.height]="mainyearresults[8]+'px'"></div>
                     <p>Sept</p>
                 </div>
                 <div>
-                    <div class="level"></div>
+                    <div class="level" [style.height]="mainyearresults[9]+'px'"></div>
                     <p>Oct</p>
                 </div>
                 <div>
-                    <div class="level"></div>
+                    <div class="level" [style.height]="mainyearresults[10]+'px'"></div>
                     <p>Nov</p>
                 </div>
                 <div>
-                    <div class="level"></div>
+                    <div class="level" [style.height]="mainyearresults[11]+'px'"></div>
                     <p>Dec</p>
                 </div>
             </div>

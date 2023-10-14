@@ -1,6 +1,7 @@
 import { Component, OnInit } from '@angular/core';
-import { resultsdata } from '../testquestions.service';
+import { monthresult, resultsdata } from '../testquestions.service';
 import { UsergetputService } from '../usergetput.service';
+import { Router } from '@angular/router';
 
 @Component({
   selector: 'app-account',
@@ -9,16 +10,47 @@ import { UsergetputService } from '../usergetput.service';
 })
 export class AccountComponent implements OnInit {
 
-  constructor(private usergetput:UsergetputService) { }
+  constructor(private usergetput:UsergetputService, private router:Router) { }
 
   ngOnInit(): void {
     scrollTo({top:0})
+    let date = new Date()
+    this.presentyear = date.getFullYear()
     this.usergetput.studentresults.subscribe((data)=>{
       this.studentresult = data
+
+      this.thisyearresult = this.studentresult.filter((data)=>{
+        data.year == this.presentyear
+      })[0]
+      this.mainyearresults = this.calculateyearsresults()
     })
-    this.presentyear
   }
-  presentyear = undefined
+
+  calculateyearsresults(){
+    let totalresults:number[] = []
+    this.thisyearresult.year_results.forEach((result)=>{
+      let totalmonthresults = 0
+      result.month_results.forEach((mon_result)=>{
+        let topicmonthresult = mon_result.scores.reduce((prev,current)=>{return prev+current})
+        totalmonthresults += topicmonthresult
+      })
+      totalresults.push(totalmonthresults)
+    })
+    return totalresults
+  }
+  
+  mainyearresults:number[] = []
+  thisyearresult!: resultsdata;
+  presentyear:number = 0
   studentresult: resultsdata[] = []
+
+  logout(){
+    this.usergetput.studentclass.next("")
+    this.usergetput.studentdept.next("")
+    this.usergetput.studentname.next("")
+    this.usergetput.studentsurname.next("")
+    this.usergetput.studentresults.next([])
+    this.router.navigate(['loginorup'])
+  }
 
 }
