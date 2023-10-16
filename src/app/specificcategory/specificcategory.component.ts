@@ -2,6 +2,7 @@ import { Component, OnInit } from '@angular/core';
 import { ActivatedRoute } from '@angular/router';
 import allSubjects from '../categories.json';
 import { TestquestionsService,allquestion,topicquestions } from '../testquestions.service';
+import { UsergetputService } from '../usergetput.service';
 
 interface allcategories{
   category:string,
@@ -21,7 +22,7 @@ export class SpecificcategoryComponent implements OnInit {
 
   allCategories:allcategories[] = allSubjects;
 
-  constructor(private route:ActivatedRoute,private testquestservice:TestquestionsService) { }
+  constructor(private route:ActivatedRoute,private testquestservice:TestquestionsService,private usergetputservice:UsergetputService) { }
 
   currenttests: allquestion[] = [];
   testunder:topicquestions[] = []
@@ -29,6 +30,7 @@ export class SpecificcategoryComponent implements OnInit {
 
   ngOnInit(): void {
     scrollTo({top:0})
+    this.usergetputservice.is_login_otherwise_logout()
     this.currenttests = this.testquestservice.getthroughsubjectname(this.getroute())
     this.testunder = this.currenttests[0].topics
   }

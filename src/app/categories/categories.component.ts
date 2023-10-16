@@ -2,6 +2,7 @@ import { Component, OnInit } from '@angular/core'
 import allCategories from '../categories.json'
 import allquestions from '../allquestions.json'
 import { allquestion } from '../testquestions.service'
+import { UsergetputService } from '../usergetput.service'
 
 interface allcategories{
   category:string,
@@ -17,9 +18,10 @@ interface allcategories{
 
 export class CategoriesComponent implements OnInit {
 
-  constructor() { }
+  constructor(private usergetputservice:UsergetputService) { }
 
   ngOnInit(): void {
+    this.usergetputservice.is_login_otherwise_logout()
     scrollTo({top:0})
   }
 

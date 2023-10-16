@@ -2,6 +2,7 @@ import { Component, OnInit } from '@angular/core';
 import allSubjects from '../categories.json';
 import allbook from '../allbooks.json';
 import { ActivatedRoute } from '@angular/router';
+import { UsergetputService } from '../usergetput.service';
 
 interface allcategories{
   category:string,
@@ -22,12 +23,13 @@ interface allbooks{
 })
 export class HomeComponent implements OnInit {
 
-  constructor(private route:ActivatedRoute) { }
+  constructor(private route:ActivatedRoute,private usergetputservice:UsergetputService) { }
 
   allCategories:allcategories[] = allSubjects;
   books:allbooks[] = allbook;
 
   ngOnInit(): void {
+    this.usergetputservice.is_login_otherwise_logout()
     scrollTo({top:0})
   }
 

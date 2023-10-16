@@ -1,5 +1,6 @@
 import { Component, OnInit } from '@angular/core';
 import allbooks from '../allbooks.json'
+import { UsergetputService } from '../usergetput.service';
 
 interface allbook{
   name:string,
@@ -15,9 +16,10 @@ interface allbook{
 })
 export class BooksandLessonsComponent implements OnInit {
 
-  constructor() { }
+  constructor(private usergetputservice:UsergetputService) { }
 
   ngOnInit(): void {
+    this.usergetputservice.is_login_otherwise_logout()
     scrollTo({top:0})
   }
 

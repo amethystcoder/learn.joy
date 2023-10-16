@@ -1,6 +1,7 @@
 import { Component, OnInit } from '@angular/core';
 import { ActivatedRoute } from '@angular/router';
 import { TestquestionsService } from '../testquestions.service';
+import { UsergetputService } from '../usergetput.service';
 
 @Component({
   selector: 'app-test',
@@ -14,9 +15,10 @@ export class TestComponent implements OnInit {
   }
 
 
-  constructor(private route: ActivatedRoute,public que:TestquestionsService) {}
+  constructor(private route: ActivatedRoute,public que:TestquestionsService, private usergetputservice:UsergetputService) {}
 
   ngOnInit(): void {
+    this.usergetputservice.is_login_otherwise_logout()
     scrollTo({top:0})
   }
 

@@ -13,6 +13,7 @@ export class AcheivementsComponent implements OnInit {
   constructor(private usergetputservice:UsergetputService) { }
 
   ngOnInit(): void {
+    this.usergetputservice.is_login_otherwise_logout()
     scrollTo({top:0})
     this.usergetputservice.studentresults.subscribe((res)=>{
       this.results = res

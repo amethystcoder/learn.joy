@@ -1,4 +1,5 @@
 import { Component, OnInit } from '@angular/core';
+import { UsergetputService } from '../usergetput.service';
 
 @Component({
   selector: 'app-assignments',
@@ -7,9 +8,10 @@ import { Component, OnInit } from '@angular/core';
 })
 export class AssignmentsComponent implements OnInit {
 
-  constructor() { }
+  constructor(private usergetputservice:UsergetputService) { }
 
   ngOnInit(): void {
+    this.usergetputservice.is_login_otherwise_logout()
     scrollTo({top:0})
   }
 
