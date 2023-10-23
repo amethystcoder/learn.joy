@@ -23,33 +23,36 @@ routing.patch('/:id', async (req,res)=>{
 })
 
 routing.post('/', async (req,res)=>{
-    const user_to_check = await dbase.find()
-    if(user_to_check.length == 0){
-        const user = new dbase({
+    try{
+        console.log(req.body.studentname);
+        console.log(req.body.studentsurname);
+        console.log(req.body.studentclass);
+        console.log(req.body.studentdept);
+        const user_to_check = await dbase.find({
             studentname: req.body.studentname,
             studentsurname: req.body.studentsurname,
             studentclass: req.body.studentclass,
-            studentdept: req.body.studentdept,
-            results: []
+            studentdept: req.body.studentdept
         })
-        try{
+        if(user_to_check.length == 0){
+            const user = new dbase({
+                idnumber: await dbase.countDocuments(),
+                studentname: req.body.studentname,
+                studentsurname: req.body.studentsurname,
+                studentclass: req.body.studentclass,
+                studentdept: req.body.studentdept,
+                results: []
+            })
             const newuser = await user.save()
             res.status(202).json(newuser)
-            console.log('sent a post request')
         }
-        catch (err){
-            res.status(400).json({errormsg: err.message})
+        else{
+            res.status(202).json(user)       
         }
     }
-    else{
-        try{
-            
-            res.status(202).json(user)
-         }
-         catch (err){
-            res.status(500).send(err)
-         }
-    }
+    catch (err){
+        res.status(500).send(err)
+     }
 })
 
 module.exports = routing

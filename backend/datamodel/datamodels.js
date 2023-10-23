@@ -1,6 +1,9 @@
 const data = require('mongoose')
 
 const dataschemer = new data.Schema({
+    idnumber:{
+        type:Number
+    },
     studentname:{
         type: String,
         required: true

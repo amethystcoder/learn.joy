@@ -1,6 +1,7 @@
 const express = require('express')
 const mongo = require('mongoose')
 const cors = require('cors')
+const bodyparser = require("body-parser")
 
 mongo.connect('mongodb://127.0.0.1:27017/users',{useNewUrlParser: true})
 
@@ -11,6 +12,9 @@ database.once('connection', () => console.log('Datbase started successfully'))
 
 const expressapp = express()
 const PORT = 8080
+
+expressapp.use(bodyparser.json())
+expressapp.use(bodyparser.urlencoded({}))
 
 expressapp.use(cors({
     origin:'http://localhost:4200'
