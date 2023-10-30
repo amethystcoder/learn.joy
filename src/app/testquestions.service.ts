@@ -1,5 +1,6 @@
 import { Injectable } from '@angular/core';
 import allquestions from './allquestions.json';
+import { all } from 'backend/datamodel/backroutings/userroutes';
 
 export interface allquestion{
   subject:string,
@@ -64,6 +65,17 @@ export class TestquestionsService {
       }
     })
     return result
+  }
+
+  get_topic_subject(topic:string|null):string|null{
+    for (let index = 0; index < allquestions.length; index++) {
+      for (let inner_index = 0; inner_index < allquestions[index].topics.length; inner_index++) {
+        if(allquestions[index].topics[inner_index].topic === topic){
+          return allquestions[index].subject
+        }
+      }
+    }
+    return null
   }
 
   getcurrenttestquestions(topic:string | null){

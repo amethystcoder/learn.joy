@@ -51,4 +51,14 @@ routing.post('/', async (req,res)=>{
      }
 })
 
+routing.post('/addscore', async (req,res)=>{
+    try{
+        //TODO ADD SCORE TO DATABASE
+        res.status(200).send(user)
+    }
+    catch{
+        res.status(404).json({err:"user not found"})
+    }
+})
+
 module.exports = routing

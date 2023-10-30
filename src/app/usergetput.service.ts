@@ -20,6 +20,12 @@ export interface useracheivements{
   active:boolean
 }
 
+export interface quizscore{
+  topic_name:string|null,
+  topic_subject:string|null,
+  score:number
+}
+
 @Injectable({
   providedIn: 'root'
 })
@@ -80,6 +86,10 @@ export class UsergetputService {
 
   setuser(user: user): Observable<user>{
     return this.http.post<user>(this.path,user)
+  }
+
+  setscore(score:quizscore){
+    return this.http.post<quizscore>(this.path+"/addscore",score)
   }
 
   handleError(){

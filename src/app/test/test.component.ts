@@ -1,5 +1,5 @@
 import { Component, OnInit } from '@angular/core';
-import { ActivatedRoute } from '@angular/router';
+import { ActivatedRoute,Router } from '@angular/router';
 import { TestquestionsService } from '../testquestions.service';
 import { UsergetputService } from '../usergetput.service';
 
@@ -15,7 +15,8 @@ export class TestComponent implements OnInit {
   }
 
 
-  constructor(private route: ActivatedRoute,public que:TestquestionsService, private usergetputservice:UsergetputService) {}
+  constructor(private route: ActivatedRoute,public que:TestquestionsService,
+    private router:Router, private usergetputservice:UsergetputService) {}
 
   ngOnInit(): void {
     this.usergetputservice.is_login_otherwise_logout()
@@ -88,6 +89,17 @@ export class TestComponent implements OnInit {
 
   getque(){
     return this.que.getcurrenttestquestions(this.gettopic())
+  }
+
+  complete_quiz(){
+    this.usergetputservice.setscore(
+      {
+        topic_name:this.gettopic(),
+        topic_subject:this.que.get_topic_subject(this.gettopic()),
+        score:this.score
+      }
+        ).subscribe((res)=>console.log(res))
+    this.router.navigateByUrl("/categories")
   }
 
 }

@@ -46,5 +46,5 @@
         <div id="correct" *ngIf="ans.scorrect == true">Correct Answer</div>
         <div id="incorrect" *ngIf="ans.scorrect == false">Wrong Answer</div>
     </div>
-    <a routerLink="/categories"><div id="backcategories">Back to Categories</div></a>
+    <div id="backcategories" (click)="complete_quiz()">Back to Categories</div>
 </div>
