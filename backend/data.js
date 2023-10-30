@@ -13,8 +13,9 @@ database.once('connection', () => console.log('Datbase started successfully'))
 const expressapp = express()
 const PORT = 8080
 
+//expressapp.use(express.json())
+//expressapp.use(bodyparser.urlencoded({extended:false}))
 expressapp.use(bodyparser.json())
-expressapp.use(bodyparser.urlencoded({}))
 
 expressapp.use(cors({
     origin:'http://localhost:4200'
@@ -24,11 +25,9 @@ expressapp.listen(PORT, () => {
     console.log('server started')
 })
 
-expressapp.use(express.json())
 expressapp.on('error',(err) =>{
     console.log(err)
 })
 
 let Userroutes = require('./datamodel/backroutings/userroutes')
 expressapp.use('/users',Userroutes)
-

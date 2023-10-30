@@ -79,7 +79,7 @@ export class UsergetputService {
   }
 
   setuser(user: user): Observable<user>{
-    return this.http.post<user>(this.path,JSON.stringify(user))
+    return this.http.post<user>(this.path,user)
   }
 
   handleError(){

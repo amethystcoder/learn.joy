@@ -1,5 +1,6 @@
 import { Component, OnInit } from '@angular/core';
 import { Observable } from 'rxjs';
+import { Router } from '@angular/router';
 import { UsergetputService } from '../usergetput.service';
 import { user } from '../usergetput.service';
 @Component({
@@ -9,7 +10,7 @@ import { user } from '../usergetput.service';
 })
 export class SignupComponent implements OnInit {
 
-  constructor(private usergetputservice: UsergetputService) { }
+  constructor(private usergetputservice: UsergetputService,private router:Router) { }
 
   students!:user[];
   currentstudent = Array()
@@ -35,6 +36,8 @@ export class SignupComponent implements OnInit {
   setstudent(){
     this.usergetputservice.setuser(this.student).subscribe((student)=>{
       this.usergetputservice.setpresentstudent(student)
+      
+      this.router.navigateByUrl("/home")
    })
   }
 }

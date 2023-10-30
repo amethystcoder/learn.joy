@@ -21,6 +21,10 @@ export class CategoriesComponent implements OnInit {
   constructor(private usergetputservice:UsergetputService) { }
 
   ngOnInit(): void {
+    this.usergetputservice.studentdept.subscribe((dept)=>{
+      console.log(dept)
+      this.dept = dept
+    })
     this.usergetputservice.is_login_otherwise_logout()
     scrollTo({top:0})
   }
@@ -32,7 +36,7 @@ export class CategoriesComponent implements OnInit {
   allresults = Array()
   searchresults = Array()
 
-  dept = 'arts'
+  dept = ''
 
   
   setdrop(drawdown: boolean){

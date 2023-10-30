@@ -25,8 +25,10 @@ export class AppComponent {
   testurl = "/test"
 
   istestroute(routingurl:string){
-    if(routingurl.includes(this.testurl)){
-      return true
+    if(typeof routingurl == 'string'){
+      if(routingurl.includes(this.testurl)){
+        return true
+      }
     }
     return false
   }

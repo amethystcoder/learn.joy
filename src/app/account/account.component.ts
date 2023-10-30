@@ -18,7 +18,7 @@ export class AccountComponent implements OnInit {
     this.presentyear = date.getFullYear()
     this.usergetput.studentresults.subscribe((data)=>{
       this.studentresult = data
-
+      if(typeof this.studentresult == 'object'){}
       this.thisyearresult = this.studentresult.filter((data)=>{
         data.year == this.presentyear
       })[0]
@@ -28,15 +28,18 @@ export class AccountComponent implements OnInit {
 
   calculateyearsresults(){
     let totalresults:number[] = []
-    this.thisyearresult.year_results.forEach((result)=>{
-      let totalmonthresults = 0
-      result.month_results.forEach((mon_result)=>{
-        let topicmonthresult = mon_result.scores.reduce((prev,current)=>{return prev+current})
-        totalmonthresults += topicmonthresult
+    if (this.thisyearresult.year_results) {
+      this.thisyearresult.year_results.forEach((result)=>{
+        let totalmonthresults = 0
+        result.month_results.forEach((mon_result)=>{
+          let topicmonthresult = mon_result.scores.reduce((prev,current)=>{return prev+current})
+          totalmonthresults += topicmonthresult
+        })
+        totalresults.push(totalmonthresults)
       })
-      totalresults.push(totalmonthresults)
-    })
-    return totalresults
+      return totalresults 
+    }
+    return []
   }
   
   mainyearresults:number[] = []

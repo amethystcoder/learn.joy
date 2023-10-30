@@ -24,10 +24,6 @@ routing.patch('/:id', async (req,res)=>{
 
 routing.post('/', async (req,res)=>{
     try{
-        console.log(req.body.studentname);
-        console.log(req.body.studentsurname);
-        console.log(req.body.studentclass);
-        console.log(req.body.studentdept);
         const user_to_check = await dbase.find({
             studentname: req.body.studentname,
             studentsurname: req.body.studentsurname,
@@ -47,7 +43,7 @@ routing.post('/', async (req,res)=>{
             res.status(202).json(newuser)
         }
         else{
-            res.status(202).json(user)       
+            res.status(202).json(user_to_check)       
         }
     }
     catch (err){
