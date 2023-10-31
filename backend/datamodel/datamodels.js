@@ -20,30 +20,13 @@ const dataschemer = new data.Schema({
         type: String,
         required: true
     },
-    usertotalscores:{
-        type: Number,
-        default: 0
-    },
-    totalscore: [{
-        type: Number,
-        default: 0
-    }],
     results:[
         {
             year:{type:Number,required:true},
-            year_results:[
-                {
-                    month:{type:String,required:true},
-                    month_results:[
-                        {
-                            topic:{type:String,required:true},
-                            scores:[
-                                {type:String}
-                            ]
-                        }
-                    ]
-                }
-            ]
+            month:{type:String,required:true},
+            subject:{type:String,required:true},
+            topic:{type:String,required:true},
+            score:{type:Number}
         }
     ]
 })
