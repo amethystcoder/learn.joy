@@ -35,13 +35,15 @@ export class UsergetputService {
 
   path = 'http://localhost:8080/users'
 
+  id = new Subject<string>()
   studentname = new Subject<string>()
   studentsurname = new Subject<string>()
   studentclass = new Subject<string>()
   studentdept = new Subject<string>()
   studentresults = new Subject<resultsdata[]>()
 
-  setpresentstudent(student:user){
+  setpresentstudent(student:user,id:string){
+    this.id.next(student.studentname)
     this.studentname.next(student.studentname)
     this.studentsurname.next(student.studentsurname)
     this.studentclass.next(student.studentclass)
@@ -50,10 +52,14 @@ export class UsergetputService {
   }
 
   is_login_otherwise_logout(){
-    let stdentclass
-    let stdentdept
-    let stdentname
-    let stdentsurname
+    let id = ""
+    let stdentclass = ""
+    let stdentdept = ""
+    let stdentname = ""
+    let stdentsurname = ""
+    this.id.subscribe((std_id)=>{
+      id = std_id
+    })
     this.studentclass.subscribe((stdclass)=>{ 
       stdentclass = stdclass})
     this.studentdept.subscribe((stddept)=>{ 
@@ -62,7 +68,7 @@ export class UsergetputService {
       stdentname = stdname})
     this.studentsurname.subscribe((stdsurname)=>{ 
       stdentsurname = stdsurname})
-    if(stdentclass == "" || stdentdept == "" || stdentname == "" || stdentsurname == ""){
+    if(id == "" || stdentclass == "" || stdentdept == "" || stdentname == "" || stdentsurname == ""){
       this.logout()
     }
   }
@@ -88,8 +94,8 @@ export class UsergetputService {
     return this.http.post<user>(this.path,user)
   }
 
-  setscore(score:quizscore){
-    return this.http.post<quizscore>(this.path+"/addscore",score)
+  setscore(score:quizscore,id:string){
+    return this.http.post<quizscore>(this.path+"/addscore",{id:id,score:score})
   }
 
   handleError(){

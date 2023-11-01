@@ -25,17 +25,10 @@ export interface questions{
 
 export interface resultsdata{
   year:number,
-  year_results:yearresult[]
-}
-
-export interface yearresult{
   month:string,
-  month_results:monthresult[]
-}
-
-export interface monthresult{
+  subject:string,
   topic:string,
-  scores:number[]
+  score:number
 }
 
 @Injectable({

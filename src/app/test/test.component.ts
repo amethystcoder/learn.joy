@@ -20,9 +20,13 @@ export class TestComponent implements OnInit {
 
   ngOnInit(): void {
     this.usergetputservice.is_login_otherwise_logout()
+    this.usergetputservice.id.subscribe((id)=>{
+      this.id = id
+    })
     scrollTo({top:0})
   }
 
+  id = ""
   score = 0
   timesec = 0o0
   timemin = 5
@@ -97,7 +101,7 @@ export class TestComponent implements OnInit {
         topic_name:this.gettopic(),
         topic_subject:this.que.get_topic_subject(this.gettopic()),
         score:this.score
-      }
+      },this.id
         ).subscribe((res)=>console.log(res))
     this.router.navigateByUrl("/categories")
   }

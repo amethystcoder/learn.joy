@@ -54,6 +54,16 @@ routing.post('/', async (req,res)=>{
 routing.post('/addscore', async (req,res)=>{
     try{
         //TODO ADD SCORE TO DATABASE
+        let months = ['January','February','March','April','May','June','July','August','September','October','November','December']
+        let date = new Date()
+        let result_to_add = {
+            year:date.getFullYear(),
+            month:months[date.getMonth()],
+            subject:req.body.score.topic_subject,
+            topic:req.body.score.topic_name,
+            score:req.body.score.score
+        }
+        dbase.findByIdAndUpdate({_id:req.body.id},{"$push":{"results":result_to_add}})
         res.status(200).send(user)
     }
     catch{

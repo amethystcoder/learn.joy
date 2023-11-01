@@ -1,5 +1,5 @@
 import { Component, OnInit } from '@angular/core';
-import { monthresult, resultsdata } from '../testquestions.service';
+import { resultsdata } from '../testquestions.service';
 import { UsergetputService } from '../usergetput.service';
 import { Router } from '@angular/router';
 
@@ -27,18 +27,7 @@ export class AccountComponent implements OnInit {
   }
 
   calculateyearsresults(){
-    let totalresults:number[] = []
-    if (this.thisyearresult.year_results) {
-      this.thisyearresult.year_results.forEach((result)=>{
-        let totalmonthresults = 0
-        result.month_results.forEach((mon_result)=>{
-          let topicmonthresult = mon_result.scores.reduce((prev,current)=>{return prev+current})
-          totalmonthresults += topicmonthresult
-        })
-        totalresults.push(totalmonthresults)
-      })
-      return totalresults 
-    }
+
     return []
   }
   
