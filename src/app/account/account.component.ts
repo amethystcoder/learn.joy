@@ -16,23 +16,34 @@ export class AccountComponent implements OnInit {
     scrollTo({top:0})
     let date = new Date()
     this.presentyear = date.getFullYear()
-    this.usergetput.studentresults.subscribe((data)=>{
+    this.usergetput.studentresultsobs.subscribe((data)=>{
       this.studentresult = data
       if(typeof this.studentresult == 'object'){}
       this.thisyearresult = this.studentresult.filter((data)=>{
         data.year == this.presentyear
-      })[0]
+      })
+      console.log(this.thisyearresult);
       this.mainyearresults = this.calculateyearsresults()
     })
   }
 
   calculateyearsresults(){
-
-    return []
+    let monthscores:number[] = [0,0,0,0,0,0,0,0,0,0,0,0]
+    let months = ["January","February","March","April","May","June","July","August","September",
+    "Octber","November","December"]
+    for(let i = 0;i < this.thisyearresult.length;i++){
+      for(let j = 0;j < months.length;j++){
+        if(months[j] == this.thisyearresult[i].month){
+          monthscores[j] = monthscores[j] + this.thisyearresult[i].score
+          break
+        }
+      }
+    }
+    return monthscores
   }
   
   mainyearresults:number[] = []
-  thisyearresult!: resultsdata;
+  thisyearresult!: resultsdata[];
   presentyear:number = 0
   studentresult: resultsdata[] = []
 

@@ -21,7 +21,7 @@ export class CategoriesComponent implements OnInit {
   constructor(private usergetputservice:UsergetputService) { }
 
   ngOnInit(): void {
-    this.usergetputservice.studentdept.subscribe((dept)=>{
+    this.usergetputservice.studentdeptobs.subscribe((dept)=>{
       console.log(dept)
       this.dept = dept
     })

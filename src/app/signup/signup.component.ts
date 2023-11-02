@@ -19,7 +19,8 @@ export class SignupComponent implements OnInit {
     
   }
 
-  student:user = { 
+  student:user = {
+    _id:"", 
     studentname:"",
     studentsurname:"",
     studentclass:"",
@@ -29,13 +30,13 @@ export class SignupComponent implements OnInit {
 
   getstudent(username:string,password:string){
     this.usergetputservice.getuser(username,password).subscribe((student)=>{
-      this.usergetputservice.setpresentstudent(student)
+      this.usergetputservice.setpresentstudent(student,student._id)
    })
   }
 
   setstudent(){
     this.usergetputservice.setuser(this.student).subscribe((student)=>{
-      this.usergetputservice.setpresentstudent(student)
+      this.usergetputservice.setpresentstudent(student,student._id)
       
       this.router.navigateByUrl("/home")
    })

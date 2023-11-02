@@ -7,6 +7,7 @@ import { Router } from '@angular/router';
 
 
 export interface user{
+  _id:string,
   studentname:string,
   studentsurname:string,
   studentclass:string,
@@ -42,8 +43,15 @@ export class UsergetputService {
   studentdept = new Subject<string>()
   studentresults = new Subject<resultsdata[]>()
 
+  idobs = this.id.asObservable()
+  studentnameobs = this.studentname.asObservable()
+  studentsurnameobs = this.studentname.asObservable()
+  studentclassobs = this.studentclass.asObservable()
+  studentdeptobs = this.studentdept.asObservable()
+  studentresultsobs = this.studentresults.asObservable() 
+
   setpresentstudent(student:user,id:string){
-    this.id.next(student.studentname)
+    this.id.next(id)
     this.studentname.next(student.studentname)
     this.studentsurname.next(student.studentsurname)
     this.studentclass.next(student.studentclass)
@@ -52,25 +60,41 @@ export class UsergetputService {
   }
 
   is_login_otherwise_logout(){
-    let id = ""
+/*     let id = ""
     let stdentclass = ""
     let stdentdept = ""
     let stdentname = ""
-    let stdentsurname = ""
-    this.id.subscribe((std_id)=>{
-      id = std_id
+    let stdentsurname = "" */
+    this.idobs.subscribe((std_id)=>{
+      console.log(std_id);
+      if(!std_id){
+        this.logout()
+      }
     })
-    this.studentclass.subscribe((stdclass)=>{ 
-      stdentclass = stdclass})
-    this.studentdept.subscribe((stddept)=>{ 
-      stdentdept = stddept})
-    this.studentname.subscribe((stdname)=>{ 
-      stdentname = stdname})
-    this.studentsurname.subscribe((stdsurname)=>{ 
-      stdentsurname = stdsurname})
-    if(id == "" || stdentclass == "" || stdentdept == "" || stdentname == "" || stdentsurname == ""){
-      this.logout()
-    }
+    this.studentclassobs.subscribe((stdclass)=>{
+      console.log(stdclass);
+      if(!stdclass){
+        this.logout()
+      } 
+    })
+    this.studentdeptobs.subscribe((stddept)=>{ 
+      console.log(stddept);
+      if(!stddept){
+        this.logout()
+      } 
+    })
+    this.studentnameobs.subscribe((stdname)=>{ 
+      console.log(stdname);
+      if(!stdname){
+        this.logout()
+      } 
+    })
+    this.studentsurnameobs.subscribe((stdsurname)=>{ 
+      console.log(stdsurname);
+      if(!stdsurname){
+        this.logout()
+      } 
+    })
   }
 
   logout(){

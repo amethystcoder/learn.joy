@@ -20,7 +20,7 @@ export class TestComponent implements OnInit {
 
   ngOnInit(): void {
     this.usergetputservice.is_login_otherwise_logout()
-    this.usergetputservice.id.subscribe((id)=>{
+    this.usergetputservice.idobs.subscribe((id)=>{
       this.id = id
     })
     scrollTo({top:0})
