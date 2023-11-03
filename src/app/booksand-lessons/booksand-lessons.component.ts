@@ -1,4 +1,4 @@
-import { Component, OnInit } from '@angular/core';
+import { Component, OnDestroy, OnInit } from '@angular/core';
 import allbooks from '../allbooks.json'
 import { UsergetputService } from '../usergetput.service';
 
@@ -14,7 +14,7 @@ interface allbook{
   templateUrl: './booksand-lessons.component.html',
   styleUrls: ['./booksand-lessons.component.css']
 })
-export class BooksandLessonsComponent implements OnInit {
+export class BooksandLessonsComponent implements OnInit/* ,OnDestroy */ {
 
   constructor(private usergetputservice:UsergetputService) { }
 
@@ -22,6 +22,15 @@ export class BooksandLessonsComponent implements OnInit {
     this.usergetputservice.is_login_otherwise_logout()
     scrollTo({top:0})
   }
+
+  /* ngOnDestroy(): void {
+    this.usergetputservice.id.unsubscribe()
+    this.usergetputservice.studentclass.unsubscribe()
+    this.usergetputservice.studentdept.unsubscribe()
+    this.usergetputservice.studentname.unsubscribe()
+    this.usergetputservice.studentresults.unsubscribe()
+    this.usergetputservice.studentsurname.unsubscribe()
+  } */
 
   books:allbook[] = allbooks
   booksgotten = Array()

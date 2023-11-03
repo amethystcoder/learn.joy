@@ -1,4 +1,4 @@
-import { Component, OnInit } from '@angular/core';
+import { Component, OnDestroy, OnInit } from '@angular/core';
 import { resultsdata } from '../testquestions.service';
 import { UsergetputService } from '../usergetput.service';
 import { Router } from '@angular/router';
@@ -8,7 +8,7 @@ import { Router } from '@angular/router';
   templateUrl: './account.component.html',
   styleUrls: ['./account.component.css']
 })
-export class AccountComponent implements OnInit {
+export class AccountComponent implements OnInit/* ,OnDestroy */ {
 
   constructor(private usergetput:UsergetputService, private router:Router) { }
 
@@ -16,7 +16,7 @@ export class AccountComponent implements OnInit {
     scrollTo({top:0})
     let date = new Date()
     this.presentyear = date.getFullYear()
-    this.usergetput.studentresultsobs.subscribe((data)=>{
+    this.usergetput.studentresults.subscribe((data)=>{
       this.studentresult = data
       if(typeof this.studentresult == 'object'){}
       this.thisyearresult = this.studentresult.filter((data)=>{
@@ -26,6 +26,10 @@ export class AccountComponent implements OnInit {
       this.mainyearresults = this.calculateyearsresults()
     })
   }
+
+  /* ngOnDestroy(): void {
+    this.usergetput.studentresults.unsubscribe()
+  } */
 
   calculateyearsresults(){
     let monthscores:number[] = [0,0,0,0,0,0,0,0,0,0,0,0]

@@ -1,7 +1,7 @@
 import { HttpClient,HttpHeaders } from '@angular/common/http';
 import { Injectable } from '@angular/core';
 import {  Observable } from 'rxjs';
-import { Subject } from 'rxjs';
+import { Subject,BehaviorSubject } from 'rxjs';
 import { resultsdata } from './testquestions.service';
 import { Router } from '@angular/router';
 
@@ -43,12 +43,6 @@ export class UsergetputService {
   studentdept = new Subject<string>()
   studentresults = new Subject<resultsdata[]>()
 
-  idobs = this.id.asObservable()
-  studentnameobs = this.studentname.asObservable()
-  studentsurnameobs = this.studentname.asObservable()
-  studentclassobs = this.studentclass.asObservable()
-  studentdeptobs = this.studentdept.asObservable()
-  studentresultsobs = this.studentresults.asObservable() 
 
   setpresentstudent(student:user,id:string){
     this.id.next(id)
@@ -65,35 +59,40 @@ export class UsergetputService {
     let stdentdept = ""
     let stdentname = ""
     let stdentsurname = "" */
-    this.idobs.subscribe((std_id)=>{
+    this.id.subscribe((std_id)=>{
       console.log(std_id);
       if(!std_id){
         this.logout()
       }
+      else{console.log("nah")}
     })
-    this.studentclassobs.subscribe((stdclass)=>{
+    this.studentclass.subscribe((stdclass)=>{
       console.log(stdclass);
       if(!stdclass){
         this.logout()
       } 
+      else{console.log("nah")}
     })
-    this.studentdeptobs.subscribe((stddept)=>{ 
+    this.studentdept.subscribe((stddept)=>{ 
       console.log(stddept);
       if(!stddept){
         this.logout()
       } 
+      else{console.log("nah")}
     })
-    this.studentnameobs.subscribe((stdname)=>{ 
+    this.studentname.subscribe((stdname)=>{ 
       console.log(stdname);
       if(!stdname){
         this.logout()
       } 
+      else{console.log("nah")}
     })
-    this.studentsurnameobs.subscribe((stdsurname)=>{ 
+    this.studentsurname.subscribe((stdsurname)=>{ 
       console.log(stdsurname);
       if(!stdsurname){
         this.logout()
       } 
+      else{console.log("nah")}
     })
   }
 

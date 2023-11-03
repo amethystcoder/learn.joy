@@ -1,4 +1,4 @@
-import { Component, OnInit } from '@angular/core'
+import { Component, OnDestroy, OnInit } from '@angular/core'
 import allCategories from '../categories.json'
 import allquestions from '../allquestions.json'
 import { allquestion } from '../testquestions.service'
@@ -16,18 +16,27 @@ interface allcategories{
   styleUrls: ['./categories.component.css']
 })
 
-export class CategoriesComponent implements OnInit {
+export class CategoriesComponent implements OnInit/* ,OnDestroy */ {
 
   constructor(private usergetputservice:UsergetputService) { }
 
   ngOnInit(): void {
-    this.usergetputservice.studentdeptobs.subscribe((dept)=>{
+    this.usergetputservice.studentdept.subscribe((dept)=>{
       console.log(dept)
       this.dept = dept
     })
     this.usergetputservice.is_login_otherwise_logout()
     scrollTo({top:0})
   }
+
+  /* ngOnDestroy(): void {
+    this.usergetputservice.id.unsubscribe()
+    this.usergetputservice.studentclass.unsubscribe()
+    this.usergetputservice.studentdept.unsubscribe()
+    this.usergetputservice.studentname.unsubscribe()
+    this.usergetputservice.studentresults.unsubscribe()
+    this.usergetputservice.studentsurname.unsubscribe()
+  } */
 
   categories:allcategories[] = allCategories
   specialcategory = Array()

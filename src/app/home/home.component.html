@@ -22,7 +22,7 @@
 <div>
     <h1>Quiz Categories</h1>
     <div class="category">
-        <div *ngFor="let cat of getcategories('arts')">
+        <div *ngFor="let cat of getcategories(department)">
             <a routerLink="/specificcategory" [queryParams]="{category:cat.category}">
                 <div class="categoryelem" [ngStyle]="{'background-color':cat.color}">
                     <h1>{{cat.category}}</h1>

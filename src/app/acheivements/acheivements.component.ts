@@ -1,4 +1,4 @@
-import { Component, OnInit } from '@angular/core';
+import { Component, OnDestroy, OnInit } from '@angular/core';
 import { resultsdata } from '../testquestions.service';
 import { UsergetputService, useracheivements } from '../usergetput.service';
 import { reduce } from 'rxjs';
@@ -8,18 +8,27 @@ import { reduce } from 'rxjs';
   templateUrl: './acheivements.component.html',
   styleUrls: ['./acheivements.component.css']
 })
-export class AcheivementsComponent implements OnInit {
+export class AcheivementsComponent implements OnInit/* ,OnDestroy */ {
 
   constructor(private usergetputservice:UsergetputService) { }
 
   ngOnInit(): void {
     this.usergetputservice.is_login_otherwise_logout()
     scrollTo({top:0})
-    this.usergetputservice.studentresultsobs.subscribe((res)=>{
+    this.usergetputservice.studentresults.subscribe((res)=>{
       this.results = res
       
     })
   }
+
+  /* ngOnDestroy(): void {
+    this.usergetputservice.id.unsubscribe()
+    this.usergetputservice.studentclass.unsubscribe()
+    this.usergetputservice.studentdept.unsubscribe()
+    this.usergetputservice.studentname.unsubscribe()
+    this.usergetputservice.studentresults.unsubscribe()
+    this.usergetputservice.studentsurname.unsubscribe()
+  } */
 
   converttoacheivements(result:resultsdata[]){
     let acheivementsarr:useracheivements[] = [

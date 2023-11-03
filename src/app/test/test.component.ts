@@ -1,4 +1,4 @@
-import { Component, OnInit } from '@angular/core';
+import { Component, OnDestroy, OnInit } from '@angular/core';
 import { ActivatedRoute,Router } from '@angular/router';
 import { TestquestionsService } from '../testquestions.service';
 import { UsergetputService } from '../usergetput.service';
@@ -8,7 +8,7 @@ import { UsergetputService } from '../usergetput.service';
   templateUrl: './test.component.html',
   styleUrls: ['./test.component.css']
 })
-export class TestComponent implements OnInit {
+export class TestComponent implements OnInit/* ,OnDestroy */ {
 
   gettopic(){
     return this.route.snapshot.queryParamMap.get('topic');
@@ -20,11 +20,20 @@ export class TestComponent implements OnInit {
 
   ngOnInit(): void {
     this.usergetputservice.is_login_otherwise_logout()
-    this.usergetputservice.idobs.subscribe((id)=>{
+    this.usergetputservice.id.subscribe((id)=>{
       this.id = id
     })
     scrollTo({top:0})
   }
+
+  /* ngOnDestroy(): void {
+    this.usergetputservice.id.unsubscribe()
+    this.usergetputservice.studentclass.unsubscribe()
+    this.usergetputservice.studentdept.unsubscribe()
+    this.usergetputservice.studentname.unsubscribe()
+    this.usergetputservice.studentresults.unsubscribe()
+    this.usergetputservice.studentsurname.unsubscribe()
+  } */
 
   id = ""
   score = 0

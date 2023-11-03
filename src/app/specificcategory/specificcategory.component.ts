@@ -1,4 +1,4 @@
-import { Component, OnInit } from '@angular/core';
+import { Component, OnDestroy, OnInit } from '@angular/core';
 import { ActivatedRoute } from '@angular/router';
 import allSubjects from '../categories.json';
 import { TestquestionsService,allquestion,topicquestions } from '../testquestions.service';
@@ -14,7 +14,7 @@ interface allcategories{
   templateUrl: './specificcategory.component.html',
   styleUrls: ['./specificcategory.component.css']
 })
-export class SpecificcategoryComponent implements OnInit {
+export class SpecificcategoryComponent implements OnInit/* ,OnDestroy */ {
 
   getroute(){
     return this.route.snapshot.queryParamMap.get('category')
@@ -34,6 +34,15 @@ export class SpecificcategoryComponent implements OnInit {
     this.currenttests = this.testquestservice.getthroughsubjectname(this.getroute())
     this.testunder = this.currenttests[0].topics
   }
+
+  /* ngOnDestroy(): void {
+    this.usergetputservice.id.unsubscribe()
+    this.usergetputservice.studentclass.unsubscribe()
+    this.usergetputservice.studentdept.unsubscribe()
+    this.usergetputservice.studentname.unsubscribe()
+    this.usergetputservice.studentresults.unsubscribe()
+    this.usergetputservice.studentsurname.unsubscribe()
+  } */
 
   gottencategories = Array()
 

@@ -19,6 +19,8 @@ export class SignupComponent implements OnInit {
     
   }
 
+  errwarning = ""
+
   student:user = {
     _id:"", 
     studentname:"",
@@ -35,10 +37,17 @@ export class SignupComponent implements OnInit {
   }
 
   setstudent(){
-    this.usergetputservice.setuser(this.student).subscribe((student)=>{
-      this.usergetputservice.setpresentstudent(student,student._id)
-      
-      this.router.navigateByUrl("/home")
-   })
+    if(this.student.studentclass == "" || this.student.studentdept == "" || this.student.studentname == "" || this.student.studentsurname == ""){
+      setTimeout(() => {
+        this.errwarning = "please fill all inputs on the form"
+      }, 3000);
+    }
+    else{
+      this.usergetputservice.setuser(this.student).subscribe((student)=>{
+        this.usergetputservice.setpresentstudent(student,student._id)
+        
+        this.router.navigateByUrl("/home")
+     })
+    }
   }
 }

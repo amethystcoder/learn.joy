@@ -1,4 +1,4 @@
-import { Component, OnInit } from '@angular/core';
+import { Component, OnDestroy, OnInit } from '@angular/core';
 import allSubjects from '../categories.json';
 import allbook from '../allbooks.json';
 import { ActivatedRoute } from '@angular/router';
@@ -21,7 +21,7 @@ interface allbooks{
   templateUrl: './home.component.html',
   styleUrls: ['./home.component.css']
 })
-export class HomeComponent implements OnInit {
+export class HomeComponent implements OnInit/* ,OnDestroy */ {
 
   constructor(private route:ActivatedRoute,private usergetputservice:UsergetputService) { }
 
@@ -30,10 +30,22 @@ export class HomeComponent implements OnInit {
 
   ngOnInit(): void {
     this.usergetputservice.is_login_otherwise_logout()
+    this.usergetputservice.studentdept.subscribe((dept)=>{
+      this.department = dept
+    })
     scrollTo({top:0})
   }
 
-  department = "arts"
+  /* ngOnDestroy(): void {
+    this.usergetputservice.id.unsubscribe()
+    this.usergetputservice.studentclass.unsubscribe()
+    this.usergetputservice.studentdept.unsubscribe()
+    this.usergetputservice.studentname.unsubscribe()
+    this.usergetputservice.studentresults.unsubscribe()
+    this.usergetputservice.studentsurname.unsubscribe()
+  } */
+
+  department = ""
   gottenbooks = Array()
   gottencategories = Array()
   presentcategory = Array()

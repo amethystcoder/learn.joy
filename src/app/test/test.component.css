@@ -11,7 +11,7 @@
     padding: 5px;
     width: 95vw;
     display: flex;
-    justify-content: end;
+    justify-content: flex-end;
 }
 .questionnavbutton{
     padding: 20px;
