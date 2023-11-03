@@ -45,7 +45,7 @@ export class HomeComponent implements OnInit/* ,OnDestroy */ {
     this.usergetputservice.studentsurname.unsubscribe()
   } */
 
-  department = ""
+  department = "arts"
   gottenbooks = Array()
   gottencategories = Array()
   presentcategory = Array()

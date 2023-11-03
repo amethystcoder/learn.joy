@@ -32,8 +32,8 @@ export class AcheivementsComponent implements OnInit/* ,OnDestroy */ {
 
   converttoacheivements(result:resultsdata[]){
     let acheivementsarr:useracheivements[] = [
-      {name:"Welcome to the club",description:"complete a test",active:false},
-      {name:"",description:"complete 10 tests",active:false},
+      {name:"Welcome to the club",description:"complete a test",active:result.length > 0},
+      {name:"",description:"complete 10 tests",active:result.length > 10},
       {name:"",description:"complete 30 tests in a month",active:false},
       {name:"",description:"score a total of 40 in a month",active:false},
       {name:"",description:"score 60% of a test",active:false},
