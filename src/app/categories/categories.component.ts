@@ -21,10 +21,8 @@ export class CategoriesComponent implements OnInit/* ,OnDestroy */ {
   constructor(private usergetputservice:UsergetputService) { }
 
   ngOnInit(): void {
-    this.usergetputservice.studentdept.subscribe((dept)=>{
-      console.log(dept)
-      this.dept = dept
-    })
+    this.dept = this.usergetputservice.getstudentdept()
+    console.log(this.dept)
     this.usergetputservice.is_login_otherwise_logout()
     scrollTo({top:0})
   }

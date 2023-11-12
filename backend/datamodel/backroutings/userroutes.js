@@ -43,7 +43,7 @@ routing.post('/', async (req,res)=>{
             res.status(202).json(newuser)
         }
         else{
-            res.status(202).json(user_to_check)       
+            res.status(202).json(user_to_check[0])       
         }
     }
     catch (err){

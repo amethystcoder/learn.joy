@@ -16,12 +16,10 @@ export class AccountComponent implements OnInit/* ,OnDestroy */ {
     scrollTo({top:0})
     let date = new Date()
     this.presentyear = date.getFullYear()
-    this.usergetput.studentresults.subscribe((data)=>{
-      this.studentresult = data
-      if(typeof this.studentresult == 'object'){}
+    this.studentresult = this.usergetput.getstudentresults()
+    if(typeof this.studentresult == 'object'){}
       this.thisyearresult = this.studentresult.filter((data)=>{
-        data.year == this.presentyear
-      })
+      data.year == this.presentyear
       console.log(this.thisyearresult);
       this.mainyearresults = this.calculateyearsresults()
     })
@@ -52,12 +50,7 @@ export class AccountComponent implements OnInit/* ,OnDestroy */ {
   studentresult: resultsdata[] = []
 
   logout(){
-    this.usergetput.studentclass.next("")
-    this.usergetput.studentdept.next("")
-    this.usergetput.studentname.next("")
-    this.usergetput.studentsurname.next("")
-    this.usergetput.studentresults.next([])
-    this.router.navigate(['loginorup'])
+    this.usergetput.logout()
   }
 
 }
