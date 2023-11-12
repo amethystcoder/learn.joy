@@ -46,7 +46,8 @@ export class SignupComponent implements OnInit {
       this.usergetputservice.setuser(this.student).subscribe((student)=>{
         this.usergetputservice.setpresentstudent(student,student._id)
         
-        this.router.navigateByUrl("/home")
+        //this.router.navigateByUrl("/home")
+        location.replace("/home")
      })
     }
   }

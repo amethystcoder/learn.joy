@@ -62,6 +62,8 @@ export class UsergetputService {
   }
 
   is_login_otherwise_logout(){
+    console.log("starting");
+    
     let userStorage = window.localStorage
     let studentname = userStorage.getItem("studentname")
     let studentsurname = userStorage.getItem("studentsurname")
@@ -79,12 +81,16 @@ export class UsergetputService {
 
   getstudentdept(){
     let userStorage = window.localStorage
-    return JSON.parse(userStorage.getItem("studentdept")!)
+    if (userStorage.getItem("studentdept") == null || !userStorage.getItem("studentdept"))
+      return ""
+    return userStorage.getItem("studentdept")!
   }
 
   getstudentid(){
     let userStorage = window.localStorage
-    return JSON.parse(userStorage.getItem("id")!)
+    if (userStorage.getItem("id") == null || !userStorage.getItem("id"))
+      return ""
+    return userStorage.getItem("id")!
   }
 
   logout(){
