@@ -21,6 +21,7 @@ export class TestComponent implements OnInit/* ,OnDestroy */ {
   ngOnInit(): void {
     this.usergetputservice.is_login_otherwise_logout()
     this.id = this.usergetputservice.getstudentid()
+    console.log(this.id)
     scrollTo({top:0})
   }
 
@@ -109,7 +110,12 @@ export class TestComponent implements OnInit/* ,OnDestroy */ {
         topic_subject:this.que.get_topic_subject(this.gettopic()),
         score:this.score
       },this.id
-        ).subscribe((res)=>console.log(res))
+        ).subscribe((res)=>{
+          let storage = localStorage
+          let parsed_results = JSON.parse(storage.getItem("result")!)
+          parsed_results.push(res)
+          storage.setItem("result",JSON.stringify(parsed_results))
+        })
     this.router.navigateByUrl("/categories")
   }
 

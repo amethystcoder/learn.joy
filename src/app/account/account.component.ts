@@ -17,17 +17,19 @@ export class AccountComponent implements OnInit/* ,OnDestroy */ {
     let date = new Date()
     this.presentyear = date.getFullYear()
     this.studentresult = this.usergetput.getstudentresults()
-    if(typeof this.studentresult == 'object'){}
-      this.thisyearresult = this.studentresult.filter((data)=>{
-      data.year == this.presentyear
-      console.log(this.thisyearresult);
-      this.mainyearresults = this.calculateyearsresults()
-    })
+    //if(typeof this.studentresult == 'object'){}
+    this.thisyearresult = this.studentresult.filter((data)=>data.year == this.presentyear)
+    console.log(this.thisyearresult);
+    this.mainyearresults = this.calculateyearsresults()
   }
 
   /* ngOnDestroy(): void {
     this.usergetput.studentresults.unsubscribe()
   } */
+
+  same(ver:number){
+    return ver == 1
+  }
 
   calculateyearsresults(){
     let monthscores:number[] = [0,0,0,0,0,0,0,0,0,0,0,0]

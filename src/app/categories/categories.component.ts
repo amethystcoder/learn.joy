@@ -22,7 +22,6 @@ export class CategoriesComponent implements OnInit/* ,OnDestroy */ {
 
   ngOnInit(): void {
     this.dept = this.usergetputservice.getstudentdept()
-    console.log(this.dept)
     this.usergetputservice.is_login_otherwise_logout()
     scrollTo({top:0})
   }

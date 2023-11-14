@@ -62,7 +62,6 @@ export class UsergetputService {
   }
 
   is_login_otherwise_logout(){
-    console.log("starting");
     
     let userStorage = window.localStorage
     let studentname = userStorage.getItem("studentname")
