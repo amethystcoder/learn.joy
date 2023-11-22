@@ -1,11 +1,18 @@
 <h1>Your trophies and acheivements 🏆😎</h1>
 <div>
     <div>
-        <h2>Unlocked</h2>
-        <div></div>
-    </div>
-    <div>
-        <h2>Locked</h2>
-        <div></div>
+        <div *ngFor="let acheivement of acheivements" class="acheivement-block" 
+        [class.activated]="acheivement.active == true" [class.not-activated]="acheivement.active != true">
+            <div class="contains-text">
+                <h2>{{acheivement.name}}</h2>
+                <p>{{acheivement.description}}</p>
+            </div>
+            <div class="contains-icon">
+                <h1 *ngIf="acheivement.active == true" class="medal">
+                    <!-- 🥇🥈🥉 -->
+                    🌟🏅
+                </h1>
+            </div>
+        </div>
     </div>
 </div>

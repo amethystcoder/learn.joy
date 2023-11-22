@@ -1,0 +1,21 @@
+.acheivement-block{
+    padding: 10px;
+    border: solid thick;
+    border-radius: 20px;
+    display: flex; 
+    margin: 10px;
+    box-sizing: border-box;
+    align-items: center;
+    justify-content: space-between;
+}
+.activated{
+    background-color: rgb(28, 166, 28);
+    border-color: green;
+}
+.not-activated{
+    background-color: rgb(171, 174, 171);
+    border-color: rgb(41, 41, 41);
+}
+.medal{
+    font-size: 3rem;
+}
