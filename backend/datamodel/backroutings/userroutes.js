@@ -43,7 +43,7 @@ routing.post('/', async (req,res)=>{
             res.status(202).json(newuser)
         }
         else{
-            res.status(202).json(user_to_check)       
+            res.status(202).json(user_to_check[0])       
         }
     }
     catch (err){
@@ -63,8 +63,8 @@ routing.post('/addscore', async (req,res)=>{
             topic:req.body.score.topic_name,
             score:req.body.score.score
         }
-        dbase.findByIdAndUpdate({_id:req.body.id},{"$push":{"results":result_to_add}})
-        res.status(200).send(user)
+        let result = await dbase.findByIdAndUpdate({_id:req.body.id},{$push:{results:result_to_add}})
+        res.status(200).send(result_to_add)
     }
     catch{
         res.status(404).json({err:"user not found"})

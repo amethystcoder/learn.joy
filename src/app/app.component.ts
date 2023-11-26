@@ -8,20 +8,10 @@ import { use } from 'backend/datamodel/backroutings/userroutes';
   templateUrl: './app.component.html',
   styleUrls: ['./app.component.css']
 })
-
-export class AppComponent implements OnInit,OnDestroy {
+export class AppComponent implements OnInit {
 
   ngOnInit(): void {
     this.usergetputservice.is_login_otherwise_logout()
-  }
-
-  ngOnDestroy(): void {
-    this.usergetputservice.id.unsubscribe()
-    this.usergetputservice.studentclass.unsubscribe()
-    this.usergetputservice.studentdept.unsubscribe()
-    this.usergetputservice.studentname.unsubscribe()
-    this.usergetputservice.studentresults.unsubscribe()
-    this.usergetputservice.studentsurname.unsubscribe()
   }
 
   routenow!: string;

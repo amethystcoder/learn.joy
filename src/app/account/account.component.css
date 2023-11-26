@@ -28,9 +28,9 @@ h1,h2,h3,h4,h5,h6,a,p{
 .assessitem{
     width: 48vw;
     display: flex;
-    position: absolute;
-    bottom: 0;
+    align-items: flex-end;
     justify-content: space-around;
+    height: 100%;
 }
 .level{
     width: 3vw;

@@ -30,9 +30,7 @@ export class HomeComponent implements OnInit/* ,OnDestroy */ {
 
   ngOnInit(): void {
     this.usergetputservice.is_login_otherwise_logout()
-    this.usergetputservice.studentdept.subscribe((dept)=>{
-      this.department = dept
-    })
+    this.department = this.usergetputservice.getstudentdept()
     scrollTo({top:0})
   }
 
