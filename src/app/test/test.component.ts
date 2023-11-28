@@ -99,6 +99,12 @@ export class TestComponent implements OnInit/* ,OnDestroy */ {
     }
   }
 
+  evaluate(value:string){
+    let parser = new DOMParser()
+    console.log(parser.parseFromString(value, "text/html"))
+    return parser.parseFromString(value, "text/html").body.innerHTML
+  }
+
   getque(){
     return this.que.getcurrenttestquestions(this.gettopic())
   }

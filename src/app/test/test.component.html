@@ -11,15 +11,23 @@
             <h1>Remaining time: {{timemin}}:{{timesec}}</h1>
         </div>
         <div>
-            <h2>{{quest.questions[current].question}}</h2>
-            <input type="radio" [value]="quest.questions[current].opt1" name="questionopt" [(ngModel)]="answers[current]"/>{{quest.questions[current].opt1}}
-            <br>
-            <input type="radio" [value]="quest.questions[current].opt2" name="questionopt" [(ngModel)]="answers[current]"/>{{quest.questions[current].opt2}}
-            <br>
-            <input type="radio" [value]="quest.questions[current].opt3" name="questionopt" [(ngModel)]="answers[current]"/>{{quest.questions[current].opt3}}
-            <br>
-            <input type="radio" [value]="quest.questions[current].opt4" name="questionopt" [(ngModel)]="answers[current]"/>{{quest.questions[current].opt4}}
-            <br> 
+            <h2 [innerHTML]="evaluate(quest.questions[current].question.toString())"></h2>
+            <span class="bar">
+                <input type="radio" [value]="quest.questions[current].opt1" name="questionopt" [(ngModel)]="answers[current]"/>
+                <p [innerHTML]="evaluate(quest.questions[current].opt1)"></p>
+            </span>
+            <span class="bar">
+                <input type="radio" [value]="quest.questions[current].opt2" name="questionopt" [(ngModel)]="answers[current]"/>
+                <p [innerHTML]="evaluate(quest.questions[current].opt2)"></p>
+            </span>
+            <span class="bar">
+                <input type="radio" [value]="quest.questions[current].opt3" name="questionopt" [(ngModel)]="answers[current]"/>
+                <p [innerHTML]="evaluate(quest.questions[current].opt3)"></p>
+            </span>
+            <span class="bar">
+                <input type="radio" [value]="quest.questions[current].opt4" name="questionopt" [(ngModel)]="answers[current]"/>
+                <p [innerHTML]="evaluate(quest.questions[current].opt4)"></p>
+            </span>
         </div>
         <div id="navigatequestions">
             <span>
@@ -40,9 +48,9 @@
     <h1>Your Score: {{score}}/6</h1>
     <h1>Corrections</h1>
     <div *ngFor="let ans of final">
-        <h2>Question: {{ans.ques}}</h2>
-        <p>Your Answer: {{ans.chosenans}}</p>
-        <p>Actual Answer: {{ans.actual}}</p>
+        <h2 [innerHTML]="'Question: '+evaluate(ans.ques)"></h2>
+        <p [innerHTML]="'Your Answer: '+evaluate(ans.chosenans)"></p>
+        <p [innerHTML]="'Actual Answer: '+evaluate(ans.actual)"></p>
         <div id="correct" *ngIf="ans.scorrect == true">Correct Answer</div>
         <div id="incorrect" *ngIf="ans.scorrect == false">Wrong Answer</div>
     </div>
