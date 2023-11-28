@@ -52,8 +52,17 @@ export class CategoriesComponent implements OnInit/* ,OnDestroy */ {
   getthroughcategory(under: string){    
     this.specialcategory = []
     this.questions.forEach((element) => {
-      if(element.section == under || element.section == 'all'){
-        this.specialcategory.push(element)
+      if(this.searchquery == ""){
+        if(element.section == under || element.section == 'all'){
+          this.specialcategory.push(element)
+        }
+      }
+      else{
+        if(element.section == under || element.section == 'all'){
+          if(element.subject.toLocaleLowerCase().startsWith(this.searchquery.toLocaleLowerCase()) || element.topics.filter((topic)=> topic.topic.toLocaleLowerCase().startsWith(this.searchquery.toLocaleLowerCase())).length > 0){
+            this.specialcategory.push(element)
+          }
+        }
       }
     });
     return this.specialcategory
