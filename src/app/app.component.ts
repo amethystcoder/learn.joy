@@ -36,6 +36,6 @@ export class AppComponent implements OnInit {
     }
     return false
   }
-  
+
   title = 'LearnJoy';
 }

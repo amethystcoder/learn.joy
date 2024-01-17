@@ -69,5 +69,5 @@ export class HomeComponent implements OnInit/* ,OnDestroy */ {
     return this.gottencategories
   }
 
-  
+
 }

@@ -64,7 +64,7 @@ export class AcheivementsComponent implements OnInit/* ,OnDestroy */ {
   }
 
   //subject_score_amount()
-  
+
   results:resultsdata[] = []
 
   acheivements:useracheivements[] = []
